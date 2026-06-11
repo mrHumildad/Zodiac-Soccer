@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  padding: 20px;
+}
+
+.league-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.league-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.league-header h2 {
+  font-size: 28px;
+  color: #2c3e50;
+}
+
+.league-header button {
+  padding: 8px 16px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s;
+}
+
+.league-header button:hover {
+  background-color: #2980b9;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 20px 0 10px;
+  color: #34495e;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 5px;
+}
+
+.league-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.league-table th,
+.league-table td {
+  padding: 10px 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.league-table th {
+  background-color: #f8f9fa;
+  font-weight: bold;
+  color: #555;
+  font-size: 14px;
+}
+
+.league-table td:first-child {
+  text-align: left;
+  font-weight: 500;
+}
+
+.league-table tr:hover {
+  background-color: #f5f5f5;
+}
+
+.league-matches {
+  list-style: none;
+  padding: 0;
+}
+
+.match-item {
+  padding: 10px 12px;
+  border-bottom: 1px solid #eee;
+  font-size: 15px;
+}
+
+.match-item:last-child {
+  border-bottom: none;
+}
+
+.match-item:hover {
+  background-color: #fafafa;
+}
