@@ -1,11 +1,10 @@
 import './App.css'
 import { useState } from 'react'
 import Header from './components/Header.jsx'
-import Nations from './components/Nations.jsx'
 import Footer from './components/Footer.jsx'
 import teams from '../data/teams.json'
-import worldCup from '../data/worldcup.json'
 import zodiacs from '../data/zodiacs.json'
+import fotmobMatches from '../data/fotmobMatches.json'
 import ZWC26 from './components/ZWC26.jsx'
 import League from './components/League.jsx'
 import Roster from './components/Roster.jsx'
@@ -17,13 +16,13 @@ function App() {
   const [selectedMatch, setSelectedMatch] = useState(null);
   const data = {
     teams,
-    matches : worldCup,
-    zodiacs
+    zodiacs,
+    fotmobMatches
   }
+
   return (
     <>
      <Header />
-     {tab === 'home' && <Nations data={data} />}
      {tab === 'zwc26' && <ZWC26 data={data} />}
      {tab === 'league' && <League data={data} setSelectedTeam={setSelectedTeam} setSelectedMatch={setSelectedMatch} setTab={setTab}/>}
       {tab === 'roster' && <Roster selectedTeam={selectedTeam} setTab={setTab}/>}
