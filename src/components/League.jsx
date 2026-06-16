@@ -1,7 +1,6 @@
 import { useState, useMemo } from 'react';
 import zodiacMatches from '../../data/matches.json';
-import getZodiacTeams from '../../logics/getZodiacTeams';
-
+import zodiacTeams from '../../data/updatedZTeams.json' with { type: 'json' };
 const GROUPS = [
   {
     name: 'Cardinal',
@@ -17,9 +16,9 @@ const GROUPS = [
   },
 ];
 
-export default function League({ data, setSelectedTeam, setSelectedMatch, setTab }) {
-  const { zodiacs } = data;
-  const schools = getZodiacTeams();
+export default function League({ setSelectedTeam, setSelectedMatch, setTab }) {
+  
+  const schools = zodiacTeams;
   const [groupIndex, setGroupIndex] = useState(0);
 
   const group = GROUPS[groupIndex];
@@ -80,7 +79,7 @@ export default function League({ data, setSelectedTeam, setSelectedMatch, setTab
       }
     }
     return group.teams
-      .map((name) => ({ name, ...stats[name] }))
+      .map((name) => ({ name, symbol: zodiacTeams.find((t) => t.name === name)?.symbol, ...stats[name] }))
       .sort((a, b) => b.points - a.points || b.goalDiff - a.goalDiff || b.goalsFor - a.goalsFor);
   }, [groupMatches, group.teams]);
 
@@ -121,7 +120,7 @@ export default function League({ data, setSelectedTeam, setSelectedMatch, setTab
             return (
               <tr key={team.name} onClick={() => { console.log(fullTeam); setSelectedTeam(fullTeam); setTab('roster'); }} style={{ cursor: 'pointer' }}>
                 <td>
-                  {zodiacs[team.name]?.symbol} {team.name}
+                  {team.symbol} {team.name}
                 </td>
                 <td>{team.played}</td>
                 <td>{team.wins}</td>
@@ -141,8 +140,8 @@ export default function League({ data, setSelectedTeam, setSelectedMatch, setTab
       <ul className="league-matches">
         {groupMatches.map((match, index) => (
           <li key={index} className="match-item" onClick={() => { console.log(match); setSelectedMatch(match); setTab('match'); }}>
-            {zodiacs[match.home_team]?.symbol} {match.home_team} vs{' '}
-            {zodiacs[match.away_team]?.symbol} {match.away_team} —{' '}
+            {zodiacTeams.find((t) => t.name === match.home_team)?.symbol ?? ''} {match.home_team} vs{' '}
+            {zodiacTeams.find((t) => t.name === match.away_team)?.symbol ?? ''} {match.away_team} —{' '}
             {match.home_score ?? '-'} - {match.away_score ?? '-'}
           </li>
         ))}

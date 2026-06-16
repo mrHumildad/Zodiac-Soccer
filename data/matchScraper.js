@@ -3,7 +3,7 @@ import * as path from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
-const dataDir = path.join(__dirname, '..', 'data')
+const dataDir = path.join(__dirname, 'raw')
 
 const teams = JSON.parse(
   fs.readFileSync(path.join(dataDir, 'teams.json'), 'utf8')
@@ -170,7 +170,49 @@ function extractTeamStats(html) {
   }
 }
 
-function normalizePlayer(player, fifaCode) {
+function extractLineupRatings(html, homeTeamId, awayTeamId) {
+  const pageProps = extractPageProps(html)
+
+  const lineup = pageProps?.content?.lineup
+
+  if (!lineup) {
+    return null
+  }
+
+  const homeTeam = lineup.homeTeam || {}
+  const awayTeam = lineup.awayTeam || {}
+
+  const ratingsByFotmobId = new Map()
+
+  const addPlayers = (teamId, players) => {
+    if (!Array.isArray(players)) return
+    for (const player of players) {
+      if (
+        player?.id == null ||
+        player?.performance?.rating == null
+      ) {
+        continue
+      }
+
+      ratingsByFotmobId.set(String(player.id), player.performance.rating)
+    }
+  }
+
+  addPlayers(homeTeamId, homeTeam.starters)
+  addPlayers(homeTeamId, homeTeam.subs)
+  addPlayers(awayTeamId, awayTeam.starters)
+  addPlayers(awayTeamId, awayTeam.subs)
+
+  return {
+    homeRating:
+      homeTeam.rating != null ? homeTeam.rating : null,
+    awayRating:
+      awayTeam.rating != null ? awayTeam.rating : null,
+    ratingsByFotmobId,
+  }
+}
+
+function normalizePlayer(player, fifaCode, ratingsByFotmobId) {
   if (!player) return null
 
   const statGroups = Array.isArray(player.stats)
@@ -207,26 +249,34 @@ function normalizePlayer(player, fifaCode) {
     }
   }
 
-  if (!Object.keys(stats).length) {
+  const overallRating =
+    ratingsByFotmobId?.get(String(player.id)) ?? null
+
+  const hasData =
+    Object.keys(stats).length > 0 || overallRating != null
+
+  if (!hasData) {
     return null
   }
 
   return {
-    id: player.id ?? null,
+    fotmod_id: player.id ?? null,
     teamId: player.teamId ?? null,
     fifaCode: fifaCode ?? null,
     name: player.name ?? null,
+    id: fifaCode + '-' + player.shirtNumber,
     position:
       player.usualPosition != null
         ? String(player.usualPosition)
         : null,
     shirtNumber:
       Number(player.shirtNumber) || null,
+    overallRating,
     stats,
   }
 }
 
-function extractPlayers(html, homeCode, awayCode, homeTeamId, awayTeamId) {
+function extractPlayers(html, homeCode, awayCode, homeTeamId, awayTeamId, ratingsByFotmobId) {
   const pageProps = extractPageProps(html)
 
   const playerStats =
@@ -251,7 +301,7 @@ function extractPlayers(html, homeCode, awayCode, homeTeamId, awayTeamId) {
         : null
 
     const normalized =
-      normalizePlayer(player, fifaCode)
+      normalizePlayer(player, fifaCode, ratingsByFotmobId)
 
     if (normalized) {
       players.push(normalized)
@@ -276,8 +326,18 @@ function buildMatchPayload(matchMeta, html) {
   const teamStats =
     extractTeamStats(html)
 
+  const lineup =
+    extractLineupRatings(html, matchMeta.homeTeamId, matchMeta.awayTeamId)
+
   const players =
-    extractPlayers(html, matchMeta.home, matchMeta.away, matchMeta.homeTeamId, matchMeta.awayTeamId)
+    extractPlayers(
+      html,
+      matchMeta.home,
+      matchMeta.away,
+      matchMeta.homeTeamId,
+      matchMeta.awayTeamId,
+      lineup?.ratingsByFotmobId
+    )
 
   return {
     id: matchMeta.matchId,
@@ -293,11 +353,13 @@ function buildMatchPayload(matchMeta, html) {
     homeTeam: {
       id: matchMeta.homeTeamId,
       code: matchMeta.home,
+      overallRating: lineup?.homeRating ?? null,
     },
 
     awayTeam: {
       id: matchMeta.awayTeamId,
       code: matchMeta.away,
+      overallRating: lineup?.awayRating ?? null,
     },
 
     score: {
@@ -382,10 +444,8 @@ async function save(payload) {
     })
   }
 
-  const output = path.join(
-    dataDir,
-    'matchStats.json'
-  )
+  const output =  'matchStats.json'
+  
 
   fs.writeFileSync(
     output,

@@ -1,6 +1,6 @@
 {
   "source": "fotmob",
-  "fetchedAt": "2026-06-16T13:26:04.968Z",
+  "fetchedAt": "2026-06-16T15:25:41.953Z",
   "count": 16,
   "matches": [
     {
@@ -11,11 +11,13 @@
       "finished": true,
       "homeTeam": {
         "id": "6710",
-        "code": "MEX"
+        "code": "MEX",
+        "overallRating": 7.1
       },
       "awayTeam": {
         "id": "6316",
-        "code": "RSA"
+        "code": "RSA",
+        "overallRating": 5.8
       },
       "score": {
         "home": null,
@@ -31,6 +33,7 @@
           "id": "RSA-1",
           "position": "0",
           "shirtNumber": 1,
+          "overallRating": 6.2,
           "stats": {
             "minutes_played": 90,
             "saves": 2,
@@ -49,6 +52,7 @@
           "id": "MEX-9",
           "position": "3",
           "shirtNumber": 9,
+          "overallRating": 8,
           "stats": {
             "minutes_played": 76,
             "goals": 1,
@@ -73,6 +77,7 @@
           "id": "RSA-11",
           "position": "2",
           "shirtNumber": 11,
+          "overallRating": 4.9,
           "stats": {
             "minutes_played": 23,
             "goals": 0,
@@ -93,6 +98,7 @@
           "id": "MEX-24",
           "position": "2",
           "shirtNumber": 24,
+          "overallRating": 6.5,
           "stats": {
             "minutes_played": 24,
             "goals": 0,
@@ -115,6 +121,7 @@
           "id": "MEX-23",
           "position": "1",
           "shirtNumber": 23,
+          "overallRating": 7.2,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -139,6 +146,7 @@
           "id": "RSA-6",
           "position": "1",
           "shirtNumber": 6,
+          "overallRating": 5.9,
           "stats": {
             "minutes_played": 77,
             "goals": 0,
@@ -162,6 +170,7 @@
           "id": "MEX-3",
           "position": "1",
           "shirtNumber": 3,
+          "overallRating": 6.1,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -184,6 +193,7 @@
           "id": "RSA-19",
           "position": "1",
           "shirtNumber": 19,
+          "overallRating": 5.8,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -204,6 +214,7 @@
           "id": "MEX-16",
           "position": "3",
           "shirtNumber": 16,
+          "overallRating": 8.8,
           "stats": {
             "minutes_played": 79,
             "goals": 1,
@@ -228,6 +239,7 @@
           "id": "MEX-25",
           "position": "2",
           "shirtNumber": 25,
+          "overallRating": 8.2,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -251,6 +263,7 @@
           "id": "MEX-10",
           "position": "3",
           "shirtNumber": 10,
+          "overallRating": 6,
           "stats": {
             "minutes_played": 11,
             "goals": 0,
@@ -272,6 +285,7 @@
           "id": "MEX-4",
           "position": "2",
           "shirtNumber": 4,
+          "overallRating": 6.6,
           "stats": {
             "minutes_played": 14,
             "goals": 0,
@@ -294,6 +308,7 @@
           "id": "RSA-4",
           "position": "2",
           "shirtNumber": 4,
+          "overallRating": 6.5,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -316,6 +331,7 @@
           "id": "RSA-9",
           "position": "3",
           "shirtNumber": 9,
+          "overallRating": 5.6,
           "stats": {
             "minutes_played": 56,
             "goals": 0,
@@ -339,6 +355,7 @@
           "id": "MEX-8",
           "position": "2",
           "shirtNumber": 8,
+          "overallRating": 7.2,
           "stats": {
             "minutes_played": 66,
             "goals": 0,
@@ -361,6 +378,7 @@
           "id": "MEX-5",
           "position": "1",
           "shirtNumber": 5,
+          "overallRating": 7.2,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -382,6 +400,7 @@
           "id": "RSA-20",
           "position": "1",
           "shirtNumber": 20,
+          "overallRating": 6.5,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -404,6 +423,7 @@
           "id": "MEX-6",
           "position": "1",
           "shirtNumber": 6,
+          "overallRating": 7.9,
           "stats": {
             "minutes_played": 76,
             "goals": 0,
@@ -426,6 +446,7 @@
           "id": "RSA-7",
           "position": "3",
           "shirtNumber": 7,
+          "overallRating": 6.3,
           "stats": {
             "minutes_played": 13,
             "goals": 0,
@@ -447,6 +468,7 @@
           "id": "MEX-15",
           "position": "1",
           "shirtNumber": 15,
+          "overallRating": 7.4,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -471,6 +493,7 @@
           "id": "RSA-15",
           "position": "3",
           "shirtNumber": 15,
+          "overallRating": 5.5,
           "stats": {
             "minutes_played": 76,
             "goals": 0,
@@ -491,6 +514,7 @@
           "id": "RSA-13",
           "position": "2",
           "shirtNumber": 13,
+          "overallRating": 3.5,
           "stats": {
             "minutes_played": 49,
             "goals": 0,
@@ -512,6 +536,7 @@
           "id": "RSA-5",
           "position": "2",
           "shirtNumber": 5,
+          "overallRating": 6.2,
           "stats": {
             "minutes_played": 34,
             "goals": 0,
@@ -533,6 +558,7 @@
           "id": "RSA-17",
           "position": "3",
           "shirtNumber": 17,
+          "overallRating": 6.3,
           "stats": {
             "minutes_played": 14,
             "goals": 0,
@@ -555,6 +581,7 @@
           "id": "MEX-26",
           "position": "2",
           "shirtNumber": 26,
+          "overallRating": 6.7,
           "stats": {
             "minutes_played": 66,
             "goals": 0,
@@ -579,6 +606,7 @@
           "id": "RSA-23",
           "position": "2",
           "shirtNumber": 23,
+          "overallRating": 6.2,
           "stats": {
             "minutes_played": 61,
             "goals": 0,
@@ -601,6 +629,7 @@
           "id": "MEX-1",
           "position": "0",
           "shirtNumber": 1,
+          "overallRating": 7.5,
           "stats": {
             "minutes_played": 90,
             "saves": 2,
@@ -619,6 +648,7 @@
           "id": "MEX-14",
           "position": "3",
           "shirtNumber": 14,
+          "overallRating": 5.9,
           "stats": {
             "minutes_played": 14,
             "goals": 0,
@@ -639,6 +669,7 @@
           "id": "RSA-21",
           "position": "1",
           "shirtNumber": 21,
+          "overallRating": 6,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -660,6 +691,7 @@
           "id": "MEX-19",
           "position": "2",
           "shirtNumber": 19,
+          "overallRating": 6.3,
           "stats": {
             "minutes_played": 24,
             "goals": 0,
@@ -682,6 +714,7 @@
           "id": "RSA-14",
           "position": "1",
           "shirtNumber": 14,
+          "overallRating": 6.1,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -708,11 +741,13 @@
       "finished": true,
       "homeTeam": {
         "id": "7804",
-        "code": "KOR"
+        "code": "KOR",
+        "overallRating": 7.4
       },
       "awayTeam": {
         "id": "8496",
-        "code": "CZE"
+        "code": "CZE",
+        "overallRating": 6.4
       },
       "score": {
         "home": null,
@@ -728,6 +763,7 @@
           "id": "KOR-1",
           "position": "0",
           "shirtNumber": 1,
+          "overallRating": 7.7,
           "stats": {
             "minutes_played": 90,
             "saves": 3,
@@ -746,6 +782,7 @@
           "id": "KOR-7",
           "position": "3",
           "shirtNumber": 7,
+          "overallRating": 6.9,
           "stats": {
             "minutes_played": 69,
             "goals": 0,
@@ -770,6 +807,7 @@
           "id": "CZE-20",
           "position": "1",
           "shirtNumber": 20,
+          "overallRating": 6.8,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -792,6 +830,7 @@
           "id": "CZE-5",
           "position": "1",
           "shirtNumber": 5,
+          "overallRating": 6.9,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -815,6 +854,7 @@
           "id": "CZE-19",
           "position": "3",
           "shirtNumber": 19,
+          "overallRating": 5.9,
           "stats": {
             "minutes_played": 26,
             "goals": 0,
@@ -836,6 +876,7 @@
           "id": "KOR-10",
           "position": "2",
           "shirtNumber": 10,
+          "overallRating": 7.4,
           "stats": {
             "minutes_played": 62,
             "goals": 0,
@@ -861,6 +902,7 @@
           "id": "CZE-22",
           "position": "2",
           "shirtNumber": 22,
+          "overallRating": 6.1,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -885,6 +927,7 @@
           "id": "CZE-10",
           "position": "3",
           "shirtNumber": 10,
+          "overallRating": 5.9,
           "stats": {
             "minutes_played": 64,
             "goals": 0,
@@ -906,6 +949,7 @@
           "id": "KOR-11",
           "position": "3",
           "shirtNumber": 11,
+          "overallRating": 6.5,
           "stats": {
             "minutes_played": 28,
             "goals": 0,
@@ -927,6 +971,7 @@
           "id": "KOR-24",
           "position": "2",
           "shirtNumber": 24,
+          "overallRating": null,
           "stats": {
             "minutes_played": 6,
             "goals": 0,
@@ -950,6 +995,7 @@
           "id": "KOR-6",
           "position": "2",
           "shirtNumber": 6,
+          "overallRating": 8.9,
           "stats": {
             "minutes_played": 84,
             "goals": 1,
@@ -975,6 +1021,7 @@
           "id": "CZE-17",
           "position": "2",
           "shirtNumber": 17,
+          "overallRating": 6.8,
           "stats": {
             "minutes_played": 64,
             "goals": 0,
@@ -997,6 +1044,7 @@
           "id": "CZE-7",
           "position": "1",
           "shirtNumber": 7,
+          "overallRating": 7.4,
           "stats": {
             "minutes_played": 90,
             "goals": 1,
@@ -1020,6 +1068,7 @@
           "id": "CZE-18",
           "position": "2",
           "shirtNumber": 18,
+          "overallRating": 6,
           "stats": {
             "minutes_played": 26,
             "goals": 0,
@@ -1043,6 +1092,7 @@
           "id": "KOR-4",
           "position": "1",
           "shirtNumber": 4,
+          "overallRating": 7.4,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -1065,6 +1115,7 @@
           "id": "KOR-8",
           "position": "2",
           "shirtNumber": 8,
+          "overallRating": 7.3,
           "stats": {
             "minutes_played": 84,
             "goals": 0,
@@ -1087,6 +1138,7 @@
           "id": "KOR-16",
           "position": "2",
           "shirtNumber": 16,
+          "overallRating": null,
           "stats": {
             "minutes_played": 6,
             "goals": 0,
@@ -1108,6 +1160,7 @@
           "id": "KOR-19",
           "position": "2",
           "shirtNumber": 19,
+          "overallRating": 8.4,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -1133,6 +1186,7 @@
           "id": "CZE-9",
           "position": "2",
           "shirtNumber": 9,
+          "overallRating": 6.1,
           "stats": {
             "minutes_played": 26,
             "goals": 0,
@@ -1157,6 +1211,7 @@
           "id": "CZE-13",
           "position": "3",
           "shirtNumber": 13,
+          "overallRating": null,
           "stats": {
             "minutes_played": 6,
             "goals": 0,
@@ -1178,6 +1233,7 @@
           "id": "CZE-15",
           "position": "3",
           "shirtNumber": 15,
+          "overallRating": 7.2,
           "stats": {
             "minutes_played": 64,
             "goals": 0,
@@ -1202,6 +1258,7 @@
           "id": "KOR-18",
           "position": "3",
           "shirtNumber": 18,
+          "overallRating": 7.5,
           "stats": {
             "minutes_played": 21,
             "goals": 1,
@@ -1225,6 +1282,7 @@
           "id": "CZE-1",
           "position": "0",
           "shirtNumber": 1,
+          "overallRating": 6.8,
           "stats": {
             "minutes_played": 90,
             "saves": 4,
@@ -1243,6 +1301,7 @@
           "id": "KOR-13",
           "position": "2",
           "shirtNumber": 13,
+          "overallRating": 6.9,
           "stats": {
             "minutes_played": 69,
             "goals": 0,
@@ -1265,6 +1324,7 @@
           "id": "KOR-25",
           "position": "3",
           "shirtNumber": 25,
+          "overallRating": 6.6,
           "stats": {
             "minutes_played": 21,
             "goals": 0,
@@ -1287,6 +1347,7 @@
           "id": "KOR-22",
           "position": "1",
           "shirtNumber": 22,
+          "overallRating": 6.9,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -1309,6 +1370,7 @@
           "id": "CZE-4",
           "position": "1",
           "shirtNumber": 4,
+          "overallRating": 5.7,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -1330,6 +1392,7 @@
           "id": "KOR-2",
           "position": "1",
           "shirtNumber": 2,
+          "overallRating": 7.1,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -1354,6 +1417,7 @@
           "id": "KOR-3",
           "position": "1",
           "shirtNumber": 3,
+          "overallRating": 7.6,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -1376,6 +1440,7 @@
           "id": "CZE-6",
           "position": "1",
           "shirtNumber": 6,
+          "overallRating": 5.7,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -1397,6 +1462,7 @@
           "id": "CZE-24",
           "position": "2",
           "shirtNumber": 24,
+          "overallRating": 6.6,
           "stats": {
             "minutes_played": 84,
             "goals": 0,
@@ -1421,11 +1487,13 @@
       "finished": true,
       "homeTeam": {
         "id": "5810",
-        "code": "CAN"
+        "code": "CAN",
+        "overallRating": 6.9
       },
       "awayTeam": {
         "id": "10106",
-        "code": "BIH"
+        "code": "BIH",
+        "overallRating": 7
       },
       "score": {
         "home": null,
@@ -1441,6 +1509,7 @@
           "id": "BIH-5",
           "position": "1",
           "shirtNumber": 5,
+          "overallRating": 8,
           "stats": {
             "minutes_played": 84,
             "goals": 0,
@@ -1464,6 +1533,7 @@
           "id": "CAN-21",
           "position": "2",
           "shirtNumber": 21,
+          "overallRating": null,
           "stats": {
             "minutes_played": 1,
             "goals": 0,
@@ -1485,6 +1555,7 @@
           "id": "CAN-16",
           "position": "0",
           "shirtNumber": 16,
+          "overallRating": 7.5,
           "stats": {
             "minutes_played": 90,
             "saves": 2,
@@ -1504,6 +1575,7 @@
           "id": "BIH-1",
           "position": "0",
           "shirtNumber": 1,
+          "overallRating": 6.8,
           "stats": {
             "minutes_played": 90,
             "saves": 1,
@@ -1522,6 +1594,7 @@
           "id": "BIH-14",
           "position": "2",
           "shirtNumber": 14,
+          "overallRating": 6.2,
           "stats": {
             "minutes_played": 16,
             "goals": 0,
@@ -1543,6 +1616,7 @@
           "id": "CAN-9",
           "position": "3",
           "shirtNumber": 9,
+          "overallRating": 7.5,
           "stats": {
             "minutes_played": 14,
             "goals": 1,
@@ -1566,6 +1640,7 @@
           "id": "BIH-17",
           "position": "2",
           "shirtNumber": 17,
+          "overallRating": null,
           "stats": {
             "minutes_played": 6,
             "goals": 0,
@@ -1589,6 +1664,7 @@
           "id": "BIH-18",
           "position": "1",
           "shirtNumber": 18,
+          "overallRating": 8.4,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -1610,6 +1686,7 @@
           "id": "CAN-22",
           "position": "1",
           "shirtNumber": 22,
+          "overallRating": 8.2,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -1634,6 +1711,7 @@
           "id": "CAN-7",
           "position": "2",
           "shirtNumber": 7,
+          "overallRating": 7.5,
           "stats": {
             "minutes_played": 89,
             "goals": 0,
@@ -1659,6 +1737,7 @@
           "id": "BIH-10",
           "position": "3",
           "shirtNumber": 10,
+          "overallRating": 6.6,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -1682,6 +1761,7 @@
           "id": "CAN-13",
           "position": "1",
           "shirtNumber": 13,
+          "overallRating": 7.4,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -1706,6 +1786,7 @@
           "id": "CAN-11",
           "position": "3",
           "shirtNumber": 11,
+          "overallRating": 6.8,
           "stats": {
             "minutes_played": 61,
             "goals": 0,
@@ -1728,6 +1809,7 @@
           "id": "CAN-10",
           "position": "3",
           "shirtNumber": 10,
+          "overallRating": 6.6,
           "stats": {
             "minutes_played": 61,
             "goals": 0,
@@ -1751,6 +1833,7 @@
           "id": "BIH-7",
           "position": "1",
           "shirtNumber": 7,
+          "overallRating": 7,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -1773,6 +1856,7 @@
           "id": "CAN-14",
           "position": "3",
           "shirtNumber": 14,
+          "overallRating": 6.1,
           "stats": {
             "minutes_played": 29,
             "goals": 0,
@@ -1795,6 +1879,7 @@
           "id": "CAN-17",
           "position": "2",
           "shirtNumber": 17,
+          "overallRating": 5.7,
           "stats": {
             "minutes_played": 61,
             "goals": 0,
@@ -1817,6 +1902,7 @@
           "id": "CAN-2",
           "position": "1",
           "shirtNumber": 2,
+          "overallRating": 7.2,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -1841,6 +1927,7 @@
           "id": "BIH-8",
           "position": "2",
           "shirtNumber": 8,
+          "overallRating": 6.9,
           "stats": {
             "minutes_played": 28,
             "goals": 0,
@@ -1863,6 +1950,7 @@
           "id": "BIH-25",
           "position": "3",
           "shirtNumber": 25,
+          "overallRating": 8,
           "stats": {
             "minutes_played": 62,
             "goals": 1,
@@ -1886,6 +1974,7 @@
           "id": "BIH-13",
           "position": "2",
           "shirtNumber": 13,
+          "overallRating": 7.2,
           "stats": {
             "minutes_played": 62,
             "goals": 0,
@@ -1908,6 +1997,7 @@
           "id": "BIH-4",
           "position": "1",
           "shirtNumber": 4,
+          "overallRating": 8.3,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -1931,6 +2021,7 @@
           "id": "CAN-24",
           "position": "3",
           "shirtNumber": 24,
+          "overallRating": 6.6,
           "stats": {
             "minutes_played": 29,
             "goals": 0,
@@ -1955,6 +2046,7 @@
           "id": "BIH-9",
           "position": "3",
           "shirtNumber": 9,
+          "overallRating": 6,
           "stats": {
             "minutes_played": 28,
             "goals": 0,
@@ -1976,6 +2068,7 @@
           "id": "CAN-8",
           "position": "2",
           "shirtNumber": 8,
+          "overallRating": 6,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -2000,6 +2093,7 @@
           "id": "BIH-15",
           "position": "2",
           "shirtNumber": 15,
+          "overallRating": 6.1,
           "stats": {
             "minutes_played": 74,
             "goals": 0,
@@ -2023,6 +2117,7 @@
           "id": "CAN-12",
           "position": "3",
           "shirtNumber": 12,
+          "overallRating": 6.6,
           "stats": {
             "minutes_played": 76,
             "goals": 0,
@@ -2046,6 +2141,7 @@
           "id": "BIH-20",
           "position": "3",
           "shirtNumber": 20,
+          "overallRating": 6.3,
           "stats": {
             "minutes_played": 74,
             "goals": 0,
@@ -2067,6 +2163,7 @@
           "id": "CAN-20",
           "position": "3",
           "shirtNumber": 20,
+          "overallRating": 6.2,
           "stats": {
             "minutes_played": 29,
             "goals": 0,
@@ -2089,6 +2186,7 @@
           "id": "CAN-4",
           "position": "1",
           "shirtNumber": 4,
+          "overallRating": 7.1,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -2111,6 +2209,7 @@
           "id": "BIH-6",
           "position": "2",
           "shirtNumber": 6,
+          "overallRating": 6.6,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -2135,6 +2234,7 @@
           "id": "BIH-19",
           "position": "3",
           "shirtNumber": 19,
+          "overallRating": 6.3,
           "stats": {
             "minutes_played": 16,
             "goals": 0,
@@ -2158,11 +2258,13 @@
       "finished": true,
       "homeTeam": {
         "id": "6713",
-        "code": "USA"
+        "code": "USA",
+        "overallRating": 7.3
       },
       "awayTeam": {
         "id": "6724",
-        "code": "PAR"
+        "code": "PAR",
+        "overallRating": 6.1
       },
       "score": {
         "home": null,
@@ -2178,6 +2280,7 @@
           "id": "USA-13",
           "position": "1",
           "shirtNumber": 13,
+          "overallRating": 7.5,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -2200,6 +2303,7 @@
           "id": "PAR-15",
           "position": "1",
           "shirtNumber": 15,
+          "overallRating": 5.2,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -2221,6 +2325,7 @@
           "id": "PAR-10",
           "position": "3",
           "shirtNumber": 10,
+          "overallRating": 7,
           "stats": {
             "minutes_played": 79,
             "goals": 0,
@@ -2245,6 +2350,7 @@
           "id": "PAR-6",
           "position": "1",
           "shirtNumber": 6,
+          "overallRating": 5.3,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -2266,6 +2372,7 @@
           "id": "PAR-9",
           "position": "3",
           "shirtNumber": 9,
+          "overallRating": 5.7,
           "stats": {
             "minutes_played": 62,
             "goals": 0,
@@ -2288,6 +2395,7 @@
           "id": "PAR-2",
           "position": "1",
           "shirtNumber": 2,
+          "overallRating": 6,
           "stats": {
             "minutes_played": 11,
             "goals": 0,
@@ -2309,6 +2417,7 @@
           "id": "PAR-14",
           "position": "2",
           "shirtNumber": 14,
+          "overallRating": 6.3,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -2330,6 +2439,7 @@
           "id": "PAR-17",
           "position": "2",
           "shirtNumber": 17,
+          "overallRating": 6.1,
           "stats": {
             "minutes_played": 10,
             "goals": 0,
@@ -2351,6 +2461,7 @@
           "id": "USA-5",
           "position": "1",
           "shirtNumber": 5,
+          "overallRating": 7.6,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -2373,6 +2484,7 @@
           "id": "USA-10",
           "position": "3",
           "shirtNumber": 10,
+          "overallRating": 7.9,
           "stats": {
             "minutes_played": 45,
             "goals": 0,
@@ -2396,6 +2508,7 @@
           "id": "USA-4",
           "position": "2",
           "shirtNumber": 4,
+          "overallRating": 7.7,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -2418,6 +2531,7 @@
           "id": "PAR-3",
           "position": "1",
           "shirtNumber": 3,
+          "overallRating": 5.8,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -2440,6 +2554,7 @@
           "id": "USA-8",
           "position": "2",
           "shirtNumber": 8,
+          "overallRating": 7.4,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -2462,6 +2577,7 @@
           "id": "USA-21",
           "position": "2",
           "shirtNumber": 21,
+          "overallRating": 6.2,
           "stats": {
             "minutes_played": 18,
             "goals": 0,
@@ -2485,6 +2601,7 @@
           "id": "USA-2",
           "position": "1",
           "shirtNumber": 2,
+          "overallRating": 7,
           "stats": {
             "minutes_played": 72,
             "goals": 0,
@@ -2507,6 +2624,7 @@
           "id": "USA-3",
           "position": "1",
           "shirtNumber": 3,
+          "overallRating": 7.2,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -2531,6 +2649,7 @@
           "id": "USA-20",
           "position": "3",
           "shirtNumber": 20,
+          "overallRating": 8.8,
           "stats": {
             "minutes_played": 72,
             "goals": 2,
@@ -2555,6 +2674,7 @@
           "id": "USA-24",
           "position": "0",
           "shirtNumber": 24,
+          "overallRating": 6.2,
           "stats": {
             "minutes_played": 90,
             "saves": 0,
@@ -2573,6 +2693,7 @@
           "id": "USA-9",
           "position": "3",
           "shirtNumber": 9,
+          "overallRating": 6,
           "stats": {
             "minutes_played": 18,
             "goals": 0,
@@ -2597,6 +2718,7 @@
           "id": "PAR-11",
           "position": "2",
           "shirtNumber": 11,
+          "overallRating": 7.4,
           "stats": {
             "minutes_played": 45,
             "goals": 1,
@@ -2620,6 +2742,7 @@
           "id": "USA-7",
           "position": "2",
           "shirtNumber": 7,
+          "overallRating": null,
           "stats": {
             "minutes_played": 8,
             "goals": 1,
@@ -2643,6 +2766,7 @@
           "id": "PAR-19",
           "position": "2",
           "shirtNumber": 19,
+          "overallRating": 7.8,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -2668,6 +2792,7 @@
           "id": "USA-17",
           "position": "2",
           "shirtNumber": 17,
+          "overallRating": 7.9,
           "stats": {
             "minutes_played": 82,
             "goals": 0,
@@ -2693,6 +2818,7 @@
           "id": "PAR-7",
           "position": "3",
           "shirtNumber": 7,
+          "overallRating": 6.3,
           "stats": {
             "minutes_played": 11,
             "goals": 0,
@@ -2714,6 +2840,7 @@
           "id": "PAR-4",
           "position": "1",
           "shirtNumber": 4,
+          "overallRating": 6.5,
           "stats": {
             "minutes_played": 79,
             "goals": 0,
@@ -2735,6 +2862,7 @@
           "id": "USA-14",
           "position": "2",
           "shirtNumber": 14,
+          "overallRating": 6.6,
           "stats": {
             "minutes_played": 45,
             "goals": 0,
@@ -2759,6 +2887,7 @@
           "id": "PAR-16",
           "position": "2",
           "shirtNumber": 16,
+          "overallRating": 5,
           "stats": {
             "minutes_played": 45,
             "goals": 0,
@@ -2779,6 +2908,7 @@
           "id": "PAR-18",
           "position": "3",
           "shirtNumber": 18,
+          "overallRating": 6,
           "stats": {
             "minutes_played": 28,
             "goals": 0,
@@ -2801,6 +2931,7 @@
           "id": "USA-16",
           "position": "1",
           "shirtNumber": 16,
+          "overallRating": 8.1,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -2823,6 +2954,7 @@
           "id": "PAR-8",
           "position": "2",
           "shirtNumber": 8,
+          "overallRating": 6.4,
           "stats": {
             "minutes_played": 80,
             "goals": 0,
@@ -2846,6 +2978,7 @@
           "id": "PAR-12",
           "position": "0",
           "shirtNumber": 12,
+          "overallRating": 5.6,
           "stats": {
             "minutes_played": 90,
             "saves": 3,
@@ -2866,11 +2999,13 @@
       "finished": true,
       "homeTeam": {
         "id": "5902",
-        "code": "QAT"
+        "code": "QAT",
+        "overallRating": 6.7
       },
       "awayTeam": {
         "id": "6717",
-        "code": "SUI"
+        "code": "SUI",
+        "overallRating": 7.2
       },
       "score": {
         "home": null,
@@ -2886,6 +3021,7 @@
           "id": "SUI-13",
           "position": "1",
           "shirtNumber": 13,
+          "overallRating": 7.8,
           "stats": {
             "minutes_played": 89,
             "goals": 0,
@@ -2909,6 +3045,7 @@
           "id": "QAT-10",
           "position": "3",
           "shirtNumber": 10,
+          "overallRating": null,
           "stats": {
             "minutes_played": 2,
             "goals": 0,
@@ -2929,6 +3066,7 @@
           "id": "SUI-8",
           "position": "2",
           "shirtNumber": 8,
+          "overallRating": 7.1,
           "stats": {
             "minutes_played": 89,
             "goals": 0,
@@ -2951,6 +3089,7 @@
           "id": "SUI-10",
           "position": "2",
           "shirtNumber": 10,
+          "overallRating": 7.3,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -2974,6 +3113,7 @@
           "id": "QAT-7",
           "position": "3",
           "shirtNumber": 7,
+          "overallRating": 6.4,
           "stats": {
             "minutes_played": 30,
             "goals": 0,
@@ -2997,6 +3137,7 @@
           "id": "QAT-16",
           "position": "1",
           "shirtNumber": 16,
+          "overallRating": 6.9,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -3018,6 +3159,7 @@
           "id": "QAT-12",
           "position": "2",
           "shirtNumber": 12,
+          "overallRating": 6.3,
           "stats": {
             "minutes_played": 30,
             "goals": 0,
@@ -3041,6 +3183,7 @@
           "id": "QAT-8",
           "position": "3",
           "shirtNumber": 8,
+          "overallRating": 6.3,
           "stats": {
             "minutes_played": 88,
             "goals": 0,
@@ -3064,6 +3207,7 @@
           "id": "SUI-4",
           "position": "1",
           "shirtNumber": 4,
+          "overallRating": 7.3,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -3088,6 +3232,7 @@
           "id": "SUI-5",
           "position": "1",
           "shirtNumber": 5,
+          "overallRating": 7.4,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -3112,6 +3257,7 @@
           "id": "SUI-7",
           "position": "3",
           "shirtNumber": 7,
+          "overallRating": 8,
           "stats": {
             "minutes_played": 90,
             "goals": 1,
@@ -3137,6 +3283,7 @@
           "id": "SUI-6",
           "position": "2",
           "shirtNumber": 6,
+          "overallRating": 7.5,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -3161,6 +3308,7 @@
           "id": "QAT-11",
           "position": "3",
           "shirtNumber": 11,
+          "overallRating": 6.9,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -3183,6 +3331,7 @@
           "id": "QAT-23",
           "position": "2",
           "shirtNumber": 23,
+          "overallRating": 6.4,
           "stats": {
             "minutes_played": 79,
             "goals": 0,
@@ -3204,6 +3353,7 @@
           "id": "QAT-2",
           "position": "1",
           "shirtNumber": 2,
+          "overallRating": 7.3,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -3226,6 +3376,7 @@
           "id": "SUI-2",
           "position": "2",
           "shirtNumber": 2,
+          "overallRating": null,
           "stats": {
             "minutes_played": 1,
             "goals": 0,
@@ -3246,6 +3397,7 @@
           "id": "SUI-1",
           "position": "0",
           "shirtNumber": 1,
+          "overallRating": 7.5,
           "stats": {
             "minutes_played": 90,
             "saves": 3,
@@ -3264,6 +3416,7 @@
           "id": "SUI-20",
           "position": "2",
           "shirtNumber": 20,
+          "overallRating": 7.2,
           "stats": {
             "minutes_played": 65,
             "goals": 0,
@@ -3288,6 +3441,7 @@
           "id": "SUI-17",
           "position": "3",
           "shirtNumber": 17,
+          "overallRating": 8.1,
           "stats": {
             "minutes_played": 79,
             "goals": 0,
@@ -3312,6 +3466,7 @@
           "id": "QAT-20",
           "position": "2",
           "shirtNumber": 20,
+          "overallRating": 6.9,
           "stats": {
             "minutes_played": 30,
             "goals": 0,
@@ -3334,6 +3489,7 @@
           "id": "QAT-14",
           "position": "1",
           "shirtNumber": 14,
+          "overallRating": 7.2,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -3358,6 +3514,7 @@
           "id": "SUI-11",
           "position": "3",
           "shirtNumber": 11,
+          "overallRating": 7.2,
           "stats": {
             "minutes_played": 65,
             "goals": 0,
@@ -3382,6 +3539,7 @@
           "id": "QAT-15",
           "position": "3",
           "shirtNumber": 15,
+          "overallRating": 6.8,
           "stats": {
             "minutes_played": 60,
             "goals": 0,
@@ -3403,6 +3561,7 @@
           "id": "SUI-23",
           "position": "3",
           "shirtNumber": 23,
+          "overallRating": 6.6,
           "stats": {
             "minutes_played": 11,
             "goals": 0,
@@ -3427,6 +3586,7 @@
           "id": "SUI-22",
           "position": "2",
           "shirtNumber": 22,
+          "overallRating": 6.1,
           "stats": {
             "minutes_played": 25,
             "goals": 0,
@@ -3451,6 +3611,7 @@
           "id": "SUI-14",
           "position": "2",
           "shirtNumber": 14,
+          "overallRating": null,
           "stats": {
             "minutes_played": 1,
             "goals": 0,
@@ -3473,6 +3634,7 @@
           "id": "QAT-5",
           "position": "2",
           "shirtNumber": 5,
+          "overallRating": 6.1,
           "stats": {
             "minutes_played": 60,
             "goals": 0,
@@ -3494,6 +3656,7 @@
           "id": "QAT-1",
           "position": "0",
           "shirtNumber": 1,
+          "overallRating": 7.7,
           "stats": {
             "minutes_played": 90,
             "saves": 5,
@@ -3513,6 +3676,7 @@
           "id": "QAT-13",
           "position": "1",
           "shirtNumber": 13,
+          "overallRating": 6.4,
           "stats": {
             "minutes_played": 60,
             "goals": 0,
@@ -3534,6 +3698,7 @@
           "id": "SUI-9",
           "position": "2",
           "shirtNumber": 9,
+          "overallRating": 5.9,
           "stats": {
             "minutes_played": 25,
             "goals": 0,
@@ -3558,6 +3723,7 @@
           "id": "QAT-26",
           "position": "2",
           "shirtNumber": 26,
+          "overallRating": 5.9,
           "stats": {
             "minutes_played": 11,
             "goals": 0,
@@ -3578,6 +3744,7 @@
           "id": "QAT-4",
           "position": "1",
           "shirtNumber": 4,
+          "overallRating": 6.8,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -3603,11 +3770,13 @@
       "finished": true,
       "homeTeam": {
         "id": "8256",
-        "code": "BRA"
+        "code": "BRA",
+        "overallRating": 6.7
       },
       "awayTeam": {
         "id": "6262",
-        "code": "MAR"
+        "code": "MAR",
+        "overallRating": 7
       },
       "score": {
         "home": null,
@@ -3623,6 +3792,7 @@
           "id": "BRA-13",
           "position": "1",
           "shirtNumber": 13,
+          "overallRating": 6.4,
           "stats": {
             "minutes_played": 45,
             "goals": 0,
@@ -3645,6 +3815,7 @@
           "id": "BRA-5",
           "position": "2",
           "shirtNumber": 5,
+          "overallRating": 6.5,
           "stats": {
             "minutes_played": 45,
             "goals": 0,
@@ -3667,6 +3838,7 @@
           "id": "BRA-4",
           "position": "1",
           "shirtNumber": 4,
+          "overallRating": 6.9,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -3691,6 +3863,7 @@
           "id": "BRA-1",
           "position": "0",
           "shirtNumber": 1,
+          "overallRating": 6.5,
           "stats": {
             "minutes_played": 90,
             "saves": 2,
@@ -3709,6 +3882,7 @@
           "id": "MAR-1",
           "position": "0",
           "shirtNumber": 1,
+          "overallRating": 7.4,
           "stats": {
             "minutes_played": 90,
             "saves": 4,
@@ -3728,6 +3902,7 @@
           "id": "BRA-16",
           "position": "1",
           "shirtNumber": 16,
+          "overallRating": 7.7,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -3750,6 +3925,7 @@
           "id": "BRA-17",
           "position": "2",
           "shirtNumber": 17,
+          "overallRating": 6.3,
           "stats": {
             "minutes_played": 45,
             "goals": 0,
@@ -3771,6 +3947,7 @@
           "id": "MAR-14",
           "position": "1",
           "shirtNumber": 14,
+          "overallRating": 6.6,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -3793,6 +3970,7 @@
           "id": "BRA-11",
           "position": "3",
           "shirtNumber": 11,
+          "overallRating": 6.8,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -3817,6 +3995,7 @@
           "id": "MAR-10",
           "position": "3",
           "shirtNumber": 10,
+          "overallRating": 7.1,
           "stats": {
             "minutes_played": 65,
             "goals": 0,
@@ -3842,6 +4021,7 @@
           "id": "BRA-20",
           "position": "2",
           "shirtNumber": 20,
+          "overallRating": 7.1,
           "stats": {
             "minutes_played": 61,
             "goals": 0,
@@ -3866,6 +4046,7 @@
           "id": "MAR-2",
           "position": "1",
           "shirtNumber": 2,
+          "overallRating": 7.5,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -3890,6 +4071,7 @@
           "id": "MAR-3",
           "position": "1",
           "shirtNumber": 3,
+          "overallRating": 7.4,
           "stats": {
             "minutes_played": 80,
             "goals": 0,
@@ -3912,6 +4094,7 @@
           "id": "BRA-3",
           "position": "1",
           "shirtNumber": 3,
+          "overallRating": 6.9,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -3934,6 +4117,7 @@
           "id": "BRA-7",
           "position": "3",
           "shirtNumber": 7,
+          "overallRating": 7.3,
           "stats": {
             "minutes_played": 90,
             "goals": 1,
@@ -3958,6 +4142,7 @@
           "id": "BRA-8",
           "position": "2",
           "shirtNumber": 8,
+          "overallRating": 7,
           "stats": {
             "minutes_played": 80,
             "goals": 0,
@@ -3982,6 +4167,7 @@
           "id": "BRA-24",
           "position": "1",
           "shirtNumber": 24,
+          "overallRating": 6.7,
           "stats": {
             "minutes_played": 45,
             "goals": 0,
@@ -4003,6 +4189,7 @@
           "id": "BRA-9",
           "position": "3",
           "shirtNumber": 9,
+          "overallRating": 6.3,
           "stats": {
             "minutes_played": 29,
             "goals": 0,
@@ -4025,6 +4212,7 @@
           "id": "MAR-9",
           "position": "3",
           "shirtNumber": 9,
+          "overallRating": null,
           "stats": {
             "minutes_played": 1,
             "goals": 0,
@@ -4046,6 +4234,7 @@
           "id": "MAR-26",
           "position": "1",
           "shirtNumber": 26,
+          "overallRating": 5.9,
           "stats": {
             "minutes_played": 10,
             "goals": 0,
@@ -4066,6 +4255,7 @@
           "id": "MAR-8",
           "position": "2",
           "shirtNumber": 8,
+          "overallRating": 7.3,
           "stats": {
             "minutes_played": 65,
             "goals": 0,
@@ -4088,6 +4278,7 @@
           "id": "BRA-21",
           "position": "3",
           "shirtNumber": 21,
+          "overallRating": 6.5,
           "stats": {
             "minutes_played": 28,
             "goals": 0,
@@ -4110,6 +4301,7 @@
           "id": "MAR-11",
           "position": "2",
           "shirtNumber": 11,
+          "overallRating": 7.7,
           "stats": {
             "minutes_played": 89,
             "goals": 1,
@@ -4134,6 +4326,7 @@
           "id": "BRA-18",
           "position": "2",
           "shirtNumber": 18,
+          "overallRating": 6.1,
           "stats": {
             "minutes_played": 10,
             "goals": 0,
@@ -4156,6 +4349,7 @@
           "id": "MAR-18",
           "position": "1",
           "shirtNumber": 18,
+          "overallRating": 7.2,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -4177,6 +4371,7 @@
           "id": "MAR-24",
           "position": "2",
           "shirtNumber": 24,
+          "overallRating": 7.4,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -4201,6 +4396,7 @@
           "id": "BRA-25",
           "position": "3",
           "shirtNumber": 25,
+          "overallRating": 6.5,
           "stats": {
             "minutes_played": 62,
             "goals": 0,
@@ -4225,6 +4421,7 @@
           "id": "MAR-23",
           "position": "2",
           "shirtNumber": 23,
+          "overallRating": 7.6,
           "stats": {
             "minutes_played": 80,
             "goals": 0,
@@ -4249,6 +4446,7 @@
           "id": "MAR-7",
           "position": "3",
           "shirtNumber": 7,
+          "overallRating": 6.1,
           "stats": {
             "minutes_played": 25,
             "goals": 0,
@@ -4270,6 +4468,7 @@
           "id": "MAR-6",
           "position": "2",
           "shirtNumber": 6,
+          "overallRating": 7.1,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -4292,6 +4491,7 @@
           "id": "MAR-15",
           "position": "2",
           "shirtNumber": 15,
+          "overallRating": 6.2,
           "stats": {
             "minutes_played": 25,
             "goals": 0,
@@ -4314,6 +4514,7 @@
           "id": "MAR-21",
           "position": "3",
           "shirtNumber": 21,
+          "overallRating": 6.2,
           "stats": {
             "minutes_played": 10,
             "goals": 0,
@@ -4339,11 +4540,13 @@
       "finished": true,
       "homeTeam": {
         "id": "5934",
-        "code": "HAI"
+        "code": "HAI",
+        "overallRating": 6.5
       },
       "awayTeam": {
         "id": "8498",
-        "code": "SCO"
+        "code": "SCO",
+        "overallRating": 6.9
       },
       "score": {
         "home": null,
@@ -4359,6 +4562,7 @@
           "id": "HAI-1",
           "position": "0",
           "shirtNumber": 1,
+          "overallRating": 6.4,
           "stats": {
             "minutes_played": 90,
             "saves": 1,
@@ -4377,6 +4581,7 @@
           "id": "SCO-23",
           "position": "2",
           "shirtNumber": 23,
+          "overallRating": null,
           "stats": {
             "minutes_played": 7,
             "goals": 0,
@@ -4399,6 +4604,7 @@
           "id": "SCO-5",
           "position": "1",
           "shirtNumber": 5,
+          "overallRating": 6.8,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -4421,6 +4627,7 @@
           "id": "SCO-20",
           "position": "3",
           "shirtNumber": 20,
+          "overallRating": 6.8,
           "stats": {
             "minutes_played": 83,
             "goals": 0,
@@ -4445,6 +4652,7 @@
           "id": "SCO-7",
           "position": "3",
           "shirtNumber": 7,
+          "overallRating": 7.8,
           "stats": {
             "minutes_played": 83,
             "goals": 1,
@@ -4469,6 +4677,7 @@
           "id": "SCO-3",
           "position": "1",
           "shirtNumber": 3,
+          "overallRating": 7.3,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -4491,6 +4700,7 @@
           "id": "SCO-11",
           "position": "2",
           "shirtNumber": 11,
+          "overallRating": 6.4,
           "stats": {
             "minutes_played": 15,
             "goals": 0,
@@ -4512,6 +4722,7 @@
           "id": "HAI-4",
           "position": "1",
           "shirtNumber": 4,
+          "overallRating": 6.7,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -4536,6 +4747,7 @@
           "id": "SCO-10",
           "position": "3",
           "shirtNumber": 10,
+          "overallRating": 6.4,
           "stats": {
             "minutes_played": 75,
             "goals": 0,
@@ -4560,6 +4772,7 @@
           "id": "HAI-2",
           "position": "1",
           "shirtNumber": 2,
+          "overallRating": 6.4,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -4582,6 +4795,7 @@
           "id": "SCO-13",
           "position": "1",
           "shirtNumber": 13,
+          "overallRating": 6.8,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -4603,6 +4817,7 @@
           "id": "HAI-19",
           "position": "3",
           "shirtNumber": 19,
+          "overallRating": null,
           "stats": {
             "minutes_played": 5,
             "goals": 0,
@@ -4624,6 +4839,7 @@
           "id": "SCO-1",
           "position": "0",
           "shirtNumber": 1,
+          "overallRating": 7.7,
           "stats": {
             "minutes_played": 90,
             "saves": 2,
@@ -4642,6 +4858,7 @@
           "id": "SCO-9",
           "position": "3",
           "shirtNumber": 9,
+          "overallRating": 6.1,
           "stats": {
             "minutes_played": 15,
             "goals": 0,
@@ -4663,6 +4880,7 @@
           "id": "HAI-10",
           "position": "2",
           "shirtNumber": 10,
+          "overallRating": 7.3,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -4687,6 +4905,7 @@
           "id": "HAI-5",
           "position": "1",
           "shirtNumber": 5,
+          "overallRating": 6.9,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -4709,6 +4928,7 @@
           "id": "HAI-20",
           "position": "3",
           "shirtNumber": 20,
+          "overallRating": 6,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -4733,6 +4953,7 @@
           "id": "SCO-4",
           "position": "2",
           "shirtNumber": 4,
+          "overallRating": 6.8,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -4756,6 +4977,7 @@
           "id": "HAI-18",
           "position": "3",
           "shirtNumber": 18,
+          "overallRating": 5.9,
           "stats": {
             "minutes_played": 76,
             "goals": 0,
@@ -4780,6 +5002,7 @@
           "id": "SCO-19",
           "position": "2",
           "shirtNumber": 19,
+          "overallRating": 7.3,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -4802,6 +5025,7 @@
           "id": "SCO-2",
           "position": "1",
           "shirtNumber": 2,
+          "overallRating": 7.3,
           "stats": {
             "minutes_played": 75,
             "goals": 0,
@@ -4825,6 +5049,7 @@
           "id": "HAI-11",
           "position": "2",
           "shirtNumber": 11,
+          "overallRating": 6.5,
           "stats": {
             "minutes_played": 61,
             "goals": 0,
@@ -4849,6 +5074,7 @@
           "id": "SCO-22",
           "position": "1",
           "shirtNumber": 22,
+          "overallRating": 6.2,
           "stats": {
             "minutes_played": 15,
             "goals": 0,
@@ -4870,6 +5096,7 @@
           "id": "HAI-8",
           "position": "1",
           "shirtNumber": 8,
+          "overallRating": 7.1,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -4894,6 +5121,7 @@
           "id": "HAI-21",
           "position": "2",
           "shirtNumber": 21,
+          "overallRating": 6.2,
           "stats": {
             "minutes_played": 29,
             "goals": 0,
@@ -4918,6 +5146,7 @@
           "id": "HAI-15",
           "position": "3",
           "shirtNumber": 15,
+          "overallRating": 6.5,
           "stats": {
             "minutes_played": 85,
             "goals": 0,
@@ -4942,6 +5171,7 @@
           "id": "HAI-16",
           "position": "3",
           "shirtNumber": 16,
+          "overallRating": 6,
           "stats": {
             "minutes_played": 14,
             "goals": 0,
@@ -4963,6 +5193,7 @@
           "id": "SCO-17",
           "position": "3",
           "shirtNumber": 17,
+          "overallRating": 7,
           "stats": {
             "minutes_played": 75,
             "goals": 0,
@@ -4987,6 +5218,7 @@
           "id": "HAI-17",
           "position": "2",
           "shirtNumber": 17,
+          "overallRating": 7.3,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -5009,6 +5241,7 @@
           "id": "SCO-25",
           "position": "2",
           "shirtNumber": 25,
+          "overallRating": null,
           "stats": {
             "minutes_played": 7,
             "goals": 0,
@@ -5031,11 +5264,13 @@
       "finished": true,
       "homeTeam": {
         "id": "6716",
-        "code": "AUS"
+        "code": "AUS",
+        "overallRating": 7.2
       },
       "awayTeam": {
         "id": "6595",
-        "code": "TUR"
+        "code": "TUR",
+        "overallRating": 6.7
       },
       "score": {
         "home": null,
@@ -5051,6 +5286,7 @@
           "id": "AUS-16",
           "position": "1",
           "shirtNumber": 16,
+          "overallRating": null,
           "stats": {
             "minutes_played": 6,
             "goals": 0,
@@ -5071,6 +5307,7 @@
           "id": "TUR-14",
           "position": "1",
           "shirtNumber": 14,
+          "overallRating": 7,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -5095,6 +5332,7 @@
           "id": "TUR-10",
           "position": "2",
           "shirtNumber": 10,
+          "overallRating": 7.4,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -5120,6 +5358,7 @@
           "id": "AUS-22",
           "position": "2",
           "shirtNumber": 22,
+          "overallRating": null,
           "stats": {
             "minutes_played": 6,
             "goals": 0,
@@ -5141,6 +5380,7 @@
           "id": "AUS-6",
           "position": "1",
           "shirtNumber": 6,
+          "overallRating": 6.4,
           "stats": {
             "minutes_played": 16,
             "goals": 0,
@@ -5163,6 +5403,7 @@
           "id": "AUS-21",
           "position": "1",
           "shirtNumber": 21,
+          "overallRating": 7.3,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -5184,6 +5425,7 @@
           "id": "TUR-23",
           "position": "0",
           "shirtNumber": 23,
+          "overallRating": 6,
           "stats": {
             "minutes_played": 90,
             "saves": 2,
@@ -5202,6 +5444,7 @@
           "id": "AUS-19",
           "position": "1",
           "shirtNumber": 19,
+          "overallRating": 7.8,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -5225,6 +5468,7 @@
           "id": "TUR-5",
           "position": "2",
           "shirtNumber": 5,
+          "overallRating": null,
           "stats": {
             "minutes_played": 9,
             "goals": 0,
@@ -5247,6 +5491,7 @@
           "id": "TUR-20",
           "position": "1",
           "shirtNumber": 20,
+          "overallRating": 7.6,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -5271,6 +5516,7 @@
           "id": "AUS-13",
           "position": "2",
           "shirtNumber": 13,
+          "overallRating": 7.4,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -5293,6 +5539,7 @@
           "id": "TUR-3",
           "position": "1",
           "shirtNumber": 3,
+          "overallRating": 6.5,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -5318,6 +5565,7 @@
           "id": "TUR-19",
           "position": "2",
           "shirtNumber": 19,
+          "overallRating": 6.6,
           "stats": {
             "minutes_played": 28,
             "goals": 0,
@@ -5340,6 +5588,7 @@
           "id": "TUR-2",
           "position": "2",
           "shirtNumber": 2,
+          "overallRating": 6.4,
           "stats": {
             "minutes_played": 81,
             "goals": 0,
@@ -5364,6 +5613,7 @@
           "id": "AUS-8",
           "position": "2",
           "shirtNumber": 8,
+          "overallRating": 8,
           "stats": {
             "minutes_played": 90,
             "goals": 1,
@@ -5388,6 +5638,7 @@
           "id": "AUS-4",
           "position": "2",
           "shirtNumber": 4,
+          "overallRating": 7.1,
           "stats": {
             "minutes_played": 74,
             "goals": 0,
@@ -5412,6 +5663,7 @@
           "id": "TUR-21",
           "position": "3",
           "shirtNumber": 21,
+          "overallRating": 5.6,
           "stats": {
             "minutes_played": 45,
             "goals": 0,
@@ -5434,6 +5686,7 @@
           "id": "TUR-18",
           "position": "1",
           "shirtNumber": 18,
+          "overallRating": null,
           "stats": {
             "minutes_played": 9,
             "goals": 0,
@@ -5455,6 +5708,7 @@
           "id": "TUR-6",
           "position": "2",
           "shirtNumber": 6,
+          "overallRating": 6.9,
           "stats": {
             "minutes_played": 62,
             "goals": 0,
@@ -5479,6 +5733,7 @@
           "id": "TUR-7",
           "position": "3",
           "shirtNumber": 7,
+          "overallRating": 6.1,
           "stats": {
             "minutes_played": 85,
             "goals": 0,
@@ -5503,6 +5758,7 @@
           "id": "AUS-9",
           "position": "3",
           "shirtNumber": 9,
+          "overallRating": 6.6,
           "stats": {
             "minutes_played": 74,
             "goals": 0,
@@ -5527,6 +5783,7 @@
           "id": "TUR-16",
           "position": "2",
           "shirtNumber": 16,
+          "overallRating": 7,
           "stats": {
             "minutes_played": 81,
             "goals": 0,
@@ -5551,6 +5808,7 @@
           "id": "AUS-26",
           "position": "3",
           "shirtNumber": 26,
+          "overallRating": 6.2,
           "stats": {
             "minutes_played": 16,
             "goals": 0,
@@ -5572,6 +5830,7 @@
           "id": "AUS-23",
           "position": "3",
           "shirtNumber": 23,
+          "overallRating": 6.1,
           "stats": {
             "minutes_played": 29,
             "goals": 0,
@@ -5592,6 +5851,7 @@
           "id": "TUR-8",
           "position": "2",
           "shirtNumber": 8,
+          "overallRating": 7.4,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -5616,6 +5876,7 @@
           "id": "AUS-5",
           "position": "1",
           "shirtNumber": 5,
+          "overallRating": 6.8,
           "stats": {
             "minutes_played": 84,
             "goals": 0,
@@ -5640,6 +5901,7 @@
           "id": "AUS-3",
           "position": "1",
           "shirtNumber": 3,
+          "overallRating": 7.2,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -5664,6 +5926,7 @@
           "id": "AUS-17",
           "position": "2",
           "shirtNumber": 17,
+          "overallRating": 7.6,
           "stats": {
             "minutes_played": 61,
             "goals": 1,
@@ -5687,6 +5950,7 @@
           "id": "AUS-18",
           "position": "0",
           "shirtNumber": 18,
+          "overallRating": 8.9,
           "stats": {
             "minutes_played": 90,
             "saves": 8,
@@ -5705,6 +5969,7 @@
           "id": "TUR-9",
           "position": "3",
           "shirtNumber": 9,
+          "overallRating": null,
           "stats": {
             "minutes_played": 5,
             "goals": 0,
@@ -5725,6 +5990,7 @@
           "id": "TUR-11",
           "position": "2",
           "shirtNumber": 11,
+          "overallRating": 7.2,
           "stats": {
             "minutes_played": 45,
             "goals": 0,
@@ -5749,6 +6015,7 @@
           "id": "AUS-24",
           "position": "2",
           "shirtNumber": 24,
+          "overallRating": 8.1,
           "stats": {
             "minutes_played": 84,
             "goals": 0,
@@ -5774,11 +6041,13 @@
       "finished": true,
       "homeTeam": {
         "id": "8570",
-        "code": "GER"
+        "code": "GER",
+        "overallRating": 7.7
       },
       "awayTeam": {
         "id": "287981",
-        "code": "CUW"
+        "code": "CUW",
+        "overallRating": 5.9
       },
       "score": {
         "home": null,
@@ -5794,6 +6063,7 @@
           "id": "GER-1",
           "position": "0",
           "shirtNumber": 1,
+          "overallRating": 6.6,
           "stats": {
             "minutes_played": 90,
             "saves": 1,
@@ -5813,6 +6083,7 @@
           "id": "CUW-1",
           "position": "0",
           "shirtNumber": 1,
+          "overallRating": 4.1,
           "stats": {
             "minutes_played": 90,
             "saves": 4,
@@ -5831,6 +6102,7 @@
           "id": "CUW-10",
           "position": "2",
           "shirtNumber": 10,
+          "overallRating": 5.8,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -5855,6 +6127,7 @@
           "id": "GER-2",
           "position": "1",
           "shirtNumber": 2,
+          "overallRating": 6.3,
           "stats": {
             "minutes_played": 17,
             "goals": 0,
@@ -5876,6 +6149,7 @@
           "id": "CUW-9",
           "position": "3",
           "shirtNumber": 9,
+          "overallRating": 6,
           "stats": {
             "minutes_played": 65,
             "goals": 0,
@@ -5898,6 +6172,7 @@
           "id": "GER-8",
           "position": "2",
           "shirtNumber": 8,
+          "overallRating": 6,
           "stats": {
             "minutes_played": 17,
             "goals": 0,
@@ -5920,6 +6195,7 @@
           "id": "CUW-19",
           "position": "3",
           "shirtNumber": 19,
+          "overallRating": null,
           "stats": {
             "minutes_played": 7,
             "goals": 0,
@@ -5940,6 +6216,7 @@
           "id": "GER-6",
           "position": "2",
           "shirtNumber": 6,
+          "overallRating": 8.8,
           "stats": {
             "minutes_played": 83,
             "goals": 0,
@@ -5963,6 +6240,7 @@
           "id": "CUW-23",
           "position": "1",
           "shirtNumber": 23,
+          "overallRating": 4.1,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -5984,6 +6262,7 @@
           "id": "GER-4",
           "position": "1",
           "shirtNumber": 4,
+          "overallRating": 6.9,
           "stats": {
             "minutes_played": 73,
             "goals": 0,
@@ -6006,6 +6285,7 @@
           "id": "GER-19",
           "position": "3",
           "shirtNumber": 19,
+          "overallRating": 7.2,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -6030,6 +6310,7 @@
           "id": "CUW-7",
           "position": "2",
           "shirtNumber": 7,
+          "overallRating": 7.4,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -6054,6 +6335,7 @@
           "id": "GER-26",
           "position": "3",
           "shirtNumber": 26,
+          "overallRating": 8.8,
           "stats": {
             "minutes_played": 26,
             "goals": 1,
@@ -6078,6 +6360,7 @@
           "id": "GER-3",
           "position": "1",
           "shirtNumber": 3,
+          "overallRating": null,
           "stats": {
             "minutes_played": 7,
             "goals": 0,
@@ -6099,6 +6382,7 @@
           "id": "CUW-5",
           "position": "1",
           "shirtNumber": 5,
+          "overallRating": 4.9,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -6121,6 +6405,7 @@
           "id": "GER-7",
           "position": "3",
           "shirtNumber": 7,
+          "overallRating": 8.9,
           "stats": {
             "minutes_played": 90,
             "goals": 2,
@@ -6145,6 +6430,7 @@
           "id": "CUW-21",
           "position": "2",
           "shirtNumber": 21,
+          "overallRating": 7,
           "stats": {
             "minutes_played": 83,
             "goals": 0,
@@ -6169,6 +6455,7 @@
           "id": "CUW-18",
           "position": "1",
           "shirtNumber": 18,
+          "overallRating": 5.3,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -6190,6 +6477,7 @@
           "id": "GER-22",
           "position": "1",
           "shirtNumber": 22,
+          "overallRating": 6.3,
           "stats": {
             "minutes_played": 17,
             "goals": 0,
@@ -6213,6 +6501,7 @@
           "id": "GER-23",
           "position": "2",
           "shirtNumber": 23,
+          "overallRating": 8.6,
           "stats": {
             "minutes_played": 73,
             "goals": 1,
@@ -6237,6 +6526,7 @@
           "id": "GER-15",
           "position": "1",
           "shirtNumber": 15,
+          "overallRating": 8.9,
           "stats": {
             "minutes_played": 90,
             "goals": 1,
@@ -6261,6 +6551,7 @@
           "id": "CUW-12",
           "position": "3",
           "shirtNumber": 12,
+          "overallRating": 6.6,
           "stats": {
             "minutes_played": 45,
             "goals": 0,
@@ -6285,6 +6576,7 @@
           "id": "GER-17",
           "position": "3",
           "shirtNumber": 17,
+          "overallRating": 8.4,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -6309,6 +6601,7 @@
           "id": "GER-10",
           "position": "2",
           "shirtNumber": 10,
+          "overallRating": 8.3,
           "stats": {
             "minutes_played": 64,
             "goals": 1,
@@ -6333,6 +6626,7 @@
           "id": "CUW-16",
           "position": "3",
           "shirtNumber": 16,
+          "overallRating": 5.8,
           "stats": {
             "minutes_played": 25,
             "goals": 0,
@@ -6355,6 +6649,7 @@
           "id": "CUW-11",
           "position": "3",
           "shirtNumber": 11,
+          "overallRating": 6.4,
           "stats": {
             "minutes_played": 45,
             "goals": 0,
@@ -6377,6 +6672,7 @@
           "id": "CUW-8",
           "position": "2",
           "shirtNumber": 8,
+          "overallRating": 8.1,
           "stats": {
             "minutes_played": 90,
             "goals": 1,
@@ -6401,6 +6697,7 @@
           "id": "CUW-24",
           "position": "1",
           "shirtNumber": 24,
+          "overallRating": 4.8,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -6422,6 +6719,7 @@
           "id": "GER-18",
           "position": "1",
           "shirtNumber": 18,
+          "overallRating": 8.5,
           "stats": {
             "minutes_played": 73,
             "goals": 1,
@@ -6447,6 +6745,7 @@
           "id": "GER-5",
           "position": "2",
           "shirtNumber": 5,
+          "overallRating": 7.6,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -6473,11 +6772,13 @@
       "finished": true,
       "homeTeam": {
         "id": "6708",
-        "code": "NED"
+        "code": "NED",
+        "overallRating": 7
       },
       "awayTeam": {
         "id": "6715",
-        "code": "JPN"
+        "code": "JPN",
+        "overallRating": 6.7
       },
       "score": {
         "home": null,
@@ -6493,6 +6794,7 @@
           "id": "NED-4",
           "position": "1",
           "shirtNumber": 4,
+          "overallRating": 7.9,
           "stats": {
             "minutes_played": 90,
             "goals": 1,
@@ -6517,6 +6819,7 @@
           "id": "NED-10",
           "position": "3",
           "shirtNumber": 10,
+          "overallRating": 6.1,
           "stats": {
             "minutes_played": 20,
             "goals": 0,
@@ -6538,6 +6841,7 @@
           "id": "NED-5",
           "position": "1",
           "shirtNumber": 5,
+          "overallRating": null,
           "stats": {
             "minutes_played": 9,
             "goals": 0,
@@ -6558,6 +6862,7 @@
           "id": "JPN-3",
           "position": "1",
           "shirtNumber": 3,
+          "overallRating": 6.7,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -6580,6 +6885,7 @@
           "id": "NED-22",
           "position": "2",
           "shirtNumber": 22,
+          "overallRating": 6.7,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -6602,6 +6908,7 @@
           "id": "JPN-14",
           "position": "3",
           "shirtNumber": 14,
+          "overallRating": 6.7,
           "stats": {
             "minutes_played": 24,
             "goals": 0,
@@ -6624,6 +6931,7 @@
           "id": "JPN-15",
           "position": "2",
           "shirtNumber": 15,
+          "overallRating": 8.1,
           "stats": {
             "minutes_played": 90,
             "goals": 1,
@@ -6648,6 +6956,7 @@
           "id": "JPN-10",
           "position": "2",
           "shirtNumber": 10,
+          "overallRating": 6.4,
           "stats": {
             "minutes_played": 75,
             "goals": 0,
@@ -6670,6 +6979,7 @@
           "id": "NED-21",
           "position": "2",
           "shirtNumber": 21,
+          "overallRating": 7.9,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -6692,6 +7002,7 @@
           "id": "NED-18",
           "position": "3",
           "shirtNumber": 18,
+          "overallRating": 6.8,
           "stats": {
             "minutes_played": 70,
             "goals": 0,
@@ -6715,6 +7026,7 @@
           "id": "JPN-22",
           "position": "1",
           "shirtNumber": 22,
+          "overallRating": 6.4,
           "stats": {
             "minutes_played": 15,
             "goals": 0,
@@ -6737,6 +7049,7 @@
           "id": "JPN-19",
           "position": "3",
           "shirtNumber": 19,
+          "overallRating": 6.8,
           "stats": {
             "minutes_played": 15,
             "goals": 0,
@@ -6759,6 +7072,7 @@
           "id": "JPN-11",
           "position": "3",
           "shirtNumber": 11,
+          "overallRating": 6,
           "stats": {
             "minutes_played": 66,
             "goals": 0,
@@ -6781,6 +7095,7 @@
           "id": "NED-11",
           "position": "3",
           "shirtNumber": 11,
+          "overallRating": 7.2,
           "stats": {
             "minutes_played": 85,
             "goals": 0,
@@ -6805,6 +7120,7 @@
           "id": "JPN-8",
           "position": "3",
           "shirtNumber": 8,
+          "overallRating": 7.2,
           "stats": {
             "minutes_played": 75,
             "goals": 0,
@@ -6829,6 +7145,7 @@
           "id": "JPN-21",
           "position": "1",
           "shirtNumber": 21,
+          "overallRating": 5.8,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -6853,6 +7170,7 @@
           "id": "NED-20",
           "position": "2",
           "shirtNumber": 20,
+          "overallRating": 6.1,
           "stats": {
             "minutes_played": 20,
             "goals": 0,
@@ -6877,6 +7195,7 @@
           "id": "NED-14",
           "position": "2",
           "shirtNumber": 14,
+          "overallRating": 6.8,
           "stats": {
             "minutes_played": 70,
             "goals": 0,
@@ -6899,6 +7218,7 @@
           "id": "JPN-13",
           "position": "3",
           "shirtNumber": 13,
+          "overallRating": 8.1,
           "stats": {
             "minutes_played": 90,
             "goals": 1,
@@ -6923,6 +7243,7 @@
           "id": "JPN-2",
           "position": "1",
           "shirtNumber": 2,
+          "overallRating": 6.5,
           "stats": {
             "minutes_played": 15,
             "goals": 0,
@@ -6947,6 +7268,7 @@
           "id": "NED-19",
           "position": "3",
           "shirtNumber": 19,
+          "overallRating": null,
           "stats": {
             "minutes_played": 5,
             "goals": 0,
@@ -6967,6 +7289,7 @@
           "id": "NED-24",
           "position": "3",
           "shirtNumber": 24,
+          "overallRating": 7.8,
           "stats": {
             "minutes_played": 70,
             "goals": 1,
@@ -6991,6 +7314,7 @@
           "id": "JPN-18",
           "position": "3",
           "shirtNumber": 18,
+          "overallRating": 6.5,
           "stats": {
             "minutes_played": 84,
             "goals": 0,
@@ -7014,6 +7338,7 @@
           "id": "NED-8",
           "position": "2",
           "shirtNumber": 8,
+          "overallRating": 8.4,
           "stats": {
             "minutes_played": 81,
             "goals": 0,
@@ -7036,6 +7361,7 @@
           "id": "NED-26",
           "position": "2",
           "shirtNumber": 26,
+          "overallRating": 6.5,
           "stats": {
             "minutes_played": 20,
             "goals": 0,
@@ -7058,6 +7384,7 @@
           "id": "NED-6",
           "position": "1",
           "shirtNumber": 6,
+          "overallRating": 7.3,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -7082,6 +7409,7 @@
           "id": "JPN-16",
           "position": "1",
           "shirtNumber": 16,
+          "overallRating": 6.6,
           "stats": {
             "minutes_played": 75,
             "goals": 0,
@@ -7104,6 +7432,7 @@
           "id": "JPN-24",
           "position": "2",
           "shirtNumber": 24,
+          "overallRating": 6.2,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -7126,6 +7455,7 @@
           "id": "JPN-1",
           "position": "0",
           "shirtNumber": 1,
+          "overallRating": 6.7,
           "stats": {
             "minutes_played": 90,
             "saves": 4,
@@ -7144,6 +7474,7 @@
           "id": "NED-15",
           "position": "1",
           "shirtNumber": 15,
+          "overallRating": 6.6,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -7168,6 +7499,7 @@
           "id": "NED-1",
           "position": "0",
           "shirtNumber": 1,
+          "overallRating": 5.8,
           "stats": {
             "minutes_played": 90,
             "saves": 1,
@@ -7186,6 +7518,7 @@
           "id": "JPN-26",
           "position": "3",
           "shirtNumber": 26,
+          "overallRating": null,
           "stats": {
             "minutes_played": 6,
             "goals": 0,
@@ -7208,11 +7541,13 @@
       "finished": true,
       "homeTeam": {
         "id": "6709",
-        "code": "CIV"
+        "code": "CIV",
+        "overallRating": 7.2
       },
       "awayTeam": {
         "id": "6707",
-        "code": "ECU"
+        "code": "ECU",
+        "overallRating": 6.6
       },
       "score": {
         "home": null,
@@ -7228,6 +7563,7 @@
           "id": "ECU-1",
           "position": "0",
           "shirtNumber": 1,
+          "overallRating": 6.5,
           "stats": {
             "minutes_played": 90,
             "expected_assists_xa": 0.01,
@@ -7247,6 +7583,7 @@
           "id": "ECU-13",
           "position": "3",
           "shirtNumber": 13,
+          "overallRating": 6.6,
           "stats": {
             "minutes_played": 77,
             "goals": 0,
@@ -7271,6 +7608,7 @@
           "id": "CIV-19",
           "position": "2",
           "shirtNumber": 19,
+          "overallRating": 6.7,
           "stats": {
             "minutes_played": 77,
             "goals": 0,
@@ -7295,6 +7633,7 @@
           "id": "CIV-8",
           "position": "2",
           "shirtNumber": 8,
+          "overallRating": 7.5,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -7317,6 +7656,7 @@
           "id": "CIV-6",
           "position": "2",
           "shirtNumber": 6,
+          "overallRating": 6.9,
           "stats": {
             "minutes_played": 77,
             "goals": 0,
@@ -7341,6 +7681,7 @@
           "id": "CIV-3",
           "position": "1",
           "shirtNumber": 3,
+          "overallRating": 7,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -7365,6 +7706,7 @@
           "id": "CIV-18",
           "position": "2",
           "shirtNumber": 18,
+          "overallRating": 6.3,
           "stats": {
             "minutes_played": 13,
             "goals": 0,
@@ -7386,6 +7728,7 @@
           "id": "ECU-21",
           "position": "2",
           "shirtNumber": 21,
+          "overallRating": 6.9,
           "stats": {
             "minutes_played": 62,
             "goals": 0,
@@ -7408,6 +7751,7 @@
           "id": "ECU-9",
           "position": "3",
           "shirtNumber": 9,
+          "overallRating": 6.9,
           "stats": {
             "minutes_played": 62,
             "goals": 0,
@@ -7432,6 +7776,7 @@
           "id": "ECU-17",
           "position": "2",
           "shirtNumber": 17,
+          "overallRating": 6,
           "stats": {
             "minutes_played": 28,
             "goals": 0,
@@ -7452,6 +7797,7 @@
           "id": "CIV-1",
           "position": "0",
           "shirtNumber": 1,
+          "overallRating": 7.6,
           "stats": {
             "minutes_played": 90,
             "saves": 1,
@@ -7471,6 +7817,7 @@
           "id": "ECU-19",
           "position": "3",
           "shirtNumber": 19,
+          "overallRating": 7.3,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -7495,6 +7842,7 @@
           "id": "CIV-7",
           "position": "1",
           "shirtNumber": 7,
+          "overallRating": null,
           "stats": {
             "minutes_played": 1,
             "goals": 0,
@@ -7515,6 +7863,7 @@
           "id": "CIV-5",
           "position": "1",
           "shirtNumber": 5,
+          "overallRating": 8.3,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -7539,6 +7888,7 @@
           "id": "ECU-25",
           "position": "1",
           "shirtNumber": 25,
+          "overallRating": 5.8,
           "stats": {
             "minutes_played": 28,
             "goals": 0,
@@ -7559,6 +7909,7 @@
           "id": "CIV-15",
           "position": "2",
           "shirtNumber": 15,
+          "overallRating": 8.1,
           "stats": {
             "minutes_played": 34,
             "goals": 1,
@@ -7583,6 +7934,7 @@
           "id": "ECU-15",
           "position": "2",
           "shirtNumber": 15,
+          "overallRating": 7.3,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -7608,6 +7960,7 @@
           "id": "CIV-20",
           "position": "1",
           "shirtNumber": 20,
+          "overallRating": 7.7,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -7630,6 +7983,7 @@
           "id": "ECU-3",
           "position": "1",
           "shirtNumber": 3,
+          "overallRating": 6.5,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -7654,6 +8008,7 @@
           "id": "ECU-23",
           "position": "2",
           "shirtNumber": 23,
+          "overallRating": 6.9,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -7678,6 +8033,7 @@
           "id": "ECU-6",
           "position": "1",
           "shirtNumber": 6,
+          "overallRating": 6.9,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -7699,6 +8055,7 @@
           "id": "CIV-9",
           "position": "3",
           "shirtNumber": 9,
+          "overallRating": 6.3,
           "stats": {
             "minutes_played": 34,
             "goals": 0,
@@ -7720,6 +8077,7 @@
           "id": "CIV-12",
           "position": "3",
           "shirtNumber": 12,
+          "overallRating": 6.6,
           "stats": {
             "minutes_played": 56,
             "goals": 0,
@@ -7744,6 +8102,7 @@
           "id": "ECU-14",
           "position": "3",
           "shirtNumber": 14,
+          "overallRating": 6.6,
           "stats": {
             "minutes_played": 56,
             "goals": 0,
@@ -7768,6 +8127,7 @@
           "id": "ECU-20",
           "position": "3",
           "shirtNumber": 20,
+          "overallRating": 6.1,
           "stats": {
             "minutes_played": 34,
             "goals": 0,
@@ -7790,6 +8150,7 @@
           "id": "ECU-4",
           "position": "1",
           "shirtNumber": 4,
+          "overallRating": 6.9,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -7814,6 +8175,7 @@
           "id": "CIV-17",
           "position": "1",
           "shirtNumber": 17,
+          "overallRating": 7.6,
           "stats": {
             "minutes_played": 89,
             "goals": 0,
@@ -7836,6 +8198,7 @@
           "id": "ECU-11",
           "position": "3",
           "shirtNumber": 11,
+          "overallRating": 5.7,
           "stats": {
             "minutes_played": 13,
             "goals": 0,
@@ -7858,6 +8221,7 @@
           "id": "CIV-24",
           "position": "3",
           "shirtNumber": 24,
+          "overallRating": 6.2,
           "stats": {
             "minutes_played": 56,
             "goals": 0,
@@ -7880,6 +8244,7 @@
           "id": "CIV-26",
           "position": "2",
           "shirtNumber": 26,
+          "overallRating": 6.6,
           "stats": {
             "minutes_played": 13,
             "goals": 0,
@@ -7904,6 +8269,7 @@
           "id": "CIV-11",
           "position": "3",
           "shirtNumber": 11,
+          "overallRating": 8.3,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -7931,11 +8297,13 @@
       "finished": true,
       "homeTeam": {
         "id": "8520",
-        "code": "SWE"
+        "code": "SWE",
+        "overallRating": 7.3
       },
       "awayTeam": {
         "id": "6719",
-        "code": "TUN"
+        "code": "TUN",
+        "overallRating": 5.7
       },
       "score": {
         "home": null,
@@ -7951,6 +8319,7 @@
           "id": "SWE-23",
           "position": "0",
           "shirtNumber": 23,
+          "overallRating": 6.3,
           "stats": {
             "minutes_played": 90,
             "saves": 1,
@@ -7969,6 +8338,7 @@
           "id": "SWE-3",
           "position": "1",
           "shirtNumber": 3,
+          "overallRating": 7,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -7993,6 +8363,7 @@
           "id": "TUN-13",
           "position": "2",
           "shirtNumber": 13,
+          "overallRating": 5.7,
           "stats": {
             "minutes_played": 83,
             "goals": 0,
@@ -8016,6 +8387,7 @@
           "id": "SWE-16",
           "position": "2",
           "shirtNumber": 16,
+          "overallRating": 6.9,
           "stats": {
             "minutes_played": 84,
             "goals": 0,
@@ -8037,6 +8409,7 @@
           "id": "TUN-2",
           "position": "1",
           "shirtNumber": 2,
+          "overallRating": 4.6,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -8059,6 +8432,7 @@
           "id": "TUN-17",
           "position": "2",
           "shirtNumber": 17,
+          "overallRating": 5.8,
           "stats": {
             "minutes_played": 72,
             "goals": 0,
@@ -8081,6 +8455,7 @@
           "id": "SWE-19",
           "position": "2",
           "shirtNumber": 19,
+          "overallRating": null,
           "stats": {
             "minutes_played": 6,
             "goals": 1,
@@ -8103,6 +8478,7 @@
           "id": "SWE-17",
           "position": "3",
           "shirtNumber": 17,
+          "overallRating": 8.7,
           "stats": {
             "minutes_played": 90,
             "goals": 1,
@@ -8128,6 +8504,7 @@
           "id": "SWE-9",
           "position": "3",
           "shirtNumber": 9,
+          "overallRating": 8.8,
           "stats": {
             "minutes_played": 89,
             "goals": 1,
@@ -8153,6 +8530,7 @@
           "id": "SWE-5",
           "position": "1",
           "shirtNumber": 5,
+          "overallRating": 7.2,
           "stats": {
             "minutes_played": 65,
             "goals": 0,
@@ -8175,6 +8553,7 @@
           "id": "TUN-20",
           "position": "1",
           "shirtNumber": 20,
+          "overallRating": 5.4,
           "stats": {
             "minutes_played": 72,
             "goals": 0,
@@ -8197,6 +8576,7 @@
           "id": "TUN-19",
           "position": "3",
           "shirtNumber": 19,
+          "overallRating": null,
           "stats": {
             "minutes_played": 6,
             "goals": 0,
@@ -8218,6 +8598,7 @@
           "id": "TUN-3",
           "position": "1",
           "shirtNumber": 3,
+          "overallRating": 5.4,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -8241,6 +8622,7 @@
           "id": "SWE-2",
           "position": "1",
           "shirtNumber": 2,
+          "overallRating": 6.7,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -8263,6 +8645,7 @@
           "id": "TUN-26",
           "position": "3",
           "shirtNumber": 26,
+          "overallRating": 5.8,
           "stats": {
             "minutes_played": 18,
             "goals": 0,
@@ -8284,6 +8667,7 @@
           "id": "SWE-10",
           "position": "2",
           "shirtNumber": 10,
+          "overallRating": 6.7,
           "stats": {
             "minutes_played": 65,
             "goals": 0,
@@ -8306,6 +8690,7 @@
           "id": "SWE-4",
           "position": "1",
           "shirtNumber": 4,
+          "overallRating": 7.1,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -8327,6 +8712,7 @@
           "id": "SWE-21",
           "position": "2",
           "shirtNumber": 21,
+          "overallRating": 6.9,
           "stats": {
             "minutes_played": 89,
             "goals": 0,
@@ -8349,6 +8735,7 @@
           "id": "TUN-7",
           "position": "2",
           "shirtNumber": 7,
+          "overallRating": 6.2,
           "stats": {
             "minutes_played": 18,
             "goals": 0,
@@ -8372,6 +8759,7 @@
           "id": "SWE-11",
           "position": "3",
           "shirtNumber": 11,
+          "overallRating": null,
           "stats": {
             "minutes_played": 1,
             "goals": 0,
@@ -8392,6 +8780,7 @@
           "id": "TUN-25",
           "position": "2",
           "shirtNumber": 25,
+          "overallRating": 6.4,
           "stats": {
             "minutes_played": 84,
             "goals": 0,
@@ -8414,6 +8803,7 @@
           "id": "TUN-10",
           "position": "2",
           "shirtNumber": 10,
+          "overallRating": 8,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -8438,6 +8828,7 @@
           "id": "TUN-15",
           "position": "2",
           "shirtNumber": 15,
+          "overallRating": 6.5,
           "stats": {
             "minutes_played": 18,
             "goals": 0,
@@ -8459,6 +8850,7 @@
           "id": "TUN-21",
           "position": "1",
           "shirtNumber": 21,
+          "overallRating": 6,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -8481,6 +8873,7 @@
           "id": "TUN-4",
           "position": "1",
           "shirtNumber": 4,
+          "overallRating": 6.1,
           "stats": {
             "minutes_played": 90,
             "goals": 1,
@@ -8505,6 +8898,7 @@
           "id": "SWE-18",
           "position": "2",
           "shirtNumber": 18,
+          "overallRating": 8.9,
           "stats": {
             "minutes_played": 90,
             "goals": 2,
@@ -8529,6 +8923,7 @@
           "id": "SWE-8",
           "position": "2",
           "shirtNumber": 8,
+          "overallRating": null,
           "stats": {
             "minutes_played": 1,
             "goals": 0,
@@ -8549,6 +8944,7 @@
           "id": "TUN-11",
           "position": "2",
           "shirtNumber": 11,
+          "overallRating": null,
           "stats": {
             "minutes_played": 7,
             "goals": 0,
@@ -8569,6 +8965,7 @@
           "id": "SWE-24",
           "position": "2",
           "shirtNumber": 24,
+          "overallRating": 6.2,
           "stats": {
             "minutes_played": 25,
             "goals": 0,
@@ -8591,6 +8988,7 @@
           "id": "TUN-8",
           "position": "3",
           "shirtNumber": 8,
+          "overallRating": 6.3,
           "stats": {
             "minutes_played": 72,
             "goals": 0,
@@ -8615,6 +9013,7 @@
           "id": "SWE-7",
           "position": "2",
           "shirtNumber": 7,
+          "overallRating": 7.4,
           "stats": {
             "minutes_played": 25,
             "goals": 0,
@@ -8638,6 +9037,7 @@
           "id": "TUN-1",
           "position": "0",
           "shirtNumber": 1,
+          "overallRating": 1.9,
           "stats": {
             "minutes_played": 90,
             "saves": 1,
@@ -8658,11 +9058,13 @@
       "finished": true,
       "homeTeam": {
         "id": "6720",
-        "code": "ESP"
+        "code": "ESP",
+        "overallRating": 7.3
       },
       "awayTeam": {
         "id": "5888",
-        "code": "CPV"
+        "code": "CPV",
+        "overallRating": 6.8
       },
       "score": {
         "home": null,
@@ -8678,6 +9080,7 @@
           "id": "CPV-20",
           "position": "3",
           "shirtNumber": 20,
+          "overallRating": 6.5,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -8701,6 +9104,7 @@
           "id": "CPV-4",
           "position": "1",
           "shirtNumber": 4,
+          "overallRating": 7.1,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -8722,6 +9126,7 @@
           "id": "ESP-14",
           "position": "1",
           "shirtNumber": 14,
+          "overallRating": 7.5,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -8746,6 +9151,7 @@
           "id": "CPV-1",
           "position": "0",
           "shirtNumber": 1,
+          "overallRating": 9,
           "stats": {
             "minutes_played": 90,
             "saves": 7,
@@ -8765,6 +9171,7 @@
           "id": "CPV-22",
           "position": "1",
           "shirtNumber": 22,
+          "overallRating": 6.5,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -8788,6 +9195,7 @@
           "id": "CPV-3",
           "position": "1",
           "shirtNumber": 3,
+          "overallRating": 7.8,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -8811,6 +9219,7 @@
           "id": "ESP-6",
           "position": "2",
           "shirtNumber": 6,
+          "overallRating": 6.7,
           "stats": {
             "minutes_played": 19,
             "goals": 0,
@@ -8835,6 +9244,7 @@
           "id": "ESP-5",
           "position": "1",
           "shirtNumber": 5,
+          "overallRating": 7.9,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -8857,6 +9267,7 @@
           "id": "ESP-8",
           "position": "2",
           "shirtNumber": 8,
+          "overallRating": 7.5,
           "stats": {
             "minutes_played": 71,
             "goals": 0,
@@ -8881,6 +9292,7 @@
           "id": "ESP-10",
           "position": "2",
           "shirtNumber": 10,
+          "overallRating": null,
           "stats": {
             "minutes_played": 9,
             "goals": 0,
@@ -8902,6 +9314,7 @@
           "id": "ESP-23",
           "position": "0",
           "shirtNumber": 23,
+          "overallRating": 7.4,
           "stats": {
             "minutes_played": 90,
             "saves": 1,
@@ -8920,6 +9333,7 @@
           "id": "CPV-15",
           "position": "2",
           "shirtNumber": 15,
+          "overallRating": 6,
           "stats": {
             "minutes_played": 61,
             "goals": 0,
@@ -8940,6 +9354,7 @@
           "id": "CPV-21",
           "position": "3",
           "shirtNumber": 21,
+          "overallRating": 6.1,
           "stats": {
             "minutes_played": 29,
             "goals": 0,
@@ -8961,6 +9376,7 @@
           "id": "ESP-16",
           "position": "2",
           "shirtNumber": 16,
+          "overallRating": 7.8,
           "stats": {
             "minutes_played": 87,
             "goals": 0,
@@ -8985,6 +9401,7 @@
           "id": "ESP-21",
           "position": "3",
           "shirtNumber": 21,
+          "overallRating": 6.2,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -9009,6 +9426,7 @@
           "id": "CPV-10",
           "position": "2",
           "shirtNumber": 10,
+          "overallRating": 7.2,
           "stats": {
             "minutes_played": 79,
             "goals": 0,
@@ -9030,6 +9448,7 @@
           "id": "CPV-7",
           "position": "3",
           "shirtNumber": 7,
+          "overallRating": 7,
           "stats": {
             "minutes_played": 61,
             "goals": 0,
@@ -9053,6 +9472,7 @@
           "id": "CPV-14",
           "position": "2",
           "shirtNumber": 14,
+          "overallRating": 6.6,
           "stats": {
             "minutes_played": 29,
             "goals": 0,
@@ -9073,6 +9493,7 @@
           "id": "ESP-24",
           "position": "1",
           "shirtNumber": 24,
+          "overallRating": 7.4,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -9098,6 +9519,7 @@
           "id": "CPV-17",
           "position": "3",
           "shirtNumber": 17,
+          "overallRating": 5.9,
           "stats": {
             "minutes_played": 29,
             "goals": 0,
@@ -9119,6 +9541,7 @@
           "id": "ESP-7",
           "position": "3",
           "shirtNumber": 7,
+          "overallRating": 6.6,
           "stats": {
             "minutes_played": 81,
             "goals": 0,
@@ -9143,6 +9566,7 @@
           "id": "CPV-6",
           "position": "2",
           "shirtNumber": 6,
+          "overallRating": 6.7,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -9166,6 +9590,7 @@
           "id": "ESP-20",
           "position": "2",
           "shirtNumber": 20,
+          "overallRating": 8.6,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -9191,6 +9616,7 @@
           "id": "CPV-18",
           "position": "3",
           "shirtNumber": 18,
+          "overallRating": 6.3,
           "stats": {
             "minutes_played": 11,
             "goals": 0,
@@ -9213,6 +9639,7 @@
           "id": "ESP-17",
           "position": "3",
           "shirtNumber": 17,
+          "overallRating": null,
           "stats": {
             "minutes_played": 3,
             "goals": 0,
@@ -9233,6 +9660,7 @@
           "id": "CPV-8",
           "position": "2",
           "shirtNumber": 8,
+          "overallRating": 6.6,
           "stats": {
             "minutes_played": 14,
             "goals": 0,
@@ -9254,6 +9682,7 @@
           "id": "ESP-9",
           "position": "2",
           "shirtNumber": 9,
+          "overallRating": 6.8,
           "stats": {
             "minutes_played": 71,
             "goals": 0,
@@ -9278,6 +9707,7 @@
           "id": "CPV-19",
           "position": "3",
           "shirtNumber": 19,
+          "overallRating": 6,
           "stats": {
             "minutes_played": 61,
             "goals": 0,
@@ -9301,6 +9731,7 @@
           "id": "CPV-13",
           "position": "2",
           "shirtNumber": 13,
+          "overallRating": 7.2,
           "stats": {
             "minutes_played": 76,
             "goals": 0,
@@ -9322,6 +9753,7 @@
           "id": "ESP-19",
           "position": "3",
           "shirtNumber": 19,
+          "overallRating": 6.4,
           "stats": {
             "minutes_played": 19,
             "goals": 0,
@@ -9346,6 +9778,7 @@
           "id": "ESP-22",
           "position": "1",
           "shirtNumber": 22,
+          "overallRating": 7.9,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -9372,11 +9805,13 @@
       "finished": true,
       "homeTeam": {
         "id": "8263",
-        "code": "BEL"
+        "code": "BEL",
+        "overallRating": 6.9
       },
       "awayTeam": {
         "id": "10255",
-        "code": "EGY"
+        "code": "EGY",
+        "overallRating": 6.9
       },
       "score": {
         "home": null,
@@ -9392,6 +9827,7 @@
           "id": "BEL-7",
           "position": "2",
           "shirtNumber": 7,
+          "overallRating": 7,
           "stats": {
             "minutes_played": 86,
             "goals": 0,
@@ -9416,6 +9852,7 @@
           "id": "BEL-1",
           "position": "0",
           "shirtNumber": 1,
+          "overallRating": 7,
           "stats": {
             "minutes_played": 90,
             "saves": 2,
@@ -9434,6 +9871,7 @@
           "id": "BEL-9",
           "position": "3",
           "shirtNumber": 9,
+          "overallRating": 5.8,
           "stats": {
             "minutes_played": 24,
             "goals": 0,
@@ -9457,6 +9895,7 @@
           "id": "BEL-20",
           "position": "2",
           "shirtNumber": 20,
+          "overallRating": null,
           "stats": {
             "minutes_played": 4,
             "goals": 0,
@@ -9478,6 +9917,7 @@
           "id": "BEL-15",
           "position": "1",
           "shirtNumber": 15,
+          "overallRating": 6.3,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -9502,6 +9942,7 @@
           "id": "EGY-10",
           "position": "3",
           "shirtNumber": 10,
+          "overallRating": 7.2,
           "stats": {
             "minutes_played": 76,
             "goals": 0,
@@ -9526,6 +9967,7 @@
           "id": "BEL-10",
           "position": "3",
           "shirtNumber": 10,
+          "overallRating": 6.7,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -9550,6 +9992,7 @@
           "id": "BEL-4",
           "position": "1",
           "shirtNumber": 4,
+          "overallRating": 7.6,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -9574,6 +10017,7 @@
           "id": "BEL-21",
           "position": "1",
           "shirtNumber": 21,
+          "overallRating": 7.5,
           "stats": {
             "minutes_played": 56,
             "goals": 0,
@@ -9596,6 +10040,7 @@
           "id": "BEL-8",
           "position": "2",
           "shirtNumber": 8,
+          "overallRating": 7.5,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -9621,6 +10066,7 @@
           "id": "EGY-5",
           "position": "1",
           "shirtNumber": 5,
+          "overallRating": 6.7,
           "stats": {
             "minutes_played": 19,
             "goals": 0,
@@ -9641,6 +10087,7 @@
           "id": "EGY-25",
           "position": "3",
           "shirtNumber": 25,
+          "overallRating": 5.7,
           "stats": {
             "minutes_played": 14,
             "goals": 0,
@@ -9664,6 +10111,7 @@
           "id": "EGY-2",
           "position": "1",
           "shirtNumber": 2,
+          "overallRating": 6.7,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -9686,6 +10134,7 @@
           "id": "EGY-15",
           "position": "1",
           "shirtNumber": 15,
+          "overallRating": null,
           "stats": {
             "minutes_played": 2,
             "goals": 0,
@@ -9708,6 +10157,7 @@
           "id": "EGY-3",
           "position": "1",
           "shirtNumber": 3,
+          "overallRating": 6.5,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -9732,6 +10182,7 @@
           "id": "EGY-22",
           "position": "3",
           "shirtNumber": 22,
+          "overallRating": 7.2,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -9756,6 +10207,7 @@
           "id": "EGY-13",
           "position": "1",
           "shirtNumber": 13,
+          "overallRating": 6.8,
           "stats": {
             "minutes_played": 88,
             "goals": 0,
@@ -9779,6 +10231,7 @@
           "id": "BEL-23",
           "position": "2",
           "shirtNumber": 23,
+          "overallRating": 6.8,
           "stats": {
             "minutes_played": 34,
             "goals": 0,
@@ -9802,6 +10255,7 @@
           "id": "EGY-17",
           "position": "2",
           "shirtNumber": 17,
+          "overallRating": 7.5,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -9824,6 +10278,7 @@
           "id": "BEL-11",
           "position": "3",
           "shirtNumber": 11,
+          "overallRating": 6.4,
           "stats": {
             "minutes_played": 86,
             "goals": 0,
@@ -9848,6 +10303,7 @@
           "id": "EGY-8",
           "position": "2",
           "shirtNumber": 8,
+          "overallRating": 7.9,
           "stats": {
             "minutes_played": 71,
             "goals": 1,
@@ -9872,6 +10328,7 @@
           "id": "EGY-14",
           "position": "2",
           "shirtNumber": 14,
+          "overallRating": 7.1,
           "stats": {
             "minutes_played": 88,
             "goals": 0,
@@ -9894,6 +10351,7 @@
           "id": "BEL-17",
           "position": "2",
           "shirtNumber": 17,
+          "overallRating": 7.5,
           "stats": {
             "minutes_played": 66,
             "goals": 0,
@@ -9916,6 +10374,7 @@
           "id": "BEL-5",
           "position": "1",
           "shirtNumber": 5,
+          "overallRating": 6.7,
           "stats": {
             "minutes_played": 34,
             "goals": 0,
@@ -9938,6 +10397,7 @@
           "id": "BEL-24",
           "position": "2",
           "shirtNumber": 24,
+          "overallRating": 6.9,
           "stats": {
             "minutes_played": 56,
             "goals": 0,
@@ -9960,6 +10420,7 @@
           "id": "EGY-23",
           "position": "0",
           "shirtNumber": 23,
+          "overallRating": 7.7,
           "stats": {
             "minutes_played": 90,
             "saves": 3,
@@ -9979,6 +10440,7 @@
           "id": "BEL-25",
           "position": "1",
           "shirtNumber": 25,
+          "overallRating": 7.4,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -10001,6 +10463,7 @@
           "id": "EGY-20",
           "position": "3",
           "shirtNumber": 20,
+          "overallRating": null,
           "stats": {
             "minutes_played": 2,
             "goals": 0,
@@ -10022,6 +10485,7 @@
           "id": "EGY-19",
           "position": "2",
           "shirtNumber": 19,
+          "overallRating": 6.9,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -10046,6 +10510,7 @@
           "id": "EGY-11",
           "position": "3",
           "shirtNumber": 11,
+          "overallRating": 6.1,
           "stats": {
             "minutes_played": 76,
             "goals": 0,
@@ -10070,6 +10535,7 @@
           "id": "BEL-26",
           "position": "3",
           "shirtNumber": 26,
+          "overallRating": null,
           "stats": {
             "minutes_played": 4,
             "goals": 0,
@@ -10091,6 +10557,7 @@
           "id": "EGY-9",
           "position": "3",
           "shirtNumber": 9,
+          "overallRating": 6.1,
           "stats": {
             "minutes_played": 14,
             "goals": 0,
@@ -10114,11 +10581,13 @@
       "finished": true,
       "homeTeam": {
         "id": "7795",
-        "code": "KSA"
+        "code": "KSA",
+        "overallRating": 6.8
       },
       "awayTeam": {
         "id": "5796",
-        "code": "URU"
+        "code": "URU",
+        "overallRating": 7
       },
       "score": {
         "home": null,
@@ -10134,6 +10603,7 @@
           "id": "URU-23",
           "position": "0",
           "shirtNumber": 23,
+          "overallRating": 5.6,
           "stats": {
             "minutes_played": 90,
             "saves": 2,
@@ -10152,6 +10622,7 @@
           "id": "KSA-10",
           "position": "3",
           "shirtNumber": 10,
+          "overallRating": 6.4,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -10176,6 +10647,7 @@
           "id": "URU-19",
           "position": "3",
           "shirtNumber": 19,
+          "overallRating": null,
           "stats": {
             "minutes_played": 1,
             "goals": 0,
@@ -10196,6 +10668,7 @@
           "id": "URU-13",
           "position": "1",
           "shirtNumber": 13,
+          "overallRating": 7.5,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -10220,6 +10693,7 @@
           "id": "KSA-21",
           "position": "0",
           "shirtNumber": 21,
+          "overallRating": 7.4,
           "stats": {
             "minutes_played": 90,
             "saves": 9,
@@ -10239,6 +10713,7 @@
           "id": "URU-6",
           "position": "2",
           "shirtNumber": 6,
+          "overallRating": 8,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -10263,6 +10738,7 @@
           "id": "KSA-3",
           "position": "1",
           "shirtNumber": 3,
+          "overallRating": null,
           "stats": {
             "minutes_played": 1,
             "goals": 0,
@@ -10284,6 +10760,7 @@
           "id": "KSA-18",
           "position": "2",
           "shirtNumber": 18,
+          "overallRating": null,
           "stats": {
             "minutes_played": 1,
             "goals": 0,
@@ -10304,6 +10781,7 @@
           "id": "URU-16",
           "position": "1",
           "shirtNumber": 16,
+          "overallRating": 7.9,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -10329,6 +10807,7 @@
           "id": "URU-8",
           "position": "2",
           "shirtNumber": 8,
+          "overallRating": 6.8,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -10353,6 +10832,7 @@
           "id": "URU-7",
           "position": "2",
           "shirtNumber": 7,
+          "overallRating": 7.2,
           "stats": {
             "minutes_played": 18,
             "goals": 0,
@@ -10377,6 +10857,7 @@
           "id": "KSA-15",
           "position": "2",
           "shirtNumber": 15,
+          "overallRating": 6.5,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -10400,6 +10881,7 @@
           "id": "URU-17",
           "position": "1",
           "shirtNumber": 17,
+          "overallRating": 6.4,
           "stats": {
             "minutes_played": 45,
             "goals": 0,
@@ -10422,6 +10904,7 @@
           "id": "URU-14",
           "position": "3",
           "shirtNumber": 14,
+          "overallRating": 6.6,
           "stats": {
             "minutes_played": 45,
             "goals": 0,
@@ -10446,6 +10929,7 @@
           "id": "KSA-9",
           "position": "3",
           "shirtNumber": 9,
+          "overallRating": 6.4,
           "stats": {
             "minutes_played": 89,
             "goals": 0,
@@ -10468,6 +10952,7 @@
           "id": "KSA-4",
           "position": "1",
           "shirtNumber": 4,
+          "overallRating": 8,
           "stats": {
             "minutes_played": 90,
             "goals": 1,
@@ -10492,6 +10977,7 @@
           "id": "KSA-5",
           "position": "1",
           "shirtNumber": 5,
+          "overallRating": 6.3,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -10513,6 +10999,7 @@
           "id": "KSA-6",
           "position": "2",
           "shirtNumber": 6,
+          "overallRating": 6.5,
           "stats": {
             "minutes_played": 27,
             "goals": 0,
@@ -10535,6 +11022,7 @@
           "id": "KSA-23",
           "position": "2",
           "shirtNumber": 23,
+          "overallRating": 7.3,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -10559,6 +11047,7 @@
           "id": "KSA-19",
           "position": "3",
           "shirtNumber": 19,
+          "overallRating": null,
           "stats": {
             "minutes_played": 1,
             "goals": 0,
@@ -10579,6 +11068,7 @@
           "id": "URU-18",
           "position": "3",
           "shirtNumber": 18,
+          "overallRating": null,
           "stats": {
             "minutes_played": 9,
             "goals": 0,
@@ -10603,6 +11093,7 @@
           "id": "URU-9",
           "position": "3",
           "shirtNumber": 9,
+          "overallRating": 6.3,
           "stats": {
             "minutes_played": 45,
             "goals": 0,
@@ -10626,6 +11117,7 @@
           "id": "KSA-12",
           "position": "2",
           "shirtNumber": 12,
+          "overallRating": 6.9,
           "stats": {
             "minutes_played": 89,
             "goals": 0,
@@ -10649,6 +11141,7 @@
           "id": "URU-3",
           "position": "1",
           "shirtNumber": 3,
+          "overallRating": 6.9,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -10673,6 +11166,7 @@
           "id": "URU-20",
           "position": "1",
           "shirtNumber": 20,
+          "overallRating": 8.1,
           "stats": {
             "minutes_played": 81,
             "goals": 1,
@@ -10697,6 +11191,7 @@
           "id": "URU-21",
           "position": "3",
           "shirtNumber": 21,
+          "overallRating": 6.9,
           "stats": {
             "minutes_played": 89,
             "goals": 0,
@@ -10721,6 +11216,7 @@
           "id": "URU-5",
           "position": "2",
           "shirtNumber": 5,
+          "overallRating": 7.1,
           "stats": {
             "minutes_played": 72,
             "goals": 0,
@@ -10745,6 +11241,7 @@
           "id": "URU-25",
           "position": "1",
           "shirtNumber": 25,
+          "overallRating": 6.7,
           "stats": {
             "minutes_played": 45,
             "goals": 0,
@@ -10768,6 +11265,7 @@
           "id": "KSA-24",
           "position": "1",
           "shirtNumber": 24,
+          "overallRating": 7,
           "stats": {
             "minutes_played": 89,
             "goals": 0,
@@ -10790,6 +11288,7 @@
           "id": "KSA-7",
           "position": "2",
           "shirtNumber": 7,
+          "overallRating": 6.8,
           "stats": {
             "minutes_played": 63,
             "goals": 0,
@@ -10812,6 +11311,7 @@
           "id": "KSA-13",
           "position": "1",
           "shirtNumber": 13,
+          "overallRating": null,
           "stats": {
             "minutes_played": 9,
             "goals": 0,
@@ -10832,6 +11332,7 @@
           "id": "KSA-26",
           "position": "2",
           "shirtNumber": 26,
+          "overallRating": 6.3,
           "stats": {
             "minutes_played": 81,
             "goals": 0,
@@ -10856,11 +11357,13 @@
       "finished": true,
       "homeTeam": {
         "id": "6711",
-        "code": "IRN"
+        "code": "IRN",
+        "overallRating": 6.8
       },
       "awayTeam": {
         "id": "5820",
-        "code": "NZL"
+        "code": "NZL",
+        "overallRating": 6.8
       },
       "score": {
         "home": null,
@@ -10876,6 +11379,7 @@
           "id": "IRN-3",
           "position": "1",
           "shirtNumber": 3,
+          "overallRating": 6.1,
           "stats": {
             "minutes_played": 25,
             "goals": 0,
@@ -10899,6 +11403,7 @@
           "id": "NZL-5",
           "position": "1",
           "shirtNumber": 5,
+          "overallRating": 6.3,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -10921,6 +11426,7 @@
           "id": "NZL-9",
           "position": "3",
           "shirtNumber": 9,
+          "overallRating": 8.2,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -10946,6 +11452,7 @@
           "id": "NZL-1",
           "position": "0",
           "shirtNumber": 1,
+          "overallRating": 6.1,
           "stats": {
             "minutes_played": 90,
             "expected_assists_xa": 0.01,
@@ -10967,6 +11474,7 @@
           "id": "NZL-2",
           "position": "1",
           "shirtNumber": 2,
+          "overallRating": 6.3,
           "stats": {
             "minutes_played": 78,
             "goals": 0,
@@ -10989,6 +11497,7 @@
           "id": "NZL-23",
           "position": "2",
           "shirtNumber": 23,
+          "overallRating": 5.8,
           "stats": {
             "minutes_played": 22,
             "goals": 0,
@@ -11010,6 +11519,7 @@
           "id": "IRN-6",
           "position": "2",
           "shirtNumber": 6,
+          "overallRating": 7.1,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -11034,6 +11544,7 @@
           "id": "IRN-1",
           "position": "0",
           "shirtNumber": 1,
+          "overallRating": 6.1,
           "stats": {
             "minutes_played": 90,
             "saves": 6,
@@ -11053,6 +11564,7 @@
           "id": "IRN-23",
           "position": "1",
           "shirtNumber": 23,
+          "overallRating": 8.6,
           "stats": {
             "minutes_played": 90,
             "goals": 1,
@@ -11078,6 +11590,7 @@
           "id": "IRN-11",
           "position": "3",
           "shirtNumber": 11,
+          "overallRating": 6.4,
           "stats": {
             "minutes_played": 37,
             "goals": 0,
@@ -11101,6 +11614,7 @@
           "id": "IRN-4",
           "position": "1",
           "shirtNumber": 4,
+          "overallRating": 6.4,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -11122,6 +11636,7 @@
           "id": "IRN-14",
           "position": "2",
           "shirtNumber": 14,
+          "overallRating": 7.3,
           "stats": {
             "minutes_played": 65,
             "goals": 0,
@@ -11146,6 +11661,7 @@
           "id": "IRN-9",
           "position": "3",
           "shirtNumber": 9,
+          "overallRating": 7.5,
           "stats": {
             "minutes_played": 80,
             "goals": 0,
@@ -11170,6 +11686,7 @@
           "id": "IRN-5",
           "position": "1",
           "shirtNumber": 5,
+          "overallRating": 6,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -11192,6 +11709,7 @@
           "id": "IRN-20",
           "position": "3",
           "shirtNumber": 20,
+          "overallRating": 7.2,
           "stats": {
             "minutes_played": 53,
             "goals": 0,
@@ -11216,6 +11734,7 @@
           "id": "NZL-10",
           "position": "2",
           "shirtNumber": 10,
+          "overallRating": 6.9,
           "stats": {
             "minutes_played": 89,
             "goals": 0,
@@ -11240,6 +11759,7 @@
           "id": "IRN-10",
           "position": "3",
           "shirtNumber": 10,
+          "overallRating": 6.1,
           "stats": {
             "minutes_played": 45,
             "goals": 0,
@@ -11264,6 +11784,7 @@
           "id": "NZL-6",
           "position": "2",
           "shirtNumber": 6,
+          "overallRating": 6.8,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -11286,6 +11807,7 @@
           "id": "NZL-20",
           "position": "2",
           "shirtNumber": 20,
+          "overallRating": 7.2,
           "stats": {
             "minutes_played": 68,
             "goals": 0,
@@ -11310,6 +11832,7 @@
           "id": "IRN-19",
           "position": "1",
           "shirtNumber": 19,
+          "overallRating": 6.4,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -11334,6 +11857,7 @@
           "id": "NZL-13",
           "position": "2",
           "shirtNumber": 13,
+          "overallRating": 6.3,
           "stats": {
             "minutes_played": 68,
             "goals": 0,
@@ -11358,6 +11882,7 @@
           "id": "NZL-24",
           "position": "1",
           "shirtNumber": 24,
+          "overallRating": 6.3,
           "stats": {
             "minutes_played": 12,
             "goals": 0,
@@ -11379,6 +11904,7 @@
           "id": "IRN-18",
           "position": "3",
           "shirtNumber": 18,
+          "overallRating": 6.3,
           "stats": {
             "minutes_played": 10,
             "goals": 0,
@@ -11401,6 +11927,7 @@
           "id": "NZL-11",
           "position": "3",
           "shirtNumber": 11,
+          "overallRating": 8.9,
           "stats": {
             "minutes_played": 90,
             "goals": 2,
@@ -11425,6 +11952,7 @@
           "id": "IRN-8",
           "position": "3",
           "shirtNumber": 8,
+          "overallRating": 8,
           "stats": {
             "minutes_played": 90,
             "goals": 1,
@@ -11449,6 +11977,7 @@
           "id": "NZL-8",
           "position": "2",
           "shirtNumber": 8,
+          "overallRating": 6.4,
           "stats": {
             "minutes_played": 89,
             "goals": 0,
@@ -11473,6 +12002,7 @@
           "id": "NZL-19",
           "position": "1",
           "shirtNumber": 19,
+          "overallRating": 5.9,
           "stats": {
             "minutes_played": 22,
             "goals": 0,
@@ -11493,6 +12023,7 @@
           "id": "NZL-16",
           "position": "1",
           "shirtNumber": 16,
+          "overallRating": 7.1,
           "stats": {
             "minutes_played": 90,
             "goals": 0,
@@ -11517,6 +12048,7 @@
           "id": "IRN-17",
           "position": "1",
           "shirtNumber": 17,
+          "overallRating": 6.5,
           "stats": {
             "minutes_played": 45,
             "goals": 0,
@@ -11541,6 +12073,7 @@
           "id": "NZL-21",
           "position": "3",
           "shirtNumber": 21,
+          "overallRating": null,
           "stats": {
             "minutes_played": 1,
             "goals": 0,
@@ -11562,6 +12095,7 @@
           "id": "NZL-4",
           "position": "1",
           "shirtNumber": 4,
+          "overallRating": null,
           "stats": {
             "minutes_played": 1,
             "goals": 0,

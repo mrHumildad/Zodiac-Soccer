@@ -1,7 +1,7 @@
 import { useState} from 'react';
-import getZodiacTeams from '../../logics/getZodiacTeams';
+import zodiacTeams from '../../data/updatedZTeams.json';
 const ZWC26 = ({data}) => {
-  const zTeams = getZodiacTeams(data);
+  const zTeams = zodiacTeams;
   const [selectedTeam, setSelectedTeam] = useState(null);
   console.log(zTeams);
   return (
