@@ -1079,7 +1079,7 @@
     ]
   },
   {
-    "name": "Bosnia & Herzegovina",
+    "name": "Bosnia and Herzegovina",
     "continent": "Europe",
     "flag_icon": "🇧🇦",
     "flag_unicode": "\\u{1F1E7}\\u{1F1E6}",
@@ -2396,6 +2396,7 @@
   },
   {
     "name": "Cape Verde",
+    "aliases": ["Cape Verde Islands"],
     "name_normalised": "Cabo Verde",
     "continent": "Africa",
     "flag_icon": "🇨🇻",
@@ -2835,6 +2836,8 @@
   },
   {
     "name": "Curaçao",
+    "name_normalised": "Curacao",
+    "aliases": ["Curaçao"],
     "continent": "North America",
     "flag_icon": "🇨🇼",
     "flag_unicode": "\\u{1F1E8}\\u{1F1FC}",
@@ -3053,7 +3056,7 @@
     ]
   },
   {
-    "name": "Czech Republic",
+    "name": "Czechia",
     "name_normalised": "Czechia",
     "continent": "Europe",
     "flag_icon": "🇨🇿",
@@ -9618,7 +9621,7 @@
     ]
   },
   {
-    "name": "Turkey",
+    "name": "Turkiye",
     "name_normalised": "Türkiye",
     "continent": "Europe",
     "flag_icon": "🇹🇷",

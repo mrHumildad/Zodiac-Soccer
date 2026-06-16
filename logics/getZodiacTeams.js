@@ -1,5 +1,5 @@
-import teams from '../data/teams.json';
-import zodiacsMetadata from '../data/zodiacs.json';
+import teams from '../data/teams.json' with { type: 'json' };
+import zodiacsMetadata from '../data/zodiacs.json' with { type: 'json' };
 
 const ZODIAC_ORDER = [
   'Aries', 'Taurus', 'Gemini', 'Cancer', 'Leo', 'Virgo',

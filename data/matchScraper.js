@@ -5,6 +5,48 @@ import { fileURLToPath } from 'node:url'
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const dataDir = path.join(__dirname, '..', 'data')
 
+const teams = JSON.parse(
+  fs.readFileSync(path.join(dataDir, 'teams.json'), 'utf8')
+)
+
+function normalizeKey(str) {
+  return String(str)
+    .replace(/[^a-zA-Z0-9]+/g, '_')
+    .replace(/^_+|_+$/g, '')
+    .toLowerCase()
+}
+
+const nameToFifaCode = new Map()
+
+for (const team of teams) {
+  const code = team.fifa_code
+
+  const add = (key) => {
+    if (key) {
+      nameToFifaCode.set(normalizeKey(key), code)
+    }
+  }
+
+  add(team.name)
+  add(team.name_normalised ?? team.name)
+  if (Array.isArray(team.aliases)) {
+    for (const alias of team.aliases) {
+      add(alias)
+    }
+  }
+}
+
+function getFifaCode(name) {
+  const code = nameToFifaCode.get(normalizeKey(name))
+
+  if (code === undefined || code === null) {
+    console.warn(`Missing FIFA code for team name: ${name}`)
+    return null
+  }
+
+  return code
+}
+
 const overviewURL =
   'https://www.fotmob.com/leagues/77/overview/world-cup'
 
@@ -77,11 +119,11 @@ function parseOverview(html) {
   }
 
   return matches
-    .filter((m) => !m.cancelled)
+    .filter((m) => m.status?.finished && !m.status?.cancelled)
     .map((m) => ({
       matchId: String(m.id),
-      home: m.home?.name,
-      away: m.away?.name,
+      home: getFifaCode(m.home?.name),
+      away: getFifaCode(m.away?.name),
       homeTeamId: m.home?.id,
       awayTeamId: m.away?.id,
       dateUTC: m.status?.utcTime,
@@ -89,13 +131,6 @@ function parseOverview(html) {
       round: m.round ?? null,
       group: m.group ?? null,
     }))
-}
-
-function normalizeKey(str) {
-  return String(str)
-    .replace(/[^a-zA-Z0-9]+/g, '_')
-    .replace(/^_+|_+$/g, '')
-    .toLowerCase()
 }
 
 function extractTeamStats(html) {
@@ -135,7 +170,7 @@ function extractTeamStats(html) {
   }
 }
 
-function normalizePlayer(player) {
+function normalizePlayer(player, fifaCode) {
   if (!player) return null
 
   const statGroups = Array.isArray(player.stats)
@@ -179,6 +214,7 @@ function normalizePlayer(player) {
   return {
     id: player.id ?? null,
     teamId: player.teamId ?? null,
+    fifaCode: fifaCode ?? null,
     name: player.name ?? null,
     position:
       player.usualPosition != null
@@ -190,7 +226,7 @@ function normalizePlayer(player) {
   }
 }
 
-function extractPlayers(html) {
+function extractPlayers(html, homeCode, awayCode, homeTeamId, awayTeamId) {
   const pageProps = extractPageProps(html)
 
   const playerStats =
@@ -205,8 +241,17 @@ function extractPlayers(html) {
   for (const player of Object.values(
     playerStats
   )) {
+    const fifaCode =
+      player.teamId != null && homeCode && awayCode && homeTeamId && awayTeamId
+        ? String(player.teamId) === String(homeTeamId)
+          ? homeCode
+          : String(player.teamId) === String(awayTeamId)
+            ? awayCode
+            : null
+        : null
+
     const normalized =
-      normalizePlayer(player)
+      normalizePlayer(player, fifaCode)
 
     if (normalized) {
       players.push(normalized)
@@ -226,11 +271,13 @@ async function fetchMatch(matchId) {
 }
 
 function buildMatchPayload(matchMeta, html) {
+  if (!matchMeta.finished) return null
+
   const teamStats =
     extractTeamStats(html)
 
   const players =
-    extractPlayers(html)
+    extractPlayers(html, matchMeta.home, matchMeta.away, matchMeta.homeTeamId, matchMeta.awayTeamId)
 
   return {
     id: matchMeta.matchId,
@@ -245,12 +292,12 @@ function buildMatchPayload(matchMeta, html) {
 
     homeTeam: {
       id: matchMeta.homeTeamId,
-      name: matchMeta.home,
+      code: matchMeta.home,
     },
 
     awayTeam: {
       id: matchMeta.awayTeamId,
-      name: matchMeta.away,
+      code: matchMeta.away,
     },
 
     score: {
@@ -303,12 +350,15 @@ async function scrapeAllMatches() {
           match.matchId
         )
 
-      result.push(
+      const payload =
         buildMatchPayload(
           match,
           html
         )
-      )
+
+      if (payload) {
+        result.push(payload)
+      }
     } catch (err) {
       console.warn(
         `Failed ${match.matchId}: ${err.message}`
