@@ -1,0 +1,122 @@
+{
+  "day1": {
+    "matches": [
+      {
+        "home_team": "Aries",
+        "away_team": "Cancer",
+        "home_score": null,
+        "away_score": null
+      },
+      {
+        "home_team": "Libra",
+        "away_team": "Capricorn",
+        "home_score": null,
+        "away_score": null
+      },
+      {
+        "home_team": "Taurus",
+        "away_team": "Leo",
+        "home_score": null,
+        "away_score": null
+      },
+      {
+        "home_team": "Scorpio",
+        "away_team": "Aquarius",
+        "home_score": null,
+        "away_score": null
+      },
+      {
+        "home_team": "Gemini",
+        "away_team": "Virgo",
+        "home_score": null,
+        "away_score": null
+      },
+      {
+        "home_team": "Sagittarius",
+        "away_team": "Pisces",
+        "home_score": null,
+        "away_score": null
+      }
+    ]
+  },
+  "day2": {
+    "matches": [
+      {
+        "home_team": "Libra",
+        "away_team": "Aries",
+        "home_score": null,
+        "away_score": null
+      },
+      {
+        "home_team": "Cancer",
+        "away_team": "Capricorn",
+        "home_score": null,
+        "away_score": null
+      },
+      {
+        "home_team": "Scorpio",
+        "away_team": "Taurus",
+        "home_score": null,
+        "away_score": null
+      },
+      {
+        "home_team": "Aquarius",
+        "away_team": "Leo",
+        "home_score": null,
+        "away_score": null
+      },
+      {
+        "home_team": "Sagittarius",
+        "away_team": "Gemini",
+        "home_score": null,
+        "away_score": null
+      },
+      {
+        "home_team": "Virgo",
+        "away_team": "Pisces",
+        "home_score": null,
+        "away_score": null
+      }
+    ]
+  },
+  "day3": {
+    "matches": [
+      {
+        "home_team": "Cancer",
+        "away_team": "Libra",
+        "home_score": null,
+        "away_score": null
+      },
+      {
+        "home_team": "Capricorn",
+        "away_team": "Aries",
+        "home_score": null,
+        "away_score": null
+      },
+      {
+        "home_team": "Taurus",
+        "away_team": "Aquarius",
+        "home_score": null,
+        "away_score": null
+      },
+      {
+        "home_team": "Leo",
+        "away_team": "Scorpio",
+        "home_score": null,
+        "away_score": null
+      },
+      {
+        "home_team": "Gemini",
+        "away_team": "Pisces",
+        "home_score": null,
+        "away_score": null
+      },
+      {
+        "home_team": "Virgo",
+        "away_team": "Sagittarius",
+        "home_score": null,
+        "away_score": null
+      }
+    ]
+  }
+}
