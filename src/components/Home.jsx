@@ -11,19 +11,17 @@ const LEAGUES_META = [
   { flag: '🇦🇷', key: 'ar', signs: ['Sagittarius', 'Cancer', 'Pisces', 'Taurus'] },
 ];
 
-const Home = ({ setTab }) => {
+const Home = ({ setTab, setSelectedTeam, setSelectedMatch }) => {
   const { t } = useLanguage();
 
   const allDays = Object.keys(matchesData).sort();
-  let nextMatch = null;
-  let liveMatch = null;
+  const liveMatches = [];
   for (const day of allDays) {
     for (const m of matchesData[day].matches) {
-      if (m.status === 'ongoing' && !liveMatch) liveMatch = m;
-      if (m.status === 'scheduled' && !nextMatch) nextMatch = m;
+      if (m.status === 'ongoing') liveMatches.push(m);
     }
-    if (liveMatch && nextMatch) break;
   }
+  const displayMatches = liveMatches
 
   return (
     <div className="zw-section" style={{ padding: 0 }}>
@@ -56,30 +54,15 @@ const Home = ({ setTab }) => {
             textAlign: 'center',
           }}
         >
-          <div
+          <img
+            src="/ZWOS/logo.png"
+            alt="Zodiac Soccer"
             style={{
-              fontSize: 'clamp(2.5rem, 8vw, 4rem)',
-              fontWeight: 700,
-              letterSpacing: '0.2em',
-              color: 'var(--gold)',
-              textShadow: '0 0 20px rgba(216,180,95,0.6), 0 0 60px rgba(216,180,95,0.3), 0 4px 12px rgba(0,0,0,0.8)',
-              textTransform: 'uppercase',
+              width: 'clamp(12rem, 40vw, 24rem)',
+              height: 'auto',
+              filter: 'drop-shadow(0 0 20px rgba(216,180,95,0.6)) drop-shadow(0 0 60px rgba(216,180,95,0.3)) drop-shadow(0 4px 12px rgba(0,0,0,0.8))',
             }}
-          >
-            {t('brand')}
-          </div>
-          <div
-            style={{
-              fontSize: 'clamp(0.75rem, 1.5vw, 0.9rem)',
-              letterSpacing: '0.15em',
-              textTransform: 'uppercase',
-              color: 'var(--gold-light)',
-              textShadow: '0 0 12px rgba(216,180,95,0.5), 0 2px 8px rgba(0,0,0,0.9)',
-              marginTop: '0.5rem',
-            }}
-          >
-            {t('tagline')}
-          </div>
+          />
         </div>
       </div>
       <div
@@ -120,8 +103,9 @@ const Home = ({ setTab }) => {
           {t('zwc26Title')}
         </h2>
 
-        {liveMatch && (
+        {displayMatches.map((match, idx) => (
           <div
+            key={idx}
             className="zw-card zw-card-blue"
             style={{
               padding: '1rem 1.25rem',
@@ -132,7 +116,10 @@ const Home = ({ setTab }) => {
               gap: '0.75rem',
               flexWrap: 'wrap',
             }}
-            onClick={() => setTab('zwc26')}
+            onClick={() => {
+              setSelectedMatch(match);
+              setTab('match');
+            }}
           >
             <span
               style={{
@@ -149,55 +136,16 @@ const Home = ({ setTab }) => {
               {t('live')}
             </span>
             <span style={{ display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
-              <ZodiacIcon sign={liveMatch.home_team} size={20} />
-              <span style={{ fontSize: 'clamp(0.85rem, 2vw, 1rem)' }}>{liveMatch.home_team}</span>
+              <ZodiacIcon sign={match.home_team} size={20} />
+              <span style={{ fontSize: 'clamp(0.85rem, 2vw, 1rem)' }}>{match.home_team}</span>
             </span>
             <span style={{ color: 'var(--gold)', fontWeight: 600, fontSize: '0.85rem' }}>{t('vs')}</span>
             <span style={{ display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
-              <ZodiacIcon sign={liveMatch.away_team} size={20} />
-              <span style={{ fontSize: 'clamp(0.85rem, 2vw, 1rem)' }}>{liveMatch.away_team}</span>
+              <ZodiacIcon sign={match.away_team} size={20} />
+              <span style={{ fontSize: 'clamp(0.85rem, 2vw, 1rem)' }}>{match.away_team}</span>
             </span>
           </div>
-        )}
-
-        {nextMatch && (
-          <div
-            className="zw-card"
-            style={{
-              padding: '1rem 1.25rem',
-              cursor: 'pointer',
-              display: 'flex',
-              alignItems: 'center',
-              gap: '0.75rem',
-              flexWrap: 'wrap',
-            }}
-            onClick={() => setTab('zwc26')}
-          >
-            <span
-              style={{
-                fontSize: '0.7rem',
-                fontWeight: 600,
-                letterSpacing: '0.1em',
-                color: 'var(--text-secondary)',
-                background: 'rgba(255, 255, 255, 0.06)',
-                padding: '0.2rem 0.6rem',
-                borderRadius: '999px',
-                textTransform: 'uppercase',
-              }}
-            >
-              {t('upcoming')}
-            </span>
-            <span style={{ display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
-              <ZodiacIcon sign={nextMatch.home_team} size={20} />
-              <span style={{ fontSize: 'clamp(0.85rem, 2vw, 1rem)' }}>{nextMatch.home_team}</span>
-            </span>
-            <span style={{ color: 'var(--gold)', fontWeight: 600, fontSize: '0.85rem' }}>{t('vs')}</span>
-            <span style={{ display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
-              <ZodiacIcon sign={nextMatch.away_team} size={20} />
-              <span style={{ fontSize: 'clamp(0.85rem, 2vw, 1rem)' }}>{nextMatch.away_team}</span>
-            </span>
-          </div>
-        )}
+        ))}
       </div>
 
       <div style={{ padding: '0 1.5rem', marginBottom: '2.5rem' }}>

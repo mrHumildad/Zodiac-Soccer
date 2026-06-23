@@ -722,9 +722,7 @@
           }
         ],
         "home_total_rating": 102.89999999999999,
-        "away_total_rating": 121.00000000000001,
-        "home_goals": 7,
-        "away_goals": 10
+        "away_total_rating": 121.00000000000001
       },
       {
         "home_team": "Libra",
@@ -1456,9 +1454,7 @@
           }
         ],
         "home_total_rating": 103.89999999999999,
-        "away_total_rating": 103.2,
-        "home_goals": 7,
-        "away_goals": 7
+        "away_total_rating": 103.2
       },
       {
         "home_team": "Taurus",
@@ -2212,9 +2208,7 @@
           }
         ],
         "home_total_rating": 109.9,
-        "away_total_rating": 109.30000000000001,
-        "home_goals": 8,
-        "away_goals": 8
+        "away_total_rating": 109.30000000000001
       },
       {
         "home_team": "Scorpio",
@@ -2945,9 +2939,7 @@
           }
         ],
         "home_total_rating": 98.5,
-        "away_total_rating": 112.3,
-        "home_goals": 6,
-        "away_goals": 8
+        "away_total_rating": 112.3
       },
       {
         "home_team": "Gemini",
@@ -3709,9 +3701,7 @@
           }
         ],
         "home_total_rating": 119.70000000000002,
-        "away_total_rating": 101.8,
-        "home_goals": 9,
-        "away_goals": 6
+        "away_total_rating": 101.8
       },
       {
         "home_team": "Sagittarius",
@@ -4486,9 +4476,7 @@
           }
         ],
         "home_total_rating": 114,
-        "away_total_rating": 99.49999999999999,
-        "home_goals": 9,
-        "away_goals": 6
+        "away_total_rating": 99.49999999999999
       }
     ]
   },

@@ -1,6 +1,6 @@
 import { useState, useMemo } from "react";
 import zodiacMatches from "../../data/matches.json";
-import zodiacTeams from "../../data/updatedZTeams.json" with { type: "json" };
+import zodiacTeams from "../../data/teams.json" with { type: "json" };
 import ZodiacIcon from "./ZodiacIcon";
 import { useLanguage } from '../i18n/LanguageContext.jsx';
 
