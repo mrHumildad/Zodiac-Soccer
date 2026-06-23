@@ -1,9 +1,10 @@
-import { getShortName, getFlagEmoji, getTeamLogo } from "../../data/utils.js";
+import { getShortName, getFlagEmoji, getTeamLogo, getAverageRating } from "../../data/utils.js";
 
 const Player = ({ player, team, averageRating, onClick }) => {
   const flag  = getFlagEmoji(player.fifa_code);
   const logo = getTeamLogo(player.club_id);
-  const ratingDisplay = averageRating != null ? averageRating.toFixed(1) : '—';
+  const ratingDisplay = getAverageRating(player) != null ? getAverageRating(player).toFixed(1) : '—';
+  console.log(ratingDisplay);
   return (
     <div
       key={player.id || player.name}
