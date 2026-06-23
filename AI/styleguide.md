@@ -424,7 +424,7 @@ had a child,
 it should look like ZODIACSOCCER.
 
 
-A final touch that would make ZWOS feel unique: use the 12 zodiac colors as the only strong colors in the entire app, keeping everything else dark, gold, silver, and white. Then when a user opens Leo, Aquarius, Scorpio, etc., the whole screen subtly inherits that sign's glow color. This creates a strong identity with very little CSS.
+A final touch that would make Zodiac Soccer feel unique: use the 12 zodiac colors as the only strong colors in the entire app, keeping everything else dark, gold, silver, and white. Then when a user opens Leo, Aquarius, Scorpio, etc., the whole screen subtly inherits that sign's glow color. This creates a strong identity with very little CSS.
 
 I would avoid ultra-saturated horoscope colors and instead use deep gemstone tones. The contrast color is intended primarily for text/icons placed on the sign color.
 
@@ -486,7 +486,7 @@ Use a lighter version for glows:
 --capricorn-glow: rgba(85,96,109,.25);
 --aquarius-glow: rgba(79,166,216,.25);
 --pisces-glow: rgba(102,120,200,.25);
-Special recommendation for ZWOS
+Special recommendation for Zodiac Soccer
 
 Instead of making the sign color the card background, keep cards dark:
 

@@ -1,0 +1,176 @@
+{
+  "day1": {
+    "matches": [
+      {
+        "home_team": "Aries",
+        "away_team": "Cancer",
+        "home_score": null,
+        "away_score": null,
+        "status": "completed",
+        "stats": {},
+        "turn": "day1"
+      },
+      {
+        "home_team": "Libra",
+        "away_team": "Capricorn",
+        "home_score": null,
+        "away_score": null,
+        "status": "completed",
+        "stats": {},
+        "turn": "day1"
+      },
+      {
+        "home_team": "Taurus",
+        "away_team": "Leo",
+        "home_score": null,
+        "away_score": null,
+        "status": "completed",
+        "stats": {},
+        "turn": "day1"
+      },
+      {
+        "home_team": "Scorpio",
+        "away_team": "Aquarius",
+        "home_score": null,
+        "away_score": null,
+        "status": "completed",
+        "stats": {},
+        "turn": "day1"
+      },
+      {
+        "home_team": "Gemini",
+        "away_team": "Virgo",
+        "home_score": null,
+        "away_score": null,
+        "status": "completed",
+        "stats": {},
+        "turn": "day1"
+      },
+      {
+        "home_team": "Sagittarius",
+        "away_team": "Pisces",
+        "home_score": null,
+        "away_score": null,
+        "status": "completed",
+        "stats": {},
+        "turn": "day1"
+      }
+    ]
+  },
+  "day2": {
+    "matches": [
+      {
+        "home_team": "Libra",
+        "away_team": "Aries",
+        "home_score": null,
+        "away_score": null,
+        "status": "ongoing",
+        "stats": {},
+        "turn": "day2"
+      },
+      {
+        "home_team": "Cancer",
+        "away_team": "Capricorn",
+        "home_score": null,
+        "away_score": null,
+        "status": "ongoing",
+        "stats": {},
+        "turn": "day2"
+      },
+      {
+        "home_team": "Scorpio",
+        "away_team": "Taurus",
+        "home_score": null,
+        "away_score": null,
+        "status": "ongoing",
+        "stats": {},
+        "turn": "day2"
+      },
+      {
+        "home_team": "Aquarius",
+        "away_team": "Leo",
+        "home_score": null,
+        "away_score": null,
+        "status": "ongoing",
+        "stats": {},
+        "turn": "day2"
+      },
+      {
+        "home_team": "Sagittarius",
+        "away_team": "Gemini",
+        "home_score": null,
+        "away_score": null,
+        "status": "ongoing",
+        "stats": {},
+        "turn": "day2"
+      },
+      {
+        "home_team": "Virgo",
+        "away_team": "Pisces",
+        "home_score": null,
+        "away_score": null,
+        "status": "ongoing",
+        "stats": {},
+        "turn": "day2"
+      }
+    ]
+  },
+  "day3": {
+    "matches": [
+      {
+        "home_team": "Cancer",
+        "away_team": "Libra",
+        "home_score": null,
+        "away_score": null,
+        "status": "scheduled",
+        "stats": {},
+        "turn": "day3"
+      },
+      {
+        "home_team": "Capricorn",
+        "away_team": "Aries",
+        "home_score": null,
+        "away_score": null,
+        "status": "scheduled",
+        "stats": {},
+        "turn": "day3"
+      },
+      {
+        "home_team": "Taurus",
+        "away_team": "Aquarius",
+        "home_score": null,
+        "away_score": null,
+        "status": "scheduled",
+        "stats": {},
+        "turn": "day3"
+      },
+      {
+        "home_team": "Leo",
+        "away_team": "Scorpio",
+        "home_score": null,
+        "away_score": null,
+        "status": "scheduled",
+        "stats": {},
+        "turn": "day3"
+      },
+      {
+        "home_team": "Gemini",
+        "away_team": "Pisces",
+        "home_score": null,
+        "away_score": null,
+        "status": "scheduled",
+        "stats": {},
+        "turn": "day3"
+      },
+      {
+        "home_team": "Virgo",
+        "away_team": "Sagittarius",
+        "home_score": null,
+        "away_score": null,
+        "status": "scheduled",
+        "stats": {},
+        "turn": "day3"
+      }
+    ]
+  }
+}

@@ -8,7 +8,7 @@ const Header = ({ setTab }) => {
   return (
     <header className="zw-nav">
       <div className="brand" style={{ cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '10px', userSelect: 'none' }} onClick={() => setTab('home')}>
-        <img src="/ZWOS/icon.png" alt="" width="28" height="28" />
+        <img src="/Zodiac-Soccer/icon.png" alt="" width="28" height="28" />
         {t('brand')}
       </div>
       <nav>

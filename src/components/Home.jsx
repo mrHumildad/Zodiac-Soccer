@@ -29,7 +29,7 @@ const Home = ({ setTab, setSelectedTeam, setSelectedMatch }) => {
         style={{
           width: '100%',
           height: 'clamp(16rem, 40vw, 28rem)',
-          backgroundImage: "url('/ZWOS/hero.png')",
+          backgroundImage: "url('/Zodiac-Soccer/hero.png')",
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           position: 'relative',
@@ -55,7 +55,7 @@ const Home = ({ setTab, setSelectedTeam, setSelectedMatch }) => {
           }}
         >
           <img
-            src="/ZWOS/logo.png"
+            src="/Zodiac-Soccer/logo.png"
             alt="Zodiac Soccer"
             style={{
               width: 'clamp(12rem, 40vw, 24rem)',

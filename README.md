@@ -1,6 +1,6 @@
-# ZWOS
+# Zodiac Soccer
 
-ZWOS is a zodiac-themed fantasy soccer league manager built with React and Vite. The project models a full competition where each zodiac sign is a national team, with complete schedules, standings, squads, and fantasy-style player ratings.
+Zodiac Soccer is a zodiac-themed fantasy soccer league manager built with React and Vite. The project models a full competition where each zodiac sign is a national team, with complete schedules, standings, squads, and fantasy-style player ratings.
 
 ## Next Steps
 
