@@ -1,0 +1,290 @@
+[
+  {
+    "teamId": 6317,
+    "teamName": "Algeria",
+    "playerCount": 0,
+    "squad": []
+  },
+  {
+    "teamId": 6706,
+    "teamName": "Argentina",
+    "playerCount": 0,
+    "squad": []
+  },
+  {
+    "teamId": 6716,
+    "teamName": "Australia",
+    "playerCount": 0,
+    "squad": []
+  },
+  {
+    "teamId": 8255,
+    "teamName": "Austria",
+    "playerCount": 0,
+    "squad": []
+  },
+  {
+    "teamId": 8263,
+    "teamName": "Belgium",
+    "playerCount": 0,
+    "squad": []
+  },
+  {
+    "teamId": 10106,
+    "teamName": "Bosnia and Herzegovina",
+    "playerCount": 0,
+    "squad": []
+  },
+  {
+    "teamId": 8256,
+    "teamName": "Brazil",
+    "playerCount": 0,
+    "squad": []
+  },
+  {
+    "teamId": 5810,
+    "teamName": "Canada",
+    "playerCount": 0,
+    "squad": []
+  },
+  {
+    "teamId": 5888,
+    "teamName": "Cape Verde",
+    "playerCount": 0,
+    "squad": []
+  },
+  {
+    "teamId": 8258,
+    "teamName": "Colombia",
+    "playerCount": 0,
+    "squad": []
+  },
+  {
+    "teamId": 10155,
+    "teamName": "Croatia",
+    "playerCount": 0,
+    "squad": []
+  },
+  {
+    "teamId": 8496,
+    "teamName": "Czechia",
+    "playerCount": 0,
+    "squad": []
+  },
+  {
+    "teamId": 6321,
+    "teamName": "DR Congo",
+    "playerCount": 0,
+    "squad": []
+  },
+  {
+    "teamId": 6707,
+    "teamName": "Ecuador",
+    "playerCount": 0,
+    "squad": []
+  },
+  {
+    "teamId": 10255,
+    "teamName": "Egypt",
+    "playerCount": 0,
+    "squad": []
+  },
+  {
+    "teamId": 8491,
+    "teamName": "England",
+    "playerCount": 0,
+    "squad": []
+  },
+  {
+    "teamId": 6723,
+    "teamName": "France",
+    "playerCount": 0,
+    "squad": []
+  },
+  {
+    "teamId": 8570,
+    "teamName": "Germany",
+    "playerCount": 0,
+    "squad": []
+  },
+  {
+    "teamId": 6714,
+    "teamName": "Ghana",
+    "playerCount": 0,
+    "squad": []
+  },
+  {
+    "teamId": 5934,
+    "teamName": "Haiti",
+    "playerCount": 0,
+    "squad": []
+  },
+  {
+    "teamId": 6711,
+    "teamName": "Iran",
+    "playerCount": 0,
+    "squad": []
+  },
+  {
+    "teamId": 5819,
+    "teamName": "Iraq",
+    "playerCount": 0,
+    "squad": []
+  },
+  {
+    "teamId": 6709,
+    "teamName": "Ivory Coast",
+    "playerCount": 0,
+    "squad": []
+  },
+  {
+    "teamId": 6715,
+    "teamName": "Japan",
+    "playerCount": 0,
+    "squad": []
+  },
+  {
+    "teamId": 5816,
+    "teamName": "Jordan",
+    "playerCount": 0,
+    "squad": []
+  },
+  {
+    "teamId": 6710,
+    "teamName": "Mexico",
+    "playerCount": 0,
+    "squad": []
+  },
+  {
+    "teamId": 6262,
+    "teamName": "Morocco",
+    "playerCount": 0,
+    "squad": []
+  },
+  {
+    "teamId": 6708,
+    "teamName": "Netherlands",
+    "playerCount": 0,
+    "squad": []
+  },
+  {
+    "teamId": 5820,
+    "teamName": "New Zealand",
+    "playerCount": 0,
+    "squad": []
+  },
+  {
+    "teamId": 8492,
+    "teamName": "Norway",
+    "playerCount": 0,
+    "squad": []
+  },
+  {
+    "teamId": 5922,
+    "teamName": "Panama",
+    "playerCount": 0,
+    "squad": []
+  },
+  {
+    "teamId": 6724,
+    "teamName": "Paraguay",
+    "playerCount": 0,
+    "squad": []
+  },
+  {
+    "teamId": 8361,
+    "teamName": "Portugal",
+    "playerCount": 0,
+    "squad": []
+  },
+  {
+    "teamId": 5902,
+    "teamName": "Qatar",
+    "playerCount": 0,
+    "squad": []
+  },
+  {
+    "teamId": 7795,
+    "teamName": "Saudi Arabia",
+    "playerCount": 0,
+    "squad": []
+  },
+  {
+    "teamId": 8498,
+    "teamName": "Scotland",
+    "playerCount": 0,
+    "squad": []
+  },
+  {
+    "teamId": 6395,
+    "teamName": "Senegal",
+    "playerCount": 0,
+    "squad": []
+  },
+  {
+    "teamId": 6316,
+    "teamName": "South Africa",
+    "playerCount": 0,
+    "squad": []
+  },
+  {
+    "teamId": 7804,
+    "teamName": "South Korea",
+    "playerCount": 0,
+    "squad": []
+  },
+  {
+    "teamId": 6720,
+    "teamName": "Spain",
+    "playerCount": 0,
+    "squad": []
+  },
+  {
+    "teamId": 8520,
+    "teamName": "Sweden",
+    "playerCount": 0,
+    "squad": []
+  },
+  {
+    "teamId": 6717,
+    "teamName": "Switzerland",
+    "playerCount": 0,
+    "squad": []
+  },
+  {
+    "teamId": 6719,
+    "teamName": "Tunisia",
+    "playerCount": 0,
+    "squad": []
+  },
+  {
+    "teamId": 6595,
+    "teamName": "Turkiye",
+    "playerCount": 0,
+    "squad": []
+  },
+  {
+    "teamId": 5796,
+    "teamName": "Uruguay",
+    "playerCount": 0,
+    "squad": []
+  },
+  {
+    "teamId": 6713,
+    "teamName": "USA",
+    "playerCount": 0,
+    "squad": []
+  },
+  {
+    "teamId": 8700,
+    "teamName": "Uzbekistan",
+    "playerCount": 0,
+    "squad": []
+  },
+  {
+    "teamId": 6698,
+    "teamName": "USA",
+    "playerCount": 0,
+    "squad": []
+  }
+]

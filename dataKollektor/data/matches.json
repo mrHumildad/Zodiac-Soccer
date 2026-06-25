@@ -2836,7 +2836,7 @@
         "away_team": "Aries",
         "home_score": null,
         "away_score": null,
-        "status": "ongoing",
+        "status": "completed",
         "stats": {},
         "turn": "day2"
       },
@@ -2845,7 +2845,7 @@
         "away_team": "Capricorn",
         "home_score": null,
         "away_score": null,
-        "status": "ongoing",
+        "status": "completed",
         "stats": {},
         "turn": "day2"
       },
@@ -2854,7 +2854,7 @@
         "away_team": "Taurus",
         "home_score": null,
         "away_score": null,
-        "status": "ongoing",
+        "status": "completed",
         "stats": {},
         "turn": "day2"
       },
@@ -2863,7 +2863,7 @@
         "away_team": "Leo",
         "home_score": null,
         "away_score": null,
-        "status": "ongoing",
+        "status": "completed",
         "stats": {},
         "turn": "day2"
       },
@@ -2872,7 +2872,7 @@
         "away_team": "Gemini",
         "home_score": null,
         "away_score": null,
-        "status": "ongoing",
+        "status": "completed",
         "stats": {},
         "turn": "day2"
       },
@@ -2881,7 +2881,7 @@
         "away_team": "Pisces",
         "home_score": null,
         "away_score": null,
-        "status": "ongoing",
+        "status": "completed",
         "stats": {},
         "turn": "day2"
       }

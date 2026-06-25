@@ -2834,56 +2834,2808 @@
       {
         "home_team": "Libra",
         "away_team": "Aries",
-        "home_score": null,
-        "away_score": null,
-        "status": "ongoing",
+        "home_score": "106.30",
+        "away_score": "103.80",
+        "status": "completed",
         "stats": {},
-        "turn": "day2"
+        "turn": "day2",
+        "home_goals": 7,
+        "away_goals": 7,
+        "home11": [
+          {
+            "fm_id": 1520063,
+            "id": "9-SUI",
+            "fifa_code": "SUI",
+            "name": "Johan Manzambi",
+            "number": 9,
+            "pos": "Midfielder",
+            "age": 20,
+            "date_of_birth": "2005-10-14",
+            "height": 182,
+            "matches": {
+              "day2": {
+                "rating": 8.6,
+                "goals": 2,
+                "minutes": 18
+              }
+            },
+            "club_id": "8358",
+            "club_name": "Freiburg",
+            "value": 31181920
+          },
+          {
+            "fm_id": 207236,
+            "id": "10-SUI",
+            "fifa_code": "SUI",
+            "name": "Granit Xhaka",
+            "number": 10,
+            "pos": "Midfielder",
+            "age": 33,
+            "date_of_birth": "1992-09-27",
+            "height": 185,
+            "matches": {
+              "day2": {
+                "rating": 8.6,
+                "goals": 1,
+                "minutes": 90
+              }
+            },
+            "club_id": "8472",
+            "club_name": "Sunderland",
+            "value": 17124490
+          },
+          {
+            "fm_id": 840212,
+            "id": "14-URU",
+            "fifa_code": "URU",
+            "name": "Agustín Canobbio",
+            "number": 14,
+            "pos": "Attacker",
+            "age": 27,
+            "date_of_birth": "1998-10-01",
+            "height": 175,
+            "matches": {
+              "day2": {
+                "rating": 7.9,
+                "goals": 1,
+                "minutes": 90
+              }
+            },
+            "club_id": "9863",
+            "club_name": "Fluminense",
+            "value": 4863777
+          },
+          {
+            "fm_id": 966019,
+            "id": "23-GER",
+            "fifa_code": "GER",
+            "name": "Felix Nmecha",
+            "number": 23,
+            "pos": "Midfielder",
+            "age": 25,
+            "date_of_birth": "2000-10-10",
+            "height": 190,
+            "matches": {
+              "day2": {
+                "rating": 8.2,
+                "assists": 1,
+                "minutes": 90
+              }
+            },
+            "club_id": "9789",
+            "club_name": "Borussia Dortmund",
+            "value": 55923982
+          },
+          {
+            "fm_id": 513492,
+            "id": "7-EGY",
+            "fifa_code": "EGY",
+            "name": "Trezeguet",
+            "number": 7,
+            "pos": "Attacker",
+            "age": 31,
+            "date_of_birth": "1994-10-01",
+            "height": 181,
+            "matches": {
+              "day2": {
+                "rating": 7.1,
+                "goals": 1,
+                "minutes": 14
+              }
+            },
+            "club_id": "101745",
+            "club_name": "Al Ahly SC",
+            "value": 2375406
+          },
+          {
+            "fm_id": 1325761,
+            "id": "16-NZL",
+            "fifa_code": "NZL",
+            "name": "Finn Surman",
+            "number": 16,
+            "pos": "Defender",
+            "age": 22,
+            "date_of_birth": "2003-09-23",
+            "height": 190,
+            "matches": {
+              "day2": {
+                "rating": 7,
+                "goals": 1,
+                "minutes": 90
+              }
+            },
+            "club_id": "307690",
+            "club_name": "Portland Timbers",
+            "value": 1346387
+          },
+          {
+            "fm_id": 1055426,
+            "id": "2-CAN",
+            "fifa_code": "CAN",
+            "name": "Alistair Johnston",
+            "number": 2,
+            "pos": "Defender",
+            "age": 27,
+            "date_of_birth": "1998-10-08",
+            "height": 180,
+            "matches": {
+              "day2": {
+                "rating": 8.3,
+                "minutes": 90
+              }
+            },
+            "club_id": "9925",
+            "club_name": "Celtic",
+            "value": 8286756
+          },
+          {
+            "fm_id": 319784,
+            "id": "1-BRA",
+            "fifa_code": "BRA",
+            "name": "Alisson Becker",
+            "number": 1,
+            "pos": "Keeper",
+            "age": 33,
+            "date_of_birth": "1992-10-02",
+            "height": 193,
+            "matches": {
+              "day2": {
+                "rating": 8.1,
+                "minutes": 90
+              }
+            },
+            "club_id": "8650",
+            "club_name": "Liverpool",
+            "value": 13450488
+          },
+          {
+            "fm_id": 210683,
+            "id": "2-ALG",
+            "fifa_code": "ALG",
+            "name": "Aïssa Mandi",
+            "number": 2,
+            "pos": "Defender",
+            "age": 34,
+            "date_of_birth": "1991-10-22",
+            "height": 186,
+            "matches": {
+              "day2": {
+                "rating": 7.8,
+                "minutes": 90
+              }
+            },
+            "club_id": "8639",
+            "club_name": "Lille",
+            "value": 1097598
+          },
+          {
+            "fm_id": 517346,
+            "id": "4-SUI",
+            "fifa_code": "SUI",
+            "name": "Nico Elvedi",
+            "number": 4,
+            "pos": "Defender",
+            "age": 29,
+            "date_of_birth": "1996-09-30",
+            "height": 187,
+            "matches": {
+              "day2": {
+                "rating": 7.4,
+                "yellowCards": 1,
+                "minutes": 90
+              }
+            },
+            "club_id": "9788",
+            "club_name": "Borussia Mönchengladbach",
+            "value": 6909077
+          },
+          {
+            "fm_id": 198444,
+            "id": "13-USA",
+            "fifa_code": "USA",
+            "name": "Tim Ream",
+            "number": 13,
+            "pos": "Defender",
+            "age": 38,
+            "date_of_birth": "1987-10-05",
+            "height": 186,
+            "matches": {
+              "day2": {
+                "rating": 7.3,
+                "minutes": 90
+              }
+            },
+            "club_id": "1323940",
+            "club_name": "Charlotte FC",
+            "value": 72000
+          }
+        ],
+        "away11": [
+          {
+            "fm_id": 593118,
+            "id": "22-NED",
+            "fifa_code": "NED",
+            "name": "Denzel Dumfries",
+            "number": 22,
+            "pos": "Midfielder",
+            "age": 30,
+            "date_of_birth": "1996-04-18",
+            "height": 189,
+            "matches": {
+              "day2": {
+                "rating": 8.7,
+                "assists": 2,
+                "minutes": 90
+              }
+            },
+            "club_id": "8636",
+            "club_name": "Inter",
+            "value": 22125802
+          },
+          {
+            "fm_id": 544312,
+            "id": "9-CAN",
+            "fifa_code": "CAN",
+            "name": "Cyle Larin",
+            "number": 9,
+            "pos": "Attacker",
+            "age": 31,
+            "date_of_birth": "1995-04-17",
+            "height": 187,
+            "matches": {
+              "day2": {
+                "rating": 7.6,
+                "goals": 1,
+                "minutes": 90
+              }
+            },
+            "club_id": "8466",
+            "club_name": "Southampton",
+            "value": 2060467
+          },
+          {
+            "fm_id": 1210929,
+            "id": "12-ALG",
+            "fifa_code": "ALG",
+            "name": "Nadhir Benbouali",
+            "number": 12,
+            "pos": "Attacker",
+            "age": 26,
+            "date_of_birth": "2000-04-17",
+            "height": 190,
+            "matches": {
+              "day2": {
+                "rating": 7.5,
+                "goals": 1,
+                "minutes": 44
+              }
+            },
+            "club_id": "5755",
+            "club_name": "Györi ETO",
+            "value": 960187
+          },
+          {
+            "fm_id": 1195369,
+            "id": "21-JOR",
+            "fifa_code": "JOR",
+            "name": "Nizar Al Rashdan",
+            "number": 21,
+            "pos": "Midfielder",
+            "age": 27,
+            "date_of_birth": "1999-03-23",
+            "height": 183,
+            "matches": {
+              "day2": {
+                "rating": 7.4,
+                "goals": 1,
+                "minutes": 90
+              }
+            },
+            "club_id": "101900",
+            "club_name": "Qatar SC",
+            "value": 181960
+          },
+          {
+            "fm_id": 303339,
+            "id": "10-SEN",
+            "fifa_code": "SEN",
+            "name": "Sadio Mané",
+            "number": 10,
+            "pos": "Midfielder",
+            "age": 34,
+            "date_of_birth": "1992-04-10",
+            "height": 175,
+            "matches": {
+              "day2": {
+                "rating": 8.4,
+                "assists": 1,
+                "minutes": 90
+              }
+            },
+            "club_id": "101918",
+            "club_name": "Al Nassr FC",
+            "value": 9281030
+          },
+          {
+            "fm_id": 1478281,
+            "id": "24-CZE",
+            "fifa_code": "CZE",
+            "name": "Alexandr Sojka",
+            "number": 24,
+            "pos": "Midfielder",
+            "age": 23,
+            "date_of_birth": "2003-04-02",
+            "height": 188,
+            "matches": {
+              "day2": {
+                "rating": 7.6,
+                "assists": 1,
+                "minutes": 35
+              }
+            },
+            "club_id": "6033",
+            "club_name": "Viktoria Plzen",
+            "value": 990684
+          },
+          {
+            "fm_id": 559065,
+            "id": "21-ALG",
+            "fifa_code": "ALG",
+            "name": "Ramy Bensebaini",
+            "number": 21,
+            "pos": "Defender",
+            "age": 31,
+            "date_of_birth": "1995-04-16",
+            "height": 187,
+            "matches": {
+              "day2": {
+                "rating": 8.5,
+                "minutes": 90
+              }
+            },
+            "club_id": "9789",
+            "club_name": "Borussia Dortmund",
+            "value": 13190102
+          },
+          {
+            "fm_id": 146801,
+            "id": "1-ECU",
+            "fifa_code": "ECU",
+            "name": "Hernán Galindez",
+            "number": 1,
+            "pos": "Keeper",
+            "age": 39,
+            "date_of_birth": "1987-03-30",
+            "height": 189,
+            "matches": {
+              "day2": {
+                "rating": 8,
+                "minutes": 90
+              }
+            },
+            "club_id": "10081",
+            "club_name": "Huracan",
+            "value": 1024390
+          },
+          {
+            "fm_id": 849334,
+            "id": "13-EGY",
+            "fifa_code": "EGY",
+            "name": "Ahmed Fatouh",
+            "number": 13,
+            "pos": "Defender",
+            "age": 28,
+            "date_of_birth": "1998-03-22",
+            "height": 177,
+            "matches": {
+              "day2": {
+                "rating": 7.8,
+                "minutes": 90
+              }
+            },
+            "club_id": "80591",
+            "club_name": "Zamalek SC",
+            "value": 840268
+          },
+          {
+            "fm_id": 904098,
+            "id": "18-TUR",
+            "fifa_code": "TUR",
+            "name": "Mert Müldür",
+            "number": 18,
+            "pos": "Defender",
+            "age": 27,
+            "date_of_birth": "1999-04-03",
+            "height": 188,
+            "matches": {
+              "day2": {
+                "rating": 7.7,
+                "minutes": 90
+              }
+            },
+            "club_id": "8695",
+            "club_name": "Fenerbahçe",
+            "value": 6271985
+          },
+          {
+            "fm_id": 950829,
+            "id": "3-USA",
+            "fifa_code": "USA",
+            "name": "Chris Richards",
+            "number": 3,
+            "pos": "Defender",
+            "age": 26,
+            "date_of_birth": "2000-03-28",
+            "height": 188,
+            "matches": {
+              "day2": {
+                "rating": 7.6,
+                "yellowCards": 1,
+                "minutes": 90
+              }
+            },
+            "club_id": "9826",
+            "club_name": "Crystal Palace",
+            "value": 21463962
+          }
+        ]
       },
       {
         "home_team": "Cancer",
         "away_team": "Capricorn",
-        "home_score": null,
-        "away_score": null,
-        "status": "ongoing",
+        "home_score": "108.20",
+        "away_score": "97.50",
+        "status": "completed",
         "stats": {},
-        "turn": "day2"
+        "turn": "day2",
+        "home_goals": 8,
+        "away_goals": 6,
+        "home11": [
+          {
+            "fm_id": 737066,
+            "id": "9-NOR",
+            "fifa_code": "NOR",
+            "name": "Erling Haaland",
+            "number": 9,
+            "pos": "Attacker",
+            "age": 25,
+            "date_of_birth": "2000-07-21",
+            "height": 194,
+            "matches": {
+              "day2": {
+                "rating": 9,
+                "goals": 2,
+                "minutes": 90
+              }
+            },
+            "club_id": "8456",
+            "club_name": "Manchester City",
+            "value": 141836769
+          },
+          {
+            "fm_id": 661519,
+            "id": "26-GER",
+            "fifa_code": "GER",
+            "name": "Deniz Undav",
+            "number": 26,
+            "pos": "Attacker",
+            "age": 29,
+            "date_of_birth": "1996-07-19",
+            "height": 179,
+            "matches": {
+              "day2": {
+                "rating": 8.7,
+                "goals": 2,
+                "minutes": 30
+              }
+            },
+            "club_id": "10269",
+            "club_name": "VfB Stuttgart",
+            "value": 16358776
+          },
+          {
+            "fm_id": 846033,
+            "id": "7-BRA",
+            "fifa_code": "BRA",
+            "name": "Vinícius Júnior",
+            "number": 7,
+            "pos": "Attacker",
+            "age": 25,
+            "date_of_birth": "2000-07-12",
+            "height": 177,
+            "matches": {
+              "day2": {
+                "rating": 8.5,
+                "goals": 1,
+                "assists": 1,
+                "minutes": 9
+              }
+            },
+            "club_id": "8633",
+            "club_name": "Real Madrid",
+            "value": 100537219
+          },
+          {
+            "fm_id": 935622,
+            "id": "16-NOR",
+            "fifa_code": "NOR",
+            "name": "Marcus Holmgren Pedersen",
+            "number": 16,
+            "pos": "Midfielder",
+            "age": 25,
+            "date_of_birth": "2000-07-16",
+            "height": 183,
+            "matches": {
+              "day2": {
+                "rating": 7.4,
+                "goals": 1,
+                "minutes": 77
+              }
+            },
+            "club_id": "9804",
+            "club_name": "Torino",
+            "value": 2871616
+          },
+          {
+            "fm_id": 675088,
+            "id": "16-ESP",
+            "fifa_code": "ESP",
+            "name": "Rodri",
+            "number": 16,
+            "pos": "Midfielder",
+            "age": 30,
+            "date_of_birth": "1996-06-22",
+            "height": 190,
+            "matches": {
+              "day2": {
+                "rating": 8.3,
+                "minutes": 90
+              }
+            },
+            "club_id": "8456",
+            "club_name": "Manchester City",
+            "value": 73119590
+          },
+          {
+            "fm_id": 620618,
+            "id": "6-URU",
+            "fifa_code": "URU",
+            "name": "Rodrigo Bentancur",
+            "number": 6,
+            "pos": "Midfielder",
+            "age": 28,
+            "date_of_birth": "1997-06-25",
+            "height": 187,
+            "matches": {
+              "day2": {
+                "rating": 8.2,
+                "yellowCards": 1,
+                "minutes": 90
+              }
+            },
+            "club_id": "8586",
+            "club_name": "Tottenham Hotspur",
+            "value": 21082975
+          },
+          {
+            "fm_id": 521318,
+            "id": "5-SUI",
+            "fifa_code": "SUI",
+            "name": "Manuel Akanji",
+            "number": 5,
+            "pos": "Defender",
+            "age": 30,
+            "date_of_birth": "1995-07-19",
+            "height": 188,
+            "matches": {
+              "day2": {
+                "rating": 7.9,
+                "minutes": 90
+              }
+            },
+            "club_id": "8636",
+            "club_name": "Inter",
+            "value": 18112861
+          },
+          {
+            "fm_id": 616179,
+            "id": "6-RSA",
+            "fifa_code": "RSA",
+            "name": "Aubrey Modiba",
+            "number": 6,
+            "pos": "Defender",
+            "age": 30,
+            "date_of_birth": "1995-07-22",
+            "height": 167,
+            "matches": {
+              "day2": {
+                "rating": 7.9,
+                "minutes": 90
+              }
+            },
+            "club_id": "4530",
+            "club_name": "Mamelodi Sundowns FC",
+            "value": 803451
+          },
+          {
+            "fm_id": 1274060,
+            "id": "24-MAR",
+            "fifa_code": "MAR",
+            "name": "Neil El Aynaoui",
+            "number": 24,
+            "pos": "Midfielder",
+            "age": 24,
+            "date_of_birth": "2001-07-02",
+            "height": 185,
+            "matches": {
+              "day2": {
+                "rating": 7.7,
+                "minutes": 90
+              }
+            },
+            "club_id": "8686",
+            "club_name": "Roma",
+            "value": 22302155
+          },
+          {
+            "fm_id": 873289,
+            "id": "24-ESP",
+            "fifa_code": "ESP",
+            "name": "Marc Cucurella",
+            "number": 24,
+            "pos": "Defender",
+            "age": 27,
+            "date_of_birth": "1998-07-22",
+            "height": 177,
+            "matches": {
+              "day2": {
+                "rating": 7.5,
+                "minutes": 90
+              }
+            },
+            "club_id": "8633",
+            "club_name": "Real Madrid",
+            "value": 45916601
+          },
+          {
+            "fm_id": 466439,
+            "id": "16-FRA",
+            "fifa_code": "FRA",
+            "name": "Mike Maignan",
+            "number": 16,
+            "pos": "Keeper",
+            "age": 30,
+            "date_of_birth": "1995-07-03",
+            "height": 191,
+            "matches": {
+              "day2": {
+                "rating": 7.1,
+                "minutes": 90
+              }
+            },
+            "club_id": "8564",
+            "club_name": "Milan",
+            "value": 22221313
+          }
+        ],
+        "away11": [
+          {
+            "fm_id": 939569,
+            "id": "10-CAN",
+            "fifa_code": "CAN",
+            "name": "Jonathan David",
+            "number": 10,
+            "pos": "Attacker",
+            "age": 26,
+            "date_of_birth": "2000-01-14",
+            "height": 175,
+            "matches": {
+              "day2": {
+                "rating": 9.6,
+                "goals": 3,
+                "minutes": 90
+              }
+            },
+            "club_id": "9885",
+            "club_name": "Juventus",
+            "value": 36511959
+          },
+          {
+            "fm_id": 1033111,
+            "id": "24-JPN",
+            "fifa_code": "JPN",
+            "name": "Kaishu Sano",
+            "number": 24,
+            "pos": "Midfielder",
+            "age": 25,
+            "date_of_birth": "2000-12-30",
+            "height": 176,
+            "matches": {
+              "day2": {
+                "rating": 8.1,
+                "assists": 1,
+                "minutes": 90
+              }
+            },
+            "club_id": "9905",
+            "club_name": "Mainz 05",
+            "value": 29248440
+          },
+          {
+            "fm_id": 324305,
+            "id": "2-NZL",
+            "fifa_code": "NZL",
+            "name": "Tim Payne",
+            "number": 2,
+            "pos": "Defender",
+            "age": 32,
+            "date_of_birth": "1994-01-10",
+            "height": 179,
+            "matches": {
+              "day2": {
+                "rating": 6.3,
+                "assists": 1,
+                "minutes": 5
+              }
+            },
+            "club_id": "78785",
+            "club_name": "Wellington Phoenix",
+            "value": 204771
+          },
+          {
+            "fm_id": 729506,
+            "id": "22-CAN",
+            "fifa_code": "CAN",
+            "name": "Richie Laryea",
+            "number": 22,
+            "pos": "Defender",
+            "age": 31,
+            "date_of_birth": "1995-01-07",
+            "height": 175,
+            "matches": {
+              "day2": {
+                "rating": 8,
+                "minutes": 90
+              }
+            },
+            "club_id": "56453",
+            "club_name": "Toronto FC",
+            "value": 480995
+          },
+          {
+            "fm_id": 1137667,
+            "id": "3-ECU",
+            "fifa_code": "ECU",
+            "name": "Piero Hincapié",
+            "number": 3,
+            "pos": "Defender",
+            "age": 24,
+            "date_of_birth": "2002-01-09",
+            "height": 184,
+            "matches": {
+              "day2": {
+                "rating": 7.9,
+                "minutes": 90
+              }
+            },
+            "club_id": "9825",
+            "club_name": "Arsenal",
+            "value": 63074996
+          },
+          {
+            "fm_id": 1137705,
+            "id": "24-ARG",
+            "fifa_code": "ARG",
+            "name": "Enzo Fernández",
+            "number": 24,
+            "pos": "Midfielder",
+            "age": 25,
+            "date_of_birth": "2001-01-17",
+            "height": 178,
+            "matches": {
+              "day2": {
+                "rating": 7.8,
+                "minutes": 90
+              }
+            },
+            "club_id": "8455",
+            "club_name": "Chelsea",
+            "value": 100424263
+          },
+          {
+            "fm_id": 1134871,
+            "id": "5-BEL",
+            "fifa_code": "BEL",
+            "name": "Maxim De Cuyper",
+            "number": 5,
+            "pos": "Defender",
+            "age": 25,
+            "date_of_birth": "2000-12-22",
+            "height": 183,
+            "matches": {
+              "day2": {
+                "rating": 7.7,
+                "minutes": 90
+              }
+            },
+            "club_id": "10204",
+            "club_name": "Brighton & Hove Albion",
+            "value": 24962504
+          },
+          {
+            "fm_id": 847983,
+            "id": "6-ARG",
+            "fifa_code": "ARG",
+            "name": "Lisandro Martínez",
+            "number": 6,
+            "pos": "Defender",
+            "age": 28,
+            "date_of_birth": "1998-01-18",
+            "height": 178,
+            "matches": {
+              "day2": {
+                "rating": 7.5,
+                "minutes": 90
+              }
+            },
+            "club_id": "10260",
+            "club_name": "Manchester United",
+            "value": 40812416
+          },
+          {
+            "fm_id": 831489,
+            "id": "20-ARG",
+            "fifa_code": "ARG",
+            "name": "Alexis Mac Allister",
+            "number": 20,
+            "pos": "Midfielder",
+            "age": 27,
+            "date_of_birth": "1998-12-24",
+            "height": 174,
+            "matches": {
+              "day2": {
+                "rating": 7.4,
+                "minutes": 90
+              }
+            },
+            "club_id": "8650",
+            "club_name": "Liverpool",
+            "value": 94361974
+          },
+          {
+            "fm_id": 792756,
+            "id": "20-SUI",
+            "fifa_code": "SUI",
+            "name": "Michel Aebischer",
+            "number": 20,
+            "pos": "Midfielder",
+            "age": 29,
+            "date_of_birth": "1997-01-06",
+            "height": 185,
+            "matches": {
+              "day2": {
+                "rating": 7.2,
+                "minutes": 18
+              }
+            },
+            "club_id": "6479",
+            "club_name": "Pisa",
+            "value": 4873373
+          },
+          {
+            "fm_id": 734654,
+            "id": "1-JOR",
+            "fifa_code": "JOR",
+            "name": "Yazeed Abulaila",
+            "number": 1,
+            "pos": "Keeper",
+            "age": 33,
+            "date_of_birth": "1993-01-08",
+            "height": 188,
+            "matches": {
+              "day2": {
+                "rating": 7,
+                "minutes": 90
+              }
+            },
+            "club_id": "101688",
+            "club_name": "Al-Hussein SC",
+            "value": 350000
+          }
+        ]
       },
       {
         "home_team": "Scorpio",
         "away_team": "Taurus",
-        "home_score": null,
-        "away_score": null,
-        "status": "ongoing",
+        "home_score": "88.20",
+        "away_score": "112.40",
+        "status": "completed",
         "stats": {},
-        "turn": "day2"
+        "turn": "day2",
+        "home_goals": 4,
+        "away_goals": 8,
+        "home11": [
+          {
+            "fm_id": 941213,
+            "id": "24-NED",
+            "fifa_code": "NED",
+            "name": "Crysencio Summerville",
+            "number": 24,
+            "pos": "Attacker",
+            "age": 24,
+            "date_of_birth": "2001-10-30",
+            "height": 174,
+            "matches": {
+              "day2": {
+                "rating": 8.4,
+                "goals": 1,
+                "assists": 1,
+                "minutes": 44
+              }
+            },
+            "club_id": "8654",
+            "club_name": "West Ham United",
+            "value": 30960417
+          },
+          {
+            "fm_id": 614449,
+            "id": "20-GER",
+            "fifa_code": "GER",
+            "name": "Nadiem Amiri",
+            "number": 20,
+            "pos": "Midfielder",
+            "age": 29,
+            "date_of_birth": "1996-10-27",
+            "height": 180,
+            "matches": {
+              "day2": {
+                "rating": 7.2,
+                "assists": 1,
+                "minutes": 30
+              }
+            },
+            "club_id": "9905",
+            "club_name": "Mainz 05",
+            "value": 17103886
+          },
+          {
+            "fm_id": 1137668,
+            "id": "23-ECU",
+            "fifa_code": "ECU",
+            "name": "Moisés Caicedo",
+            "number": 23,
+            "pos": "Midfielder",
+            "age": 24,
+            "date_of_birth": "2001-11-02",
+            "height": 178,
+            "matches": {
+              "day2": {
+                "rating": 8.4,
+                "minutes": 90
+              }
+            },
+            "club_id": "8455",
+            "club_name": "Chelsea",
+            "value": 115288104
+          },
+          {
+            "fm_id": 658554,
+            "id": "4-FRA",
+            "fifa_code": "FRA",
+            "name": "Dayot Upamecano",
+            "number": 4,
+            "pos": "Defender",
+            "age": 27,
+            "date_of_birth": "1998-10-27",
+            "height": 185,
+            "matches": {
+              "day2": {
+                "rating": 7.9,
+                "minutes": 90
+              }
+            },
+            "club_id": "9823",
+            "club_name": "Bayern München",
+            "value": 38918284
+          },
+          {
+            "fm_id": 783505,
+            "id": "4-MEX",
+            "fifa_code": "MEX",
+            "name": "Edson Álvarez",
+            "number": 4,
+            "pos": "Midfielder",
+            "age": 28,
+            "date_of_birth": "1997-10-24",
+            "height": 186,
+            "matches": {
+              "day2": {
+                "rating": 7.8,
+                "minutes": 90
+              }
+            },
+            "club_id": "8695",
+            "club_name": "Fenerbahçe",
+            "value": 16354479
+          },
+          {
+            "fm_id": 980311,
+            "id": "19-ECU",
+            "fifa_code": "ECU",
+            "name": "Gonzalo Plata",
+            "number": 19,
+            "pos": "Attacker",
+            "age": 25,
+            "date_of_birth": "2000-11-01",
+            "height": 178,
+            "matches": {
+              "day2": {
+                "rating": 7.7,
+                "minutes": 90
+              }
+            },
+            "club_id": "9770",
+            "club_name": "Flamengo",
+            "value": 9232096
+          },
+          {
+            "fm_id": 770881,
+            "id": "2-MAR",
+            "fifa_code": "MAR",
+            "name": "Achraf Hakimi",
+            "number": 2,
+            "pos": "Defender",
+            "age": 27,
+            "date_of_birth": "1998-11-04",
+            "height": 180,
+            "matches": {
+              "day2": {
+                "rating": 7.5,
+                "minutes": 90
+              }
+            },
+            "club_id": "9847",
+            "club_name": "Paris Saint-Germain",
+            "value": 81152054
+          },
+          {
+            "fm_id": 850354,
+            "id": "8-BRA",
+            "fifa_code": "BRA",
+            "name": "Bruno Guimarães",
+            "number": 8,
+            "pos": "Midfielder",
+            "age": 28,
+            "date_of_birth": "1997-11-16",
+            "height": 182,
+            "matches": {
+              "day2": {
+                "rating": 7.5,
+                "minutes": 9
+              }
+            },
+            "club_id": "10261",
+            "club_name": "Newcastle United",
+            "value": 70064570
+          },
+          {
+            "fm_id": 705450,
+            "id": "5-FRA",
+            "fifa_code": "FRA",
+            "name": "Jules Koundé",
+            "number": 5,
+            "pos": "Defender",
+            "age": 27,
+            "date_of_birth": "1998-11-12",
+            "height": 180,
+            "matches": {
+              "day2": {
+                "rating": 7.4,
+                "minutes": 7
+              }
+            },
+            "club_id": "8634",
+            "club_name": "Barcelona",
+            "value": 63865873
+          },
+          {
+            "fm_id": 664444,
+            "id": "22-JPN",
+            "fifa_code": "JPN",
+            "name": "Takehiro Tomiyasu",
+            "number": 22,
+            "pos": "Defender",
+            "age": 27,
+            "date_of_birth": "1998-11-05",
+            "height": 188,
+            "matches": {
+              "day2": {
+                "rating": 7.4,
+                "minutes": 12
+              }
+            },
+            "club_id": "8593",
+            "club_name": "Ajax",
+            "value": 5242510
+          },
+          {
+            "fm_id": 766574,
+            "id": "1-SEN",
+            "fifa_code": "SEN",
+            "name": "Yehvann Diouf",
+            "number": 1,
+            "pos": "Keeper",
+            "age": 26,
+            "date_of_birth": "1999-11-16",
+            "height": 190,
+            "matches": {
+              "day2": {
+                "minutes": 90
+              }
+            },
+            "club_id": "9831",
+            "club_name": "Nice",
+            "value": 8423160
+          }
+        ],
+        "away11": [
+          {
+            "fm_id": 678234,
+            "id": "21-ESP",
+            "fifa_code": "ESP",
+            "name": "Mikel Oyarzabal",
+            "number": 21,
+            "pos": "Attacker",
+            "age": 29,
+            "date_of_birth": "1997-04-21",
+            "height": 180,
+            "matches": {
+              "day2": {
+                "rating": 9.3,
+                "goals": 2,
+                "assists": 1,
+                "minutes": 44
+              }
+            },
+            "club_id": "8560",
+            "club_name": "Real Sociedad",
+            "value": 34428044
+          },
+          {
+            "fm_id": 806552,
+            "id": "11-NED",
+            "fifa_code": "NED",
+            "name": "Cody Gakpo",
+            "number": 11,
+            "pos": "Attacker",
+            "age": 27,
+            "date_of_birth": "1999-05-07",
+            "height": 193,
+            "matches": {
+              "day2": {
+                "rating": 9.3,
+                "goals": 2,
+                "assists": 1,
+                "minutes": 0
+              }
+            },
+            "club_id": "8650",
+            "club_name": "Liverpool",
+            "value": 69100412
+          },
+          {
+            "fm_id": 692984,
+            "id": "7-FRA",
+            "fifa_code": "FRA",
+            "name": "Ousmane Dembélé",
+            "number": 7,
+            "pos": "Attacker",
+            "age": 29,
+            "date_of_birth": "1997-05-15",
+            "height": 178,
+            "matches": {
+              "day2": {
+                "rating": 8.6,
+                "goals": 1,
+                "assists": 1,
+                "minutes": 22
+              }
+            },
+            "club_id": "9847",
+            "club_name": "Paris Saint-Germain",
+            "value": 95808627
+          },
+          {
+            "fm_id": 614834,
+            "id": "10-ESP",
+            "fifa_code": "ESP",
+            "name": "Dani Olmo",
+            "number": 10,
+            "pos": "Midfielder",
+            "age": 28,
+            "date_of_birth": "1998-05-07",
+            "height": 180,
+            "matches": {
+              "day2": {
+                "rating": 7.7,
+                "assists": 1,
+                "minutes": 29
+              }
+            },
+            "club_id": "8634",
+            "club_name": "Barcelona",
+            "value": 55683025
+          },
+          {
+            "fm_id": 1228546,
+            "id": "26-EGY",
+            "fifa_code": "EGY",
+            "name": "Mostafa Shobeir",
+            "number": 26,
+            "pos": "Keeper",
+            "age": 26,
+            "date_of_birth": "2000-05-15",
+            "height": 195,
+            "matches": {
+              "day2": {
+                "rating": 8.3,
+                "minutes": 90
+              }
+            },
+            "club_id": "101745",
+            "club_name": "Al Ahly SC",
+            "value": 110000
+          },
+          {
+            "fm_id": 511397,
+            "id": "4-IRN",
+            "fifa_code": "IRN",
+            "name": "Shoja Khalilzadeh",
+            "number": 4,
+            "pos": "Defender",
+            "age": 37,
+            "date_of_birth": "1989-05-14",
+            "height": 180,
+            "matches": {
+              "day2": {
+                "rating": 7.8,
+                "minutes": 90
+              }
+            },
+            "club_id": "176352",
+            "club_name": "Tractor",
+            "value": 68178
+          },
+          {
+            "fm_id": 798029,
+            "id": "7-CZE",
+            "fifa_code": "CZE",
+            "name": "Ladislav Krejcí",
+            "number": 7,
+            "pos": "Defender",
+            "age": 27,
+            "date_of_birth": "1999-04-20",
+            "height": 191,
+            "matches": {
+              "day2": {
+                "rating": 7.8,
+                "yellowCards": 1,
+                "minutes": 90
+              }
+            },
+            "club_id": "8602",
+            "club_name": "Wolverhampton Wanderers",
+            "value": 24068639
+          },
+          {
+            "fm_id": 851626,
+            "id": "21-JPN",
+            "fifa_code": "JPN",
+            "name": "Hiroki Ito",
+            "number": 21,
+            "pos": "Defender",
+            "age": 27,
+            "date_of_birth": "1999-05-12",
+            "height": 186,
+            "matches": {
+              "day2": {
+                "rating": 7.7,
+                "minutes": 90
+              }
+            },
+            "club_id": "9823",
+            "club_name": "Bayern München",
+            "value": 19385815
+          },
+          {
+            "fm_id": 638622,
+            "id": "21-NED",
+            "fifa_code": "NED",
+            "name": "Frenkie de Jong",
+            "number": 21,
+            "pos": "Midfielder",
+            "age": 29,
+            "date_of_birth": "1997-05-12",
+            "height": 181,
+            "matches": {
+              "day2": {
+                "rating": 7.7,
+                "minutes": 31
+              }
+            },
+            "club_id": "8634",
+            "club_name": "Barcelona",
+            "value": 42810860
+          },
+          {
+            "fm_id": 465960,
+            "id": "8-BEL",
+            "fifa_code": "BEL",
+            "name": "Youri Tielemans",
+            "number": 8,
+            "pos": "Midfielder",
+            "age": 29,
+            "date_of_birth": "1997-05-07",
+            "height": 177,
+            "matches": {
+              "day2": {
+                "rating": 7.7,
+                "minutes": 90
+              }
+            },
+            "club_id": "10252",
+            "club_name": "Aston Villa",
+            "value": 39101697
+          },
+          {
+            "fm_id": 940010,
+            "id": "20-RSA",
+            "fifa_code": "RSA",
+            "name": "Khuliso Mudau",
+            "number": 20,
+            "pos": "Defender",
+            "age": 31,
+            "date_of_birth": "1995-04-26",
+            "height": 181,
+            "matches": {
+              "day2": {
+                "rating": 7.5,
+                "minutes": 90
+              }
+            },
+            "club_id": "4530",
+            "club_name": "Mamelodi Sundowns FC",
+            "value": 493186
+          }
+        ]
       },
       {
         "home_team": "Aquarius",
         "away_team": "Leo",
-        "home_score": null,
-        "away_score": null,
-        "status": "ongoing",
+        "home_score": "126.30",
+        "away_score": "101.10",
+        "status": "completed",
         "stats": {},
-        "turn": "day2"
+        "turn": "day2",
+        "home_goals": 11,
+        "away_goals": 6,
+        "home11": [
+          {
+            "fm_id": 940446,
+            "id": "19-NED",
+            "fifa_code": "NED",
+            "name": "Brian Brobbey",
+            "number": 19,
+            "pos": "Attacker",
+            "age": 24,
+            "date_of_birth": "2002-02-01",
+            "height": 180,
+            "matches": {
+              "day2": {
+                "rating": 8.8,
+                "goals": 2,
+                "minutes": 18
+              }
+            },
+            "club_id": "8472",
+            "club_name": "Sunderland",
+            "value": 27701983
+          },
+          {
+            "fm_id": 1216798,
+            "id": "25-CAN",
+            "fifa_code": "CAN",
+            "name": "Nathan Saliba",
+            "number": 25,
+            "pos": "Midfielder",
+            "age": 22,
+            "date_of_birth": "2004-02-07",
+            "height": 173,
+            "matches": {
+              "day2": {
+                "rating": 8.4,
+                "goals": 1,
+                "assists": 1,
+                "minutes": 34
+              }
+            },
+            "club_id": "8635",
+            "club_name": "Anderlecht",
+            "value": 6392960
+          },
+          {
+            "fm_id": 1031656,
+            "id": "20-URU",
+            "fifa_code": "URU",
+            "name": "Maxi Araújo",
+            "number": 20,
+            "pos": "Defender",
+            "age": 26,
+            "date_of_birth": "2000-02-15",
+            "height": 180,
+            "matches": {
+              "day2": {
+                "rating": 8.3,
+                "goals": 1,
+                "assists": 1,
+                "minutes": 9
+              }
+            },
+            "club_id": "9768",
+            "club_name": "Sporting CP",
+            "value": 25121246
+          },
+          {
+            "fm_id": 848361,
+            "id": "4-RSA",
+            "fifa_code": "RSA",
+            "name": "Teboho Mokoena",
+            "number": 4,
+            "pos": "Midfielder",
+            "age": 29,
+            "date_of_birth": "1997-01-24",
+            "height": 176,
+            "matches": {
+              "day2": {
+                "rating": 8.6,
+                "goals": 1,
+                "yellowCards": 1,
+                "minutes": 90
+              }
+            },
+            "club_id": "4530",
+            "club_name": "Mamelodi Sundowns FC",
+            "value": 1522161
+          },
+          {
+            "fm_id": 1241957,
+            "id": "23-PAR",
+            "fifa_code": "PAR",
+            "name": "Matías Galarza",
+            "number": 23,
+            "pos": "Midfielder",
+            "age": 24,
+            "date_of_birth": "2002-02-11",
+            "height": 175,
+            "matches": {
+              "day2": {
+                "rating": 8.1,
+                "goals": 1,
+                "yellowCards": 1,
+                "minutes": 0
+              }
+            },
+            "club_id": "773958",
+            "club_name": "Atlanta United",
+            "value": 2514488
+          },
+          {
+            "fm_id": 1180288,
+            "id": "11-MAR",
+            "fifa_code": "MAR",
+            "name": "Ismael Saibari",
+            "number": 11,
+            "pos": "Midfielder",
+            "age": 25,
+            "date_of_birth": "2001-01-28",
+            "height": 185,
+            "matches": {
+              "day2": {
+                "rating": 8,
+                "goals": 1,
+                "minutes": 7
+              }
+            },
+            "club_id": "8640",
+            "club_name": "PSV Eindhoven",
+            "value": 30396708
+          },
+          {
+            "fm_id": 844437,
+            "id": "9-ALG",
+            "fifa_code": "ALG",
+            "name": "Amine Gouiri",
+            "number": 9,
+            "pos": "Attacker",
+            "age": 26,
+            "date_of_birth": "2000-02-16",
+            "height": 181,
+            "matches": {
+              "day2": {
+                "rating": 7.8,
+                "goals": 1,
+                "minutes": 5
+              }
+            },
+            "club_id": "8592",
+            "club_name": "Marseille",
+            "value": 30903837
+          },
+          {
+            "fm_id": 890503,
+            "id": "6-CPV",
+            "fifa_code": "CPV",
+            "name": "Kevin Pina",
+            "number": 6,
+            "pos": "Midfielder",
+            "age": 29,
+            "date_of_birth": "1997-01-27",
+            "height": 190,
+            "matches": {
+              "day2": {
+                "rating": 7.7,
+                "goals": 1,
+                "minutes": 20
+              }
+            },
+            "club_id": "168719",
+            "club_name": "FC Krasnodar",
+            "value": 2519528
+          },
+          {
+            "fm_id": 620917,
+            "id": "4-JPN",
+            "fifa_code": "JPN",
+            "name": "Ko Itakura",
+            "number": 4,
+            "pos": "Defender",
+            "age": 29,
+            "date_of_birth": "1997-01-27",
+            "height": 185,
+            "matches": {
+              "day2": {
+                "rating": 8.3,
+                "assists": 1,
+                "minutes": 90
+              }
+            },
+            "club_id": "8593",
+            "club_name": "Ajax",
+            "value": 10542063
+          },
+          {
+            "fm_id": 660213,
+            "id": "3-EGY",
+            "fifa_code": "EGY",
+            "name": "Mohamed Hany",
+            "number": 3,
+            "pos": "Defender",
+            "age": 30,
+            "date_of_birth": "1996-02-02",
+            "height": 175,
+            "matches": {
+              "day2": {
+                "rating": 8,
+                "assists": 1,
+                "minutes": 90
+              }
+            },
+            "club_id": "101745",
+            "club_name": "Al Ahly SC",
+            "value": 1198746
+          },
+          {
+            "fm_id": 150242,
+            "id": "1-CUW",
+            "fifa_code": "CUW",
+            "name": "Eloy Room",
+            "number": 1,
+            "pos": "Keeper",
+            "age": 37,
+            "date_of_birth": "1989-02-06",
+            "height": 189,
+            "matches": {
+              "day2": {
+                "rating": 9.3,
+                "minutes": 90
+              }
+            },
+            "club_id": "721896",
+            "club_name": "Miami FC",
+            "value": 83664
+          }
+        ],
+        "away11": [
+          {
+            "fm_id": 860752,
+            "id": "17-SUI",
+            "fifa_code": "SUI",
+            "name": "Rubén Vargas",
+            "number": 17,
+            "pos": "Attacker",
+            "age": 27,
+            "date_of_birth": "1998-08-05",
+            "height": 174,
+            "matches": {
+              "day2": {
+                "rating": 8.3,
+                "goals": 1,
+                "assists": 1,
+                "minutes": 18
+              }
+            },
+            "club_id": "8302",
+            "club_name": "Sevilla",
+            "value": 12652149
+          },
+          {
+            "fm_id": 1338696,
+            "id": "16-USA",
+            "fifa_code": "USA",
+            "name": "Alex Freeman",
+            "number": 16,
+            "pos": "Defender",
+            "age": 21,
+            "date_of_birth": "2004-08-09",
+            "height": 188,
+            "matches": {
+              "day2": {
+                "rating": 8.5,
+                "goals": 1,
+                "minutes": 90
+              }
+            },
+            "club_id": "10205",
+            "club_name": "Villarreal",
+            "value": 2557650
+          },
+          {
+            "fm_id": 621515,
+            "id": "15-JPN",
+            "fifa_code": "JPN",
+            "name": "Daichi Kamada",
+            "number": 15,
+            "pos": "Midfielder",
+            "age": 29,
+            "date_of_birth": "1996-08-05",
+            "height": 184,
+            "matches": {
+              "day2": {
+                "rating": 7.7,
+                "goals": 1,
+                "minutes": 16
+              }
+            },
+            "club_id": "9826",
+            "club_name": "Crystal Palace",
+            "value": 10248016
+          },
+          {
+            "fm_id": 887704,
+            "id": "13-JPN",
+            "fifa_code": "JPN",
+            "name": "Keito Nakamura",
+            "number": 13,
+            "pos": "Attacker",
+            "age": 25,
+            "date_of_birth": "2000-07-28",
+            "height": 180,
+            "matches": {
+              "day2": {
+                "rating": 8.2,
+                "assists": 1,
+                "minutes": 12
+              }
+            },
+            "club_id": "9837",
+            "club_name": "Reims",
+            "value": 9885463
+          },
+          {
+            "fm_id": 750027,
+            "id": "10-MAR",
+            "fifa_code": "MAR",
+            "name": "Brahim Díaz",
+            "number": 10,
+            "pos": "Attacker",
+            "age": 26,
+            "date_of_birth": "1999-08-03",
+            "height": 170,
+            "matches": {
+              "day2": {
+                "rating": 7.7,
+                "assists": 1,
+                "minutes": 7
+              }
+            },
+            "club_id": "8633",
+            "club_name": "Real Madrid",
+            "value": 34968300
+          },
+          {
+            "fm_id": 1131987,
+            "id": "1-NED",
+            "fifa_code": "NED",
+            "name": "Bart Verbruggen",
+            "number": 1,
+            "pos": "Keeper",
+            "age": 23,
+            "date_of_birth": "2002-08-18",
+            "height": 193,
+            "matches": {
+              "day2": {
+                "rating": 7.9,
+                "minutes": 90
+              }
+            },
+            "club_id": "10204",
+            "club_name": "Brighton & Hove Albion",
+            "value": 53625512
+          },
+          {
+            "fm_id": 662428,
+            "id": "5-USA",
+            "fifa_code": "USA",
+            "name": "Antonee Robinson",
+            "number": 5,
+            "pos": "Defender",
+            "age": 28,
+            "date_of_birth": "1997-08-08",
+            "height": 183,
+            "matches": {
+              "day2": {
+                "rating": 7.7,
+                "yellowCards": 1,
+                "minutes": 10
+              }
+            },
+            "club_id": "9879",
+            "club_name": "Fulham",
+            "value": 32167890
+          },
+          {
+            "fm_id": 307317,
+            "id": "5-CZE",
+            "fifa_code": "CZE",
+            "name": "Vladimír Coufal",
+            "number": 5,
+            "pos": "Defender",
+            "age": 33,
+            "date_of_birth": "1992-08-22",
+            "height": 176,
+            "matches": {
+              "day2": {
+                "rating": 7.7,
+                "minutes": 90
+              }
+            },
+            "club_id": "8226",
+            "club_name": "Hoffenheim",
+            "value": 1978041
+          },
+          {
+            "fm_id": 1418549,
+            "id": "19-EGY",
+            "fifa_code": "EGY",
+            "name": "Marwan Attia",
+            "number": 19,
+            "pos": "Midfielder",
+            "age": 27,
+            "date_of_birth": "1998-08-01",
+            "height": 176,
+            "matches": {
+              "day2": {
+                "rating": 7.5,
+                "minutes": 90
+              }
+            },
+            "club_id": "101745",
+            "club_name": "Al Ahly SC",
+            "value": 2348545
+          },
+          {
+            "fm_id": 832171,
+            "id": "21-ECU",
+            "fifa_code": "ECU",
+            "name": "Alan Franco",
+            "number": 21,
+            "pos": "Midfielder",
+            "age": 27,
+            "date_of_birth": "1998-08-21",
+            "height": 175,
+            "matches": {
+              "day2": {
+                "rating": 7.5,
+                "minutes": 7
+              }
+            },
+            "club_id": "10272",
+            "club_name": "Atletico MG",
+            "value": 2793714
+          },
+          {
+            "fm_id": 597976,
+            "id": "23-MEX",
+            "fifa_code": "MEX",
+            "name": "Jesús Gallardo",
+            "number": 23,
+            "pos": "Defender",
+            "age": 31,
+            "date_of_birth": "1994-08-15",
+            "height": 177,
+            "matches": {
+              "day2": {
+                "rating": 7.4,
+                "minutes": 90
+              }
+            },
+            "club_id": "6618",
+            "club_name": "Toluca",
+            "value": 2124700
+          }
+        ]
       },
       {
         "home_team": "Sagittarius",
         "away_team": "Gemini",
-        "home_score": null,
-        "away_score": null,
-        "status": "ongoing",
+        "home_score": "100.90",
+        "away_score": "112.90",
+        "status": "completed",
         "stats": {},
-        "turn": "day2"
+        "turn": "day2",
+        "home_goals": 6,
+        "away_goals": 8,
+        "home11": [
+          {
+            "fm_id": 701154,
+            "id": "10-FRA",
+            "fifa_code": "FRA",
+            "name": "Kylian Mbappé",
+            "number": 10,
+            "pos": "Attacker",
+            "age": 27,
+            "date_of_birth": "1998-12-20",
+            "height": 178,
+            "matches": {
+              "day2": {
+                "rating": 9.2,
+                "goals": 2,
+                "minutes": 0
+              }
+            },
+            "club_id": "8633",
+            "club_name": "Real Madrid",
+            "value": 112913112
+          },
+          {
+            "fm_id": 1029063,
+            "id": "11-FRA",
+            "fifa_code": "FRA",
+            "name": "Michael Olise",
+            "number": 11,
+            "pos": "Attacker",
+            "age": 24,
+            "date_of_birth": "2001-12-12",
+            "height": 184,
+            "matches": {
+              "day2": {
+                "rating": 8.9,
+                "assists": 2,
+                "minutes": 22
+              }
+            },
+            "club_id": "9823",
+            "club_name": "Bayern München",
+            "value": 170630650
+          },
+          {
+            "fm_id": 579747,
+            "id": "8-CIV",
+            "fifa_code": "CIV",
+            "name": "Franck Kessié",
+            "number": 8,
+            "pos": "Midfielder",
+            "age": 29,
+            "date_of_birth": "1996-12-19",
+            "height": 180,
+            "matches": {
+              "day2": {
+                "rating": 7.2,
+                "goals": 1,
+                "minutes": 90
+              }
+            },
+            "club_id": "2530",
+            "club_name": "Al Ahli",
+            "value": 7134495
+          },
+          {
+            "fm_id": 534670,
+            "id": "10-NOR",
+            "fifa_code": "NOR",
+            "name": "Martin Ødegaard",
+            "number": 10,
+            "pos": "Midfielder",
+            "age": 27,
+            "date_of_birth": "1998-12-17",
+            "height": 176,
+            "matches": {
+              "day2": {
+                "rating": 7.7,
+                "assists": 1,
+                "minutes": 90
+              }
+            },
+            "club_id": "9825",
+            "club_name": "Arsenal",
+            "value": 65354694
+          },
+          {
+            "fm_id": 530635,
+            "id": "6-NOR",
+            "fifa_code": "NOR",
+            "name": "Patrick Berg",
+            "number": 6,
+            "pos": "Midfielder",
+            "age": 28,
+            "date_of_birth": "1997-11-24",
+            "height": 178,
+            "matches": {
+              "day2": {
+                "rating": 7.4,
+                "assists": 1,
+                "minutes": 44
+              }
+            },
+            "club_id": "8402",
+            "club_name": "Bodø/Glimt",
+            "value": 3862873
+          },
+          {
+            "fm_id": 318615,
+            "id": "10-BEL",
+            "fifa_code": "BEL",
+            "name": "Leandro Trossard",
+            "number": 10,
+            "pos": "Attacker",
+            "age": 31,
+            "date_of_birth": "1994-12-04",
+            "height": 175,
+            "matches": {
+              "day2": {
+                "rating": 8,
+                "minutes": 90
+              }
+            },
+            "club_id": "9825",
+            "club_name": "Arsenal",
+            "value": 17002183
+          },
+          {
+            "fm_id": 816223,
+            "id": "7-CAN",
+            "fifa_code": "CAN",
+            "name": "Stephen Eustaquio",
+            "number": 7,
+            "pos": "Midfielder",
+            "age": 29,
+            "date_of_birth": "1996-12-21",
+            "height": 178,
+            "matches": {
+              "day2": {
+                "rating": 7.8,
+                "minutes": 90
+              }
+            },
+            "club_id": "867280",
+            "club_name": "Los Angeles FC",
+            "value": 5372469
+          },
+          {
+            "fm_id": 795179,
+            "id": "3-BRA",
+            "fifa_code": "BRA",
+            "name": "Gabriel",
+            "number": 3,
+            "pos": "Defender",
+            "age": 28,
+            "date_of_birth": "1997-12-19",
+            "height": 190,
+            "matches": {
+              "day2": {
+                "rating": 7.3,
+                "minutes": 90
+              }
+            },
+            "club_id": "9825",
+            "club_name": "Arsenal",
+            "value": 79588929
+          },
+          {
+            "fm_id": 465750,
+            "id": "21-BEL",
+            "fifa_code": "BEL",
+            "name": "Timothy Castagne",
+            "number": 21,
+            "pos": "Defender",
+            "age": 30,
+            "date_of_birth": "1995-12-05",
+            "height": 185,
+            "matches": {
+              "day2": {
+                "rating": 7.1,
+                "minutes": 32
+              }
+            },
+            "club_id": "9879",
+            "club_name": "Fulham",
+            "value": 11526536
+          },
+          {
+            "fm_id": 1002058,
+            "id": "15-GER",
+            "fifa_code": "GER",
+            "name": "Nico Schlotterbeck",
+            "number": 15,
+            "pos": "Defender",
+            "age": 26,
+            "date_of_birth": "1999-12-01",
+            "height": 191,
+            "matches": {
+              "day2": {
+                "rating": 6.8,
+                "minutes": 44
+              }
+            },
+            "club_id": "9789",
+            "club_name": "Borussia Dortmund",
+            "value": 43361627
+          },
+          {
+            "fm_id": 764018,
+            "id": "1-SUI",
+            "fifa_code": "SUI",
+            "name": "Gregor Kobel",
+            "number": 1,
+            "pos": "Keeper",
+            "age": 28,
+            "date_of_birth": "1997-12-06",
+            "height": 193,
+            "matches": {
+              "day2": {
+                "rating": 6.5,
+                "minutes": 90
+              }
+            },
+            "club_id": "9789",
+            "club_name": "Borussia Dortmund",
+            "value": 41061449
+          }
+        ],
+        "away11": [
+          {
+            "fm_id": 863098,
+            "id": "9-BRA",
+            "fifa_code": "BRA",
+            "name": "Matheus Cunha",
+            "number": 9,
+            "pos": "Attacker",
+            "age": 27,
+            "date_of_birth": "1999-05-27",
+            "height": 184,
+            "matches": {
+              "day2": {
+                "rating": 8.9,
+                "goals": 2,
+                "minutes": 26
+              }
+            },
+            "club_id": "10260",
+            "club_name": "Manchester United",
+            "value": 72089268
+          },
+          {
+            "fm_id": 292462,
+            "id": "10-EGY",
+            "fifa_code": "EGY",
+            "name": "Mohamed Salah",
+            "number": 10,
+            "pos": "Attacker",
+            "age": 34,
+            "date_of_birth": "1992-06-15",
+            "height": 175,
+            "matches": {
+              "day2": {
+                "rating": 8.9,
+                "goals": 1,
+                "assists": 1,
+                "minutes": 6
+              }
+            },
+            "club_id": "8650",
+            "club_name": "Liverpool",
+            "value": 39003722
+          },
+          {
+            "fm_id": 921174,
+            "id": "7-MEX",
+            "fifa_code": "MEX",
+            "name": "Luis Romo",
+            "number": 7,
+            "pos": "Defender",
+            "age": 31,
+            "date_of_birth": "1995-06-05",
+            "height": 182,
+            "matches": {
+              "day2": {
+                "rating": 8,
+                "goals": 1,
+                "minutes": 19
+              }
+            },
+            "club_id": "7807",
+            "club_name": "Chivas",
+            "value": 1958037
+          },
+          {
+            "fm_id": 806551,
+            "id": "18-CZE",
+            "fifa_code": "CZE",
+            "name": "Michal Sadílek",
+            "number": 18,
+            "pos": "Midfielder",
+            "age": 27,
+            "date_of_birth": "1999-05-31",
+            "height": 169,
+            "matches": {
+              "day2": {
+                "rating": 7.5,
+                "goals": 1,
+                "minutes": 23
+              }
+            },
+            "club_id": "7787",
+            "club_name": "Slavia Prague",
+            "value": 7514500
+          },
+          {
+            "fm_id": 411617,
+            "id": "14-ESP",
+            "fifa_code": "ESP",
+            "name": "Aymeric Laporte",
+            "number": 14,
+            "pos": "Defender",
+            "age": 32,
+            "date_of_birth": "1994-05-27",
+            "height": 191,
+            "matches": {
+              "day2": {
+                "rating": 8.1,
+                "assists": 1,
+                "minutes": 90
+              }
+            },
+            "club_id": "8315",
+            "club_name": "Athletic Club",
+            "value": 7044833
+          },
+          {
+            "fm_id": 812652,
+            "id": "25-ARG",
+            "fifa_code": "ARG",
+            "name": "Facundo Medina",
+            "number": 25,
+            "pos": "Defender",
+            "age": 27,
+            "date_of_birth": "1999-05-28",
+            "height": 184,
+            "matches": {
+              "day2": {
+                "rating": 7.9,
+                "assists": 1,
+                "yellowCards": 1,
+                "minutes": 8
+              }
+            },
+            "club_id": "8592",
+            "club_name": "Marseille",
+            "value": 20050209
+          },
+          {
+            "fm_id": 1197347,
+            "id": "11-SEN",
+            "fifa_code": "SEN",
+            "name": "Nicolas Jackson",
+            "number": 11,
+            "pos": "Attacker",
+            "age": 25,
+            "date_of_birth": "2001-06-20",
+            "height": 187,
+            "matches": {
+              "day2": {
+                "rating": 7.3,
+                "assists": 1,
+                "minutes": 90
+              }
+            },
+            "club_id": "9823",
+            "club_name": "Bayern München",
+            "value": 44065300
+          },
+          {
+            "fm_id": 813055,
+            "id": "10-JOR",
+            "fifa_code": "JOR",
+            "name": "Mousa Al Tamari",
+            "number": 10,
+            "pos": "Midfielder",
+            "age": 29,
+            "date_of_birth": "1997-06-10",
+            "height": 178,
+            "matches": {
+              "day2": {
+                "rating": 6.7,
+                "assists": 1,
+                "minutes": 6
+              }
+            },
+            "club_id": "9851",
+            "club_name": "Rennes",
+            "value": 5340000
+          },
+          {
+            "fm_id": 1133495,
+            "id": "4-PAR",
+            "fifa_code": "PAR",
+            "name": "Juan Cáceres",
+            "number": 4,
+            "pos": "Defender",
+            "age": 26,
+            "date_of_birth": "2000-06-01",
+            "height": 173,
+            "matches": {
+              "day2": {
+                "rating": 8.4,
+                "minutes": 9
+              }
+            },
+            "club_id": "9763",
+            "club_name": "Dinamo Moscow",
+            "value": 3839015
+          },
+          {
+            "fm_id": 1683391,
+            "id": "12-PAR",
+            "fifa_code": "PAR",
+            "name": "Orlando Gill",
+            "number": 12,
+            "pos": "Keeper",
+            "age": 26,
+            "date_of_birth": "2000-06-11",
+            "height": 198,
+            "matches": {
+              "day2": {
+                "rating": 8.3,
+                "minutes": 90
+              }
+            },
+            "club_id": "10083",
+            "club_name": "San Lorenzo",
+            "value": 5083176
+          },
+          {
+            "fm_id": 933845,
+            "id": "15-ALG",
+            "fifa_code": "ALG",
+            "name": "Rayan Aït-Nouri",
+            "number": 15,
+            "pos": "Defender",
+            "age": 25,
+            "date_of_birth": "2001-06-06",
+            "height": 180,
+            "matches": {
+              "day2": {
+                "rating": 7.9,
+                "minutes": 5
+              }
+            },
+            "club_id": "8456",
+            "club_name": "Manchester City",
+            "value": 47935298
+          }
+        ]
       },
       {
         "home_team": "Virgo",
         "away_team": "Pisces",
-        "home_score": null,
-        "away_score": null,
-        "status": "ongoing",
+        "home_score": "100.30",
+        "away_score": "96.60",
+        "status": "completed",
         "stats": {},
-        "turn": "day2"
+        "turn": "day2",
+        "home_goals": 6,
+        "away_goals": 6,
+        "home11": [
+          {
+            "fm_id": 942393,
+            "id": "18-JPN",
+            "fifa_code": "JPN",
+            "name": "Ayase Ueda",
+            "number": 18,
+            "pos": "Attacker",
+            "age": 27,
+            "date_of_birth": "1998-08-28",
+            "height": 182,
+            "matches": {
+              "day2": {
+                "rating": 9.3,
+                "goals": 2,
+                "assists": 1,
+                "minutes": 6
+              }
+            },
+            "club_id": "10235",
+            "club_name": "Feyenoord",
+            "value": 17343060
+          },
+          {
+            "fm_id": 766435,
+            "id": "20-BRA",
+            "fifa_code": "BRA",
+            "name": "Lucas Paquetá",
+            "number": 20,
+            "pos": "Midfielder",
+            "age": 28,
+            "date_of_birth": "1997-08-27",
+            "height": 180,
+            "matches": {
+              "day2": {
+                "rating": 8.1,
+                "assists": 1,
+                "minutes": 26
+              }
+            },
+            "club_id": "9770",
+            "club_name": "Flamengo",
+            "value": 50171404
+          },
+          {
+            "fm_id": 690107,
+            "id": "9-SWE",
+            "fifa_code": "SWE",
+            "name": "Alexander Isak",
+            "number": 9,
+            "pos": "Attacker",
+            "age": 26,
+            "date_of_birth": "1999-09-21",
+            "height": 192,
+            "matches": {
+              "day2": {
+                "rating": 7.9,
+                "assists": 1,
+                "minutes": 90
+              }
+            },
+            "club_id": "8650",
+            "club_name": "Liverpool",
+            "value": 103128085
+          },
+          {
+            "fm_id": 505313,
+            "id": "1-IRN",
+            "fifa_code": "IRN",
+            "name": "Alireza Beiranvand",
+            "number": 1,
+            "pos": "Keeper",
+            "age": 33,
+            "date_of_birth": "1992-09-21",
+            "height": 194,
+            "matches": {
+              "day2": {
+                "rating": 9.1,
+                "minutes": 90
+              }
+            },
+            "club_id": "176352",
+            "club_name": "Tractor",
+            "value": 167812
+          },
+          {
+            "fm_id": 941573,
+            "id": "12-ESP",
+            "fifa_code": "ESP",
+            "name": "Pedro Porro",
+            "number": 12,
+            "pos": "Defender",
+            "age": 26,
+            "date_of_birth": "1999-09-13",
+            "height": 176,
+            "matches": {
+              "day2": {
+                "rating": 8.3,
+                "minutes": 90
+              }
+            },
+            "club_id": "8586",
+            "club_name": "Tottenham Hotspur",
+            "value": 49955593
+          },
+          {
+            "fm_id": 291399,
+            "id": "14-TUR",
+            "fifa_code": "TUR",
+            "name": "Abdülkerim Bardakci",
+            "number": 14,
+            "pos": "Defender",
+            "age": 31,
+            "date_of_birth": "1994-09-07",
+            "height": 184,
+            "matches": {
+              "day2": {
+                "rating": 8,
+                "minutes": 4
+              }
+            },
+            "club_id": "8637",
+            "club_name": "Galatasaray",
+            "value": 4877755
+          },
+          {
+            "fm_id": 848266,
+            "id": "8-USA",
+            "fifa_code": "USA",
+            "name": "Weston McKennie",
+            "number": 8,
+            "pos": "Midfielder",
+            "age": 27,
+            "date_of_birth": "1998-08-28",
+            "height": 185,
+            "matches": {
+              "day2": {
+                "rating": 7.8,
+                "minutes": 0
+              }
+            },
+            "club_id": "9885",
+            "club_name": "Juventus",
+            "value": 19089158
+          },
+          {
+            "fm_id": 1297165,
+            "id": "12-FRA",
+            "fifa_code": "FRA",
+            "name": "Bradley Barcola",
+            "number": 12,
+            "pos": "Attacker",
+            "age": 23,
+            "date_of_birth": "2002-09-02",
+            "height": 182,
+            "matches": {
+              "day2": {
+                "rating": 7.7,
+                "minutes": 7
+              }
+            },
+            "club_id": "9847",
+            "club_name": "Paris Saint-Germain",
+            "value": 70662905
+          },
+          {
+            "fm_id": 935728,
+            "id": "7-JPN",
+            "fifa_code": "JPN",
+            "name": "Ao Tanaka",
+            "number": 7,
+            "pos": "Midfielder",
+            "age": 27,
+            "date_of_birth": "1998-09-10",
+            "height": 180,
+            "matches": {
+              "day2": {
+                "rating": 7.5,
+                "minutes": 90
+              }
+            },
+            "club_id": "8463",
+            "club_name": "Leeds United",
+            "value": 12091809
+          },
+          {
+            "fm_id": 115591,
+            "id": "13-SUI",
+            "fifa_code": "SUI",
+            "name": "Ricardo Rodríguez",
+            "number": 13,
+            "pos": "Defender",
+            "age": 33,
+            "date_of_birth": "1992-08-25",
+            "height": 180,
+            "matches": {
+              "day2": {
+                "rating": 7.3,
+                "minutes": 90
+              }
+            },
+            "club_id": "8603",
+            "club_name": "Real Betis",
+            "value": 1615330
+          },
+          {
+            "fm_id": 671327,
+            "id": "5-CUW",
+            "fifa_code": "CUW",
+            "name": "Sherel Floranus",
+            "number": 5,
+            "pos": "Defender",
+            "age": 27,
+            "date_of_birth": "1998-08-23",
+            "height": 181,
+            "matches": {
+              "day2": {
+                "rating": 7.3,
+                "minutes": 90
+              }
+            },
+            "club_id": "6413",
+            "club_name": "PEC Zwolle",
+            "value": 831414
+          }
+        ],
+        "away11": [
+          {
+            "fm_id": 771294,
+            "id": "18-SEN",
+            "fifa_code": "SEN",
+            "name": "Ismaïla Sarr",
+            "number": 18,
+            "pos": "Midfielder",
+            "age": 28,
+            "date_of_birth": "1998-02-25",
+            "height": 185,
+            "matches": {
+              "day2": {
+                "rating": 8.6,
+                "goals": 2,
+                "minutes": 90
+              }
+            },
+            "club_id": "9826",
+            "club_name": "Crystal Palace",
+            "value": 41529908
+          },
+          {
+            "fm_id": 604044,
+            "id": "14-JPN",
+            "fifa_code": "JPN",
+            "name": "Junya Ito",
+            "number": 14,
+            "pos": "Attacker",
+            "age": 33,
+            "date_of_birth": "1993-03-09",
+            "height": 176,
+            "matches": {
+              "day2": {
+                "rating": 7.7,
+                "goals": 1,
+                "minutes": 90
+              }
+            },
+            "club_id": "9987",
+            "club_name": "Genk",
+            "value": 2254407
+          },
+          {
+            "fm_id": 278343,
+            "id": "7-ALG",
+            "fifa_code": "ALG",
+            "name": "Riyad Mahrez",
+            "number": 7,
+            "pos": "Attacker",
+            "age": 35,
+            "date_of_birth": "1991-02-21",
+            "height": 179,
+            "matches": {
+              "day2": {
+                "rating": 7.9,
+                "assists": 1,
+                "minutes": 14
+              }
+            },
+            "club_id": "2530",
+            "club_name": "Al Ahli",
+            "value": 4478232
+          },
+          {
+            "fm_id": 1227878,
+            "id": "1-MEX",
+            "fifa_code": "MEX",
+            "name": "Raúl Rangel",
+            "number": 1,
+            "pos": "Keeper",
+            "age": 26,
+            "date_of_birth": "2000-02-25",
+            "height": 187,
+            "matches": {
+              "day2": {
+                "rating": 8.4,
+                "minutes": 90
+              }
+            },
+            "club_id": "7807",
+            "club_name": "Chivas",
+            "value": 7416142
+          },
+          {
+            "fm_id": 1108611,
+            "id": "15-ECU",
+            "fifa_code": "ECU",
+            "name": "Pedro Vite",
+            "number": 15,
+            "pos": "Midfielder",
+            "age": 24,
+            "date_of_birth": "2002-03-09",
+            "height": 170,
+            "matches": {
+              "day2": {
+                "rating": 8.1,
+                "minutes": 90
+              }
+            },
+            "club_id": "1946",
+            "club_name": "Pumas",
+            "value": 8294552
+          },
+          {
+            "fm_id": 389845,
+            "id": "20-CUW",
+            "fifa_code": "CUW",
+            "name": "Joshua Brenet",
+            "number": 20,
+            "pos": "Defender",
+            "age": 32,
+            "date_of_birth": "1994-03-20",
+            "height": 181,
+            "matches": {
+              "day2": {
+                "rating": 7.8,
+                "minutes": 90
+              }
+            },
+            "club_id": "10182",
+            "club_name": "Kayserispor",
+            "value": 678550
+          },
+          {
+            "fm_id": 1600334,
+            "id": "5-RSA",
+            "fifa_code": "RSA",
+            "name": "Ime Okon",
+            "number": 5,
+            "pos": "Defender",
+            "age": 22,
+            "date_of_birth": "2004-02-20",
+            "height": 187,
+            "matches": {
+              "day2": {
+                "rating": 7.6,
+                "minutes": 90
+              }
+            },
+            "club_id": "9904",
+            "club_name": "Hannover 96",
+            "value": 1924580
+          },
+          {
+            "fm_id": 208494,
+            "id": "5-BRA",
+            "fifa_code": "BRA",
+            "name": "Casemiro",
+            "number": 5,
+            "pos": "Midfielder",
+            "age": 34,
+            "date_of_birth": "1992-02-23",
+            "height": 185,
+            "matches": {
+              "day2": {
+                "rating": 7.6,
+                "minutes": 90
+              }
+            },
+            "club_id": "10260",
+            "club_name": "Manchester United",
+            "value": 6388185
+          },
+          {
+            "fm_id": 794244,
+            "id": "18-CUW",
+            "fifa_code": "CUW",
+            "name": "Armando Obispo",
+            "number": 18,
+            "pos": "Defender",
+            "age": 27,
+            "date_of_birth": "1999-03-05",
+            "height": 184,
+            "matches": {
+              "day2": {
+                "rating": 7.3,
+                "minutes": 90
+              }
+            },
+            "club_id": "8640",
+            "club_name": "PSV Eindhoven",
+            "value": 2250193
+          },
+          {
+            "fm_id": 979376,
+            "id": "8-EGY",
+            "fifa_code": "EGY",
+            "name": "Emam Ashour",
+            "number": 8,
+            "pos": "Midfielder",
+            "age": 28,
+            "date_of_birth": "1998-02-20",
+            "height": 180,
+            "matches": {
+              "day2": {
+                "rating": 7.3,
+                "minutes": 6
+              }
+            },
+            "club_id": "101745",
+            "club_name": "Al Ahly SC",
+            "value": 2330955
+          },
+          {
+            "fm_id": 863869,
+            "id": "23-BEL",
+            "fifa_code": "BEL",
+            "name": "Nicolas Raskin",
+            "number": 23,
+            "pos": "Midfielder",
+            "age": 25,
+            "date_of_birth": "2001-02-23",
+            "height": 179,
+            "matches": {
+              "day2": {
+                "rating": 7.3,
+                "minutes": 32
+              }
+            },
+            "club_id": "8548",
+            "club_name": "Rangers",
+            "value": 12226378
+          }
+        ]
       }
     ]
   },
@@ -2894,7 +5646,7 @@
         "away_team": "Libra",
         "home_score": null,
         "away_score": null,
-        "status": "scheduled",
+        "status": "ongoing",
         "stats": {},
         "turn": "day3"
       },
@@ -2903,7 +5655,7 @@
         "away_team": "Aries",
         "home_score": null,
         "away_score": null,
-        "status": "scheduled",
+        "status": "ongoing",
         "stats": {},
         "turn": "day3"
       },
@@ -2912,7 +5664,7 @@
         "away_team": "Aquarius",
         "home_score": null,
         "away_score": null,
-        "status": "scheduled",
+        "status": "ongoing",
         "stats": {},
         "turn": "day3"
       },
@@ -2921,7 +5673,7 @@
         "away_team": "Scorpio",
         "home_score": null,
         "away_score": null,
-        "status": "scheduled",
+        "status": "ongoing",
         "stats": {},
         "turn": "day3"
       },
@@ -2930,7 +5682,7 @@
         "away_team": "Pisces",
         "home_score": null,
         "away_score": null,
-        "status": "scheduled",
+        "status": "ongoing",
         "stats": {},
         "turn": "day3"
       },
@@ -2939,7 +5691,7 @@
         "away_team": "Sagittarius",
         "home_score": null,
         "away_score": null,
-        "status": "scheduled",
+        "status": "ongoing",
         "stats": {},
         "turn": "day3"
       }
